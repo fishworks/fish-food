@@ -40,8 +40,8 @@ food = {
             sha256 = "ec1a5f5054e6c1a00477a1a2291155039165630891a5b10ed2ebb8947db16480",
             resources = {
                 {
-                    path = "windows-amd64\\" .. name,
-                    installpath = "bin\\" .. name
+                    path = "windows-amd64\\" .. name .. ".exe",
+                    installpath = "bin\\" .. name .. ".exe"
                 }
             }
         }

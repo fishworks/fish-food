@@ -41,7 +41,7 @@ food = {
             resources = {
                 {
                     path = name .. "-windows-amd64",
-                    installpath = "bin\\" .. name
+                    installpath = "bin\\" .. name .. ".exe"
                 }
             }
         }
