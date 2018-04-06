@@ -36,11 +36,11 @@ food = {
         {
             os = "windows",
             arch = "amd64",
-            url = "https://storage.googleapis.com/kubernetes-release/release/v" .. version .. "/bin/windows/amd64/kubectl",
-            sha256 = "431f5fc96765ef4464dc0a00873dab4970fee0ea95ef45affd9a973ce6e0f93c",
+            url = "https://storage.googleapis.com/kubernetes-release/release/v" .. version .. "/bin/windows/amd64/kubectl.exe",
+            sha256 = "5594373f85f00ea1bca0f09f2d8c780b8dc603fb0bc39cc25b49737c5df305a7",
             resources = {
                 {
-                    path = name,
+                    path = name .. ".exe",
                     installpath = "bin\\" .. name .. ".exe"
                 }
             }
