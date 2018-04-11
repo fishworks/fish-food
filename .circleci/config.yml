@@ -1,9 +1,9 @@
 version: 2
 jobs:
   build:
-    working_directory: ~/fish-food
+    working_directory: /go/src/github.com/fishworks/fish-food
     docker:
-      - image: ubuntu
+      - image: golang:1.10
     steps:
       - run:
           name: Install Fish
