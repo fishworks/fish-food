@@ -26,7 +26,7 @@ food = {
             arch = "amd64",
             url = "https://github.com/gohugoio/" .. name .. "/releases/download/v" .. version .. "/" .. "hugo_" .. version .. "_Linux-64bit.tar.gz",
             -- shasum of the release archive
-            sha256 = "e04d36373299b2056fc7d90522b48612819228e93d2073ede1880d5585c34171",
+            sha256 = "9e5b7cd79e4732c4fdf82210450e39cc588935fdc8ecf4a590219d7b4b2a389a",
             resources = {
                 {
                     path = name,
