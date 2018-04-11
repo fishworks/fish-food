@@ -1,6 +1,7 @@
 version: 2
 jobs:
   build:
+    working_directory: ~/fish-food
     docker:
       - image: ubuntu
     steps:
