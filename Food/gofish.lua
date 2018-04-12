@@ -24,7 +24,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://gofi.sh/releases/" .. name .. "-v" .. version .. "-linux-amd64.tar.gz",
-            sha256 = "31e3432dbe16573dabaed35710d57682711400b3ba1ec30b582a22fab43c9ae9",
+            sha256 = "cf5ecb29f3ded16cf16706f3156e5dfac906ff748f2fe783eb0ec43b6bcef3b4",
             resources = {
                 {
                     path = "linux-amd64/" .. name,
