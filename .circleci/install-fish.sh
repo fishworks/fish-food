@@ -6,5 +6,6 @@ ROOT="${BASH_SOURCE[0]%/*}/.."
 
 cd "$ROOT"
 
+apt-get update && apt-get install -yq curl sudo
 curl -fsSL https://raw.githubusercontent.com/fishworks/fish/master/scripts/install.sh | bash
 gofish init

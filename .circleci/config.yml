@@ -1,10 +1,10 @@
 version: 2
 jobs:
   build:
-    working_directory: /go/src/github.com/fishworks/fish-food
     docker:
-      - image: golang:1.10
+      - image: ubuntu
     steps:
+      - checkout
       - run:
           name: Install Fish
           command: .circleci/install-fish.sh
