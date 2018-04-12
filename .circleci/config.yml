@@ -5,6 +5,7 @@ jobs:
       - image: ubuntu
     steps:
       - checkout
+      - run: echo 'export USER=root' >> $BASH_ENV
       - run:
           name: Install Fish
           command: .circleci/install-fish.sh
