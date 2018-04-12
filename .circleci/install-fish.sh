@@ -6,7 +6,7 @@ ROOT="${BASH_SOURCE[0]%/*}/.."
 
 cd "$ROOT"
 
-apt-get update && apt-get install -yq curl sudo
+apt-get update && apt-get install -yq curl git sudo
 export VERSION="canary"
 curl -fsSL https://raw.githubusercontent.com/fishworks/fish/master/scripts/install.sh | bash
 gofish init
