@@ -1,5 +1,5 @@
 local name = "draft"
-local version = "0.12.0"
+local version = "0.13.0"
 
 food = {
     name = "draft",
@@ -11,7 +11,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://azuredraft.blob.core.windows.net/draft/draft-v" .. version .. "-darwin-amd64.tar.gz",
-            sha256 = "5caa5cc89d81f193615e3ad55f2c08be59052c3309f7c37d0ed0136d54b82228",
+            sha256 = "e1bab5c08bd25b71b8e1b43cf13c0555f9bd8aebcfdf6b05f1382c716be85bc2",
             resources = {
                 {
                     path = "darwin-amd64/" .. name,
@@ -24,7 +24,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://azuredraft.blob.core.windows.net/draft/draft-v" .. version .. "-linux-amd64.tar.gz",
-            sha256 = "89db5727cab7e0f295de149d914eaf32f4adcecabbb030a03300fca58be85b37",
+            sha256 = "51643ece5a6cce22c6b9e56b2cad49cb492109f18d7bc900c97626f4f0b8db39",
             resources = {
                 {
                     path = "linux-amd64/" .. name,
@@ -37,7 +37,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://azuredraft.blob.core.windows.net/draft/draft-v" .. version .. "-windows-amd64.tar.gz",
-            sha256 = "ec1a5f5054e6c1a00477a1a2291155039165630891a5b10ed2ebb8947db16480",
+            sha256 = "476a88247dd24d3fc1c966f5570005bd200bdc59743557b4711bf6447aa29701",
             resources = {
                 {
                     path = "windows-amd64\\" .. name .. ".exe",
