@@ -4,7 +4,6 @@ environment:
   # TODO: use `fish tank` to get this information instead
   FISH_DEFAULT_RIG: c:\ProgramData\Fish\Rigs\github.com\fishworks\fish-food
   PATH: c:\ProgramData\bin;$(PATH)
-  VERSION: canary
 install:
   - ps: choco install git
   - ps: iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/fishworks/fish/master/scripts/install.ps1'))
