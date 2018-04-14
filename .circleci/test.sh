@@ -5,8 +5,8 @@ IFS=$'\n\t'
 ROOT="${BASH_SOURCE[0]%/*}/.."
 
 eval $(gofish tank)
-rm -rf "$FISH_DEFAULT_RIG"
-cp -R "$ROOT" "$FISH_DEFAULT_RIG"
+rm -rf "$GOFISH_DEFAULT_RIG"
+cp -R "$ROOT" "$GOFISH_DEFAULT_RIG"
 
 cd "$ROOT"
 
