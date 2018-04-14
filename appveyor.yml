@@ -1,16 +1,15 @@
 version: "{build}"
 clone_folder: c:\src
 environment:
-  # TODO: use `fish tank` to get this information instead
-  FISH_DEFAULT_RIG: c:\ProgramData\Fish\Rigs\github.com\fishworks\fish-food
   PATH: c:\ProgramData\bin;$(PATH)
 install:
   - ps: choco install git
   - ps: iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/fishworks/fish/master/scripts/install.ps1'))
   - ps: gofish init
-  - ps: Remove-Item -Recurse -Force "$env:FISH_DEFAULT_RIG"
-  - ps: Copy-Item "c:\src" -Destination "$env:FISH_DEFAULT_RIG" -Recurse -Force
+  - ps: gofish tank | iex
+  - ps: Remove-Item -Recurse -Force "$env:GOFISH_DEFAULT_RIG"
+  - ps: Copy-Item "c:\src" -Destination "$env:GOFISH_DEFAULT_RIG" -Recurse -Force
 build: "off"
 deploy: "off"
 test_script:
-  - ps: foreach ($f in Get-ChildItem "$env:FISH_DEFAULT_RIG\Food") { gofish install $f.BaseName }
+  - ps: foreach ($f in Get-ChildItem "$env:GOFISH_DEFAULT_RIG\Food") { gofish install $f.BaseName }
