@@ -10,7 +10,7 @@ food = {
         {
             os = "darwin",
             arch = "amd64",
-            url = "https://storage.googleapis.com/kubernetes-release/release/v" .. version .. "/bin/linux/amd64/kubectl",
+            url = "https://storage.googleapis.com/kubernetes-release/release/v" .. version .. "/bin/darwin/amd64/kubectl",
             sha256 = "05a966053691819c20e07e1afb8debe1e2edd2ab9c866ad6f0324d3cfe7a1c89",
             resources = {
                 {
