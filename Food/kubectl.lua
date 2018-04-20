@@ -11,7 +11,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://storage.googleapis.com/kubernetes-release/release/v" .. version .. "/bin/darwin/amd64/kubectl",
-            sha256 = "a6a39cbfe1ebf21a71a0e8c6be90f045e4b60c76df22993a472d178fd2a3279d",
+            sha256 = "05a966053691819c20e07e1afb8debe1e2edd2ab9c866ad6f0324d3cfe7a1c89",
             resources = {
                 {
                     path = name,
@@ -24,7 +24,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://storage.googleapis.com/kubernetes-release/release/v" .. version .. "/bin/linux/amd64/kubectl",
-            sha256 = "49f7e5791d7cd91009c728eb4dc1dbf9ee1ae6a881be6b970e631116065384c3",
+            sha256 = "90127a228335ba932fa30c008028780fecfdc6e04d7fb399d331a098409fb8c6",
             resources = {
                 {
                     path = name,
@@ -37,7 +37,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://storage.googleapis.com/kubernetes-release/release/v" .. version .. "/bin/windows/amd64/kubectl.exe",
-            sha256 = "5594373f85f00ea1bca0f09f2d8c780b8dc603fb0bc39cc25b49737c5df305a7",
+            sha256 = "eae58c98d261aaa0b08bfd8705b3a10cb32331d4dbc333c015f47861d6af6a7b",
             resources = {
                 {
                     path = name .. ".exe",
