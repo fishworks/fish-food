@@ -5,6 +5,7 @@ local baseURL = "https://github.com/Azure/brigade/releases/download/"
 food = {
     name = name,
     description = "The brig client for Brigade, the pipeline environment for Kubernetes",
+    license = "MIT",
     homepage = "https://brigade.sh",
     version = version,
     packages = {

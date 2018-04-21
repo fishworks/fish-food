@@ -4,6 +4,7 @@ local version = "0.10.0"
 food = {
     name = name,
     description = "The Kubernetes cluster manager",
+    license = "Apache-2.0",
     homepage = "https://github.com/kubernetes/kubernetes",
     version = version,
     packages = {

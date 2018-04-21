@@ -4,6 +4,7 @@ local version = "1.10.1"
 food = {
     name = name,
     description = "Open source programming language to build simple/reliable/efficient software",
+    license = "BSD-style + patent grant",
     homepage = "https://golang.org",
     version = version,
     packages = {

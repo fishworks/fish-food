@@ -4,6 +4,7 @@ local version = "0.26.1"
 food = {
     name = name,
     description = "Run Kubernetes locally",
+    license = "Apache-2.0",
     homepage = "https://github.com/kubernetes/minikube",
     version = version,
     packages = {

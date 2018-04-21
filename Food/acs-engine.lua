@@ -4,6 +4,7 @@ local version = "0.15.1"
 food = {
     name = name,
     description = "Azure Container Service Engine - a place for community to collaborate and build the best open Docker container infrastructure for Azure",
+    license = "MIT",
     homepage = "https://github.com/Azure/acs-engine",
     version = version,
     packages = {

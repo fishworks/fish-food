@@ -4,6 +4,7 @@ local version = "0.5.1"
 food = {
     name = name,
     description = "The Helm Chart Repository server",
+    license = "MIT",
     homepage = "https://github.com/kubernetes-helm/chartmuseum",
     version = version,
     packages = {

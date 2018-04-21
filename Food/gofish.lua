@@ -4,6 +4,7 @@ local version = "0.4.0"
 food = {
     name = name,
     description = "The Package Manager",
+    license = "Apache-2.0",
     homepage = "https://gofi.sh",
     version = version,
     packages = {
