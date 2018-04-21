@@ -4,6 +4,7 @@ local version = "0.38.2"
 food = {
     name = name,
     description = "The world’s fastest framework for building websites.",
+    license = "Apache-2.0",
     homepage = "https://gohugo.io/",
     version = version,
     packages = {

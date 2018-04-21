@@ -4,6 +4,7 @@ local version = "2.8.2"
 food = {
     name = name,
     description = "The Kubernetes Package Manager",
+    license = "Apache-2.0",
     homepage = "https://github.com/kubernetes/helm",
     version = version,
     packages = {

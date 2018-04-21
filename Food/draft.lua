@@ -4,6 +4,7 @@ local version = "0.13.0"
 food = {
     name = "draft",
     description = "A tool for developers to create cloud-native applications on Kubernetes",
+    license = "MIT",
     homepage = "https://github.com/Azure/draft",
     version = version,
     packages = {
