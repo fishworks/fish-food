@@ -1,4 +1,6 @@
 os: osx
+env:
+  - VERSION=canary
 before_install:
   - brew update
   - brew outdated curl || brew upgrade curl
