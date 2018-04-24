@@ -1,0 +1,11 @@
+os: osx
+env:
+  - VERSION=canary
+before_install:
+  - brew update
+  - brew outdated curl || brew upgrade curl
+  - brew outdated git || brew upgrade git
+  - curl -fsSL https://raw.githubusercontent.com/fishworks/fish/master/scripts/install.sh | bash
+  - gofish init
+script:
+  - .circleci/test.sh
