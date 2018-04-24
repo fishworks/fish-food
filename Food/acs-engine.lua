@@ -37,8 +37,8 @@ food = {
         {
             os = "windows",
             arch = "amd64",
-            url = "https://github.com/Azure/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. "-windows-amd64.zip",
-            sha256 = "22ddac6069ee74a9c740ba944f3a5bac3ac4f1bc336e593a7df6eb005bfd7f6f",
+            url = "https://github.com/Azure/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. "-windows-amd64.tar.gz",
+            sha256 = "3b83c2f322fb348a5802dea23d788f16cd3c4d08327873d51d7e12d61230e350",
             resources = {
                 {
                     path = name .. "-v" .. version .. "-windows-amd64/" .. name .. ".exe",
