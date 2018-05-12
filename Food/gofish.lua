@@ -1,5 +1,5 @@
 local name = "gofish"
-local version = "0.5.0"
+local version = "0.6.1"
 
 food = {
     name = name,
@@ -12,7 +12,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://gofi.sh/releases/" .. name .. "-v" .. version .. "-darwin-amd64.tar.gz",
-            sha256 = "9d229e813b4c092cf152e5d8ffdfa5f4e35149f96939d83a22d57a973252d839",
+            sha256 = "eeebf29ac9bf8b97f5312f327d4c917811fd01fb30bc0e0c7d0aaf54c24b4c4d",
             resources = {
                 {
                     path = "darwin-amd64/" .. name,
@@ -25,7 +25,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://gofi.sh/releases/" .. name .. "-v" .. version .. "-linux-amd64.tar.gz",
-            sha256 = "1c4a3955e8497b0b0948539cc67651349ea0d918c752bf9a6ace4d9e5c5ad18e",
+            sha256 = "b461d4be56c152d359b0fe369fbfc110a99dbecc7dc9387594cc8e28b58145c9",
             resources = {
                 {
                     path = "linux-amd64/" .. name,
@@ -37,8 +37,8 @@ food = {
         {
             os = "windows",
             arch = "amd64",
-            url = "https://gofi.sh/releases/" .. name .. "-v" .. version .. "-windows-amd64.tar.gz",
-            sha256 = "97171033811de191888cb7fec6e8975f036aff4525773341caa65e644d29b31c",
+            url = "https://gofi.sh/releases/" .. name .. "-v" .. version .. "-windows-amd64.zip",
+            sha256 = "842397bfdf0ea75e4a53998e2c629fb8ba65e6b1be4582ff28e31970fe2f7d6f",
             resources = {
                 {
                     path = "windows-amd64\\" .. name .. ".exe",
