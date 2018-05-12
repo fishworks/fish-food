@@ -37,8 +37,8 @@ food = {
         {
             os = "windows",
             arch = "amd64",
-            url = "https://gofi.sh/releases/" .. name .. "-v" .. version .. "-windows-amd64.zip",
-            sha256 = "9827590d3c3d8c4d670f87b7c817e5cf79c12ee3c8815946353064ea0986710c",
+            url = "https://gofi.sh/releases/" .. name .. "-v" .. version .. "-windows-amd64.tar.gz",
+            sha256 = "ca5deb0162ea779b14c1873797577c76b24787f301f45d6ff8d8b8fed49907dc",
             resources = {
                 {
                     path = "windows-amd64\\" .. name .. ".exe",
