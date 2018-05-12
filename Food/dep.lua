@@ -11,7 +11,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/golang/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-darwin-amd64",
-            sha256 = "f170008e2bf8b196779c361a4eaece1b03450d23bbf32d1a0beaa9b00b6a5ab4",
+            sha256 = "1544afdd4d543574ef8eabed343d683f7211202a65380f8b32035d07ce0c45ef",
             resources = {
                 {
                     path = name .. "-darwin-amd64",
