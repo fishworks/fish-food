@@ -4,7 +4,7 @@ environment:
   PATH: c:\ProgramData\bin;$(PATH)
 install:
   - ps: choco install git
-  - ps: iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/fishworks/fish/master/scripts/install.ps1'))
+  - ps: iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/fishworks/gofish/master/scripts/install.ps1'))
   - ps: gofish init
   - ps: gofish tank | iex
   - ps: Remove-Item -Recurse -Force "$env:GOFISH_DEFAULT_RIG"
