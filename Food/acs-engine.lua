@@ -12,7 +12,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/Azure/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. "-darwin-amd64.tar.gz",
-            sha256 = "b61b28206a129a89bd23d84b99e5de73a3ec93b2a8116a54b4a56137007b7b69",
+            sha256 = "0afaeac69ded30f6922597435c21e3621e9fdb1f41e8edb3cdf73c041e94fcd9",
             resources = {
                 {
                     path = name .. "-v" .. version .. "-darwin-amd64/" .. name,
