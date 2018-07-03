@@ -25,7 +25,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/Azure/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. "-linux-amd64.tar.gz",
-            sha256 = "fa525f7c491b54f721872679983ffea4064373fe3d90d7e6be9eec69679737e5",
+            sha256 = "2a752c191f465787b38f39437de63ac9fe0d2d0cb5b368b370fc02ba2bad0928",
             resources = {
                 {
                     path = name .. "-v" .. version .. "-linux-amd64/" .. name,
