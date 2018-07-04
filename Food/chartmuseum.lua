@@ -1,5 +1,5 @@
 local name = "chartmuseum"
-local version = "0.5.1"
+local version = "0.7.0"
 
 food = {
     name = name,
@@ -12,7 +12,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://s3.amazonaws.com/chartmuseum/release/v" .. version .. "/bin/darwin/amd64/chartmuseum",
-            sha256 = "2306cd0c982c158a8d565afb2a3a73391b9c4d1e50cfe33a5e954107c8fff0f8",
+            sha256 = "da70fca8f6c33c5b38c4bb4b8ba6759564ba1bcd0fc84b7271015ce93b592913",
             resources = {
                 {
                     path = name,
@@ -25,7 +25,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://s3.amazonaws.com/chartmuseum/release/v" .. version .. "/bin/linux/amd64/chartmuseum",
-            sha256 = "0105e79944828d08b6a76088f7addede2337a660130e63a21711f3fa2fbb57f6",
+            sha256 = "a05b0819917130b277ddc59775308a9723f928d7e36e1197fe4f9c9384311645",
             resources = {
                 {
                     path = name,
@@ -38,7 +38,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://s3.amazonaws.com/chartmuseum/release/v" .. version .. "/bin/windows/amd64/chartmuseum",
-            sha256 = "6746f3dfc81162e78c316b37e41a2aa0a36b773d6e24ba48a6b6b47ed6ae5f89",
+            sha256 = "dc3a5ef0308da8b2bb2db7af2c73f4c7864555c32366e679ab705babbbc64353",
             resources = {
                 {
                     path = name,
