@@ -1,5 +1,5 @@
 local name = "kubectl"
-local version = "1.10.1"
+local version = "1.11.0"
 
 food = {
     name = name,
@@ -12,7 +12,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://storage.googleapis.com/kubernetes-release/release/v" .. version .. "/bin/darwin/amd64/kubectl",
-            sha256 = "9484fd8a0cba513ab91fc192f6b6659d700f411502d01a7e02acb9f3b986037c",
+            sha256 = "caf2121289ec3013904495d6a4250d34f3feb5c97154b42a16a2258f33822efb",
             resources = {
                 {
                     path = name,
@@ -25,7 +25,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://storage.googleapis.com/kubernetes-release/release/v" .. version .. "/bin/linux/amd64/kubectl",
-            sha256 = "1bb4d3793fb0f9e1cfee86599e0f43ae5f15578a01b61011fe7c9488e114a00b",
+            sha256 = "7fc84102a20aba4c766245714ce9555e3bf5d4116aab38a15b11419070a0fa90",
             resources = {
                 {
                     path = name,
@@ -38,7 +38,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://storage.googleapis.com/kubernetes-release/release/v" .. version .. "/bin/windows/amd64/kubectl.exe",
-            sha256 = "b3c36238038c08792fdb775dec6dba03361496e9e0774f829fdc1c8d5b2aebd4",
+            sha256 = "4c043ec311e76dd463d8a48163a64139dac413a43597d8f31fa3cca89bb9203b",
             resources = {
                 {
                     path = name .. ".exe",
