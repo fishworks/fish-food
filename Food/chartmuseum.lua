@@ -5,7 +5,7 @@ food = {
     name = name,
     description = "The Helm Chart Repository server",
     license = "MIT",
-    homepage = "https://github.com/kubernetes-helm/chartmuseum",
+    homepage = "https://github.com/helm/chartmuseum",
     version = version,
     packages = {
         {
