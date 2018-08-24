@@ -1,18 +1,18 @@
 local name = "helm"
-local version = "2.9.1"
+local version = "2.10.0"
 
 food = {
     name = name,
     description = "The Kubernetes Package Manager",
     license = "Apache-2.0",
-    homepage = "https://github.com/kubernetes/helm",
+    homepage = "https://github.com/helm/helm",
     version = version,
     packages = {
         {
             os = "darwin",
             arch = "amd64",
             url = "https://storage.googleapis.com/kubernetes-helm/helm-v" .. version .. "-darwin-amd64.tar.gz",
-            sha256 = "3bf676b6adbc4bb1a513c22c59f8d183fed278c9cb4db5808473541888f1efcb",
+            sha256 = "7c4e6bfbc211d6b984ffb4fa490ce9ac112cc4b9b8d859ece27045b8514c1ed1",
             resources = {
                 {
                     path = "darwin-amd64/" .. name,
@@ -25,7 +25,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://storage.googleapis.com/kubernetes-helm/helm-v" .. version .. "-linux-amd64.tar.gz",
-            sha256 = "56ae2d5d08c68d6e7400d462d6ed10c929effac929fedce18d2636a9b4e166ba",
+            sha256 = "0fa2ed4983b1e4a3f90f776d08b88b0c73fd83f305b5b634175cb15e61342ffe",
             resources = {
                 {
                     path = "linux-amd64/" .. name,
@@ -38,7 +38,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://storage.googleapis.com/kubernetes-helm/helm-v" .. version .. "-windows-amd64.tar.gz",
-            sha256 = "e8626ad091b23284cbbe30851f665868292e7b788052981cc4c4a585808d4834",
+            sha256 = "9bd32dae4b4631480782904dd79a6c942803a4e1c8974072d39aed2a74fca86c",
             resources = {
                 {
                     path = "windows-amd64\\" .. name .. ".exe",
