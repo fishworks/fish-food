@@ -1,6 +1,6 @@
 local name = "brig"
 local version = "0.17.0"
-local baseURL = "https://github.com/Azure/brigade/releases/download/"
+local baseURL = "https://github.com/Azure/brigade/releases/download"
 
 food = {
     name = name,
