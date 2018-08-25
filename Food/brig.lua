@@ -43,7 +43,7 @@ food = {
             arch = "amd64",
             url = baseURL .. "/v" .. version .. "/" .. name .. "-windows-amd64.exe",
             -- shasum of the release archive
-            sha256 = "d5e43a9acbe5c2db8882ab01382a4035dd74c92c3f976f8d5d6f9539a9051507",
+            sha256 = "6d761a5a2af670b101846d488cfada632b27b5a2b93523b0c19b837396122599",
             resources = {
                 {
                     path = name .. "-windows-amd64.exe",
