@@ -58,7 +58,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://dl.google.com/go/go" .. version .. ".windows-amd64.zip",
-            sha256 = "6d761a5a2af670b101846d488cfada632b27b5a2b93523b0c19b837396122599",
+            sha256 = "29f9291270f0b303d0b270f993972ead215b1bad3cc674a0b8a09699d978aeb4",
             resources = {
                 {
                     path = "go\\bin\\go.exe",

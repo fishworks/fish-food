@@ -29,7 +29,7 @@ food = {
             arch = "amd64",
             url = baseURL .. "/v" .. version .. "/" .. name .. "-linux-amd64",
             -- shasum of the release archive
-            sha256 = "6429cfd02e637b1210f2ae10fb6b58df1524e1faa4522cb40ab506a432456197",
+            sha256 = "104a8731414e59cfc9eb608f1bd289118a9aab7dc2d4a696a01fd212dcc0317c",
             resources = {
                 {
                     path = name .. "-linux-amd64",
