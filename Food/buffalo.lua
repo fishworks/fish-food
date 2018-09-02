@@ -3,7 +3,7 @@ local version = "0.12.6"
 
 food = {
     name = name,
-    description = "A Go web development eco_system, designed to make your life easier.",
+    description = "A Go web development eco-system, designed to make your life easier.",
     homepage = "https://gobuffalo.io",
     version = version,
     packages = {
