@@ -38,7 +38,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://azuredraft.blob.core.windows.net/draft/draft-v" .. version .. "-windows-amd64.tar.gz",
-            sha256 = "457ad4c8fca886caf8584cf5d81a89c516fba7e4bf99b27921701912f5356574",
+            sha256 = "3f2dd8d8216847be2978ac0091d65438652d131ee22e63b415ad86d7dd0354b2",
             resources = {
                 {
                     path = "windows-amd64\\" .. name .. ".exe",
