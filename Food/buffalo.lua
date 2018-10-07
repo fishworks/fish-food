@@ -1,5 +1,5 @@
 local name = "buffalo"
-local version = "0.12.6"
+local version = "0.12.7"
 
 food = {
     name = name,
