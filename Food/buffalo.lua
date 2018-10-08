@@ -14,7 +14,7 @@ food = {
             sha256 = "7bb2fa62adc00bceb800acd8e611d158ad325ed7a49d1e2f6b31e1c02f627223",
             resources = {
                 {
-                    path = name .. "-no-sqlite",
+                    path = name,
                     installpath = "bin/" .. name,
                     executable = true
                 }
@@ -27,7 +27,7 @@ food = {
             sha256 = "7604671bffa34bdea060886bff21eaf6a078e473196a934ee71b0c79c43e754c",
             resources = {
                 {
-                    path = name .. "-no-sqlite",
+                    path = name,
                     installpath = "bin/" .. name,
                     executable = true
                 }
@@ -40,7 +40,7 @@ food = {
             sha256 = "b3edf61de66d42f947414b0e1664a90487c1a7f40fd714a4c77cf9c21b1dfd76",
             resources = {
                 {
-                    path = name .. "-no-sqlite.exe",
+                    path = name .. ".exe",
                     installpath = "bin\\" .. name .. ".exe"
                 }
             }
