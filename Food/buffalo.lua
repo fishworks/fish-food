@@ -11,7 +11,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/gobuffalo/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_darwin_amd64.tar.gz",
-            sha256 = "de24228ab2b41cb6423f35193a9616c10562a164b09650d5996a26345c916189",
+            sha256 = "7bb2fa62adc00bceb800acd8e611d158ad325ed7a49d1e2f6b31e1c02f627223",
             resources = {
                 {
                     path = name .. "-no-sqlite",
@@ -24,7 +24,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/gobuffalo/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_linux_amd64.tar.gz",
-            sha256 = "bf84a919d05830ec6215292c35fd98f75058f9a5889a744f55de04849d3ff55c",
+            sha256 = "7604671bffa34bdea060886bff21eaf6a078e473196a934ee71b0c79c43e754c",
             resources = {
                 {
                     path = name .. "-no-sqlite",
@@ -37,7 +37,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/gobuffalo/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_windows_amd64.tar.gz",
-            sha256 = "c00a661a7ec4e53d8a174ea63752c42380bc10b2b7e004028272a7b3dd784108",
+            sha256 = "b3edf61de66d42f947414b0e1664a90487c1a7f40fd714a4c77cf9c21b1dfd76",
             resources = {
                 {
                     path = name .. "-no-sqlite.exe",
