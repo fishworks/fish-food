@@ -1,5 +1,5 @@
 local name = "helm"
-local version = "2.11.0"
+local version = "2.12.0"
 
 food = {
     name = name,
@@ -12,7 +12,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://storage.googleapis.com/kubernetes-helm/helm-v" .. version .. "-darwin-amd64.tar.gz",
-            sha256 = "551b13a398749ae3e0a5c54d3078f6e3bee552c5d6a0bf6f338cab64ce38ab0f",
+            sha256 = "2b7e4fb460d7c641be1b90aad38a882462f88fd47975cc91aa17600ab5152590",
             resources = {
                 {
                     path = "darwin-amd64/" .. name,
@@ -25,7 +25,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://storage.googleapis.com/kubernetes-helm/helm-v" .. version .. "-linux-amd64.tar.gz",
-            sha256 = "02a4751586d6a80f6848b58e7f6bd6c973ffffadc52b4c06652db7def02773a1",
+            sha256 = "9f96a6e4fc52b5df906da381532cc2eb2f3f57cc203ccaec2b11cf5dc26a7dfc",
             resources = {
                 {
                     path = "linux-amd64/" .. name,
@@ -38,7 +38,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://storage.googleapis.com/kubernetes-helm/helm-v" .. version .. "-windows-amd64.tar.gz",
-            sha256 = "8347dc5ea12d937eb793ed438ea3274f40639144abdc8b071715937aad8a7616",
+            sha256 = "d0eeb122505cc833e526c8649c13d963103a7a769563b1cb27f8f7399e6e7c8f",
             resources = {
                 {
                     path = "windows-amd64\\" .. name .. ".exe",
