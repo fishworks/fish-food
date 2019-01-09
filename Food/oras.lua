@@ -13,10 +13,10 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/" .. org .. "/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_linux_amd64.tar.gz",
-            sha256 = "785a5028b297659c63ed30c9f5b2d29baca9be7694dbe640bf0fce422f72b1d6",
+            sha256 = "86e92f19b4e16cdbb0aa19fea7d82c164c5925793038c3da4f7b467430c7faf8",
             resources = {
                 {
-                    path = "bin/" .. name,
+                    path = name,
                     installpath = "bin/" .. name,
                     executable = true
                 }
@@ -26,10 +26,10 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/" .. org .. "/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_darwin_amd64.tar.gz",
-            sha256 = "941a2c49d52523370a282abae1df3d676a3e26e429a0da63db492b142003da03",
+            sha256 = "cf147ce9af41705c0d3ed685f29316260164f5bd093b186bd8714f31577bf91b",
             resources = {
                 {
-                    path = "bin/" .. name,
+                    path = name,
                     installpath = "bin/" .. name,
                     executable = true
                 }
@@ -39,10 +39,10 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/" .. org .. "/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_windows_amd64.tar.gz",
-            sha256 = "00241ce49b75ad17dc5821ac81af4c2c8eecd5c25e832889d53251588a11bcfa",
+            sha256 = "b05f24a6c6d9baaced693caf930eca57134c1a1dc5d046a0ea118b1ab5b88527",
             resources = {
                 {
-                    path = "bin\\" .. name .. ".exe",
+                    path = name .. ".exe",
                     installpath = "bin\\" .. name .. ".exe"
                 }
             }
