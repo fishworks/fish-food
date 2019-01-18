@@ -12,5 +12,6 @@ cd "$ROOT"
 
 for i in $(ls Food/); do
   package="${i%.*}"
+  gofish lint $package
   gofish install $package
 done
