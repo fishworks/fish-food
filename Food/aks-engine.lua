@@ -1,18 +1,18 @@
-local name = "acs-engine"
-local version = "0.26.2"
+local name = "aks-engine"
+local version = "0.29.1"
 
 food = {
     name = name,
-    description = "Azure Container Service Engine - a place for community to collaborate and build the best open Docker container infrastructure for Azure",
+    description = "Azure Kubernetes Engine - a place for the community to collaborate and build the best Kubernetes infrastructure for Azure",
     license = "MIT",
-    homepage = "https://github.com/Azure/acs-engine",
+    homepage = "https://github.com/Azure/aks-engine",
     version = version,
     packages = {
         {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/Azure/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. "-darwin-amd64.tar.gz",
-            sha256 = "a2f48470773d7860064e3f01792983774e54ea49e12cf15de12fd684a4339864",
+            sha256 = "c3e0594e997b50952905060a8fe4ef9b8b30477951e2a84a7f050e26eb9f3744",
             resources = {
                 {
                     path = name .. "-v" .. version .. "-darwin-amd64/" .. name,
@@ -25,7 +25,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/Azure/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. "-linux-amd64.tar.gz",
-            sha256 = "4729714c26aeabe0f9c8f4cfb08ef8ffe67bf40e3b4b26e47ea581d3eac3f0b3",
+            sha256 = "36624cd3751f4dcd14803134967ac78ee5c048313490962536c52d73b747fc30",
             resources = {
                 {
                     path = name .. "-v" .. version .. "-linux-amd64/" .. name,
@@ -38,7 +38,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/Azure/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. "-windows-amd64.tar.gz",
-            sha256 = "a8a6e0f18ad12dc0366bd125b3de6f0dab0bb21f63f4aa75ab7e126a815b3a7f",
+            sha256 = "7168130e4d9e4ad5e5dea1ad51121d979cb883dfd18fce5a55fff15c41c08c12",
             resources = {
                 {
                     path = name .. "-v" .. version .. "-windows-amd64/" .. name .. ".exe",
