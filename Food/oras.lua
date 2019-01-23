@@ -1,12 +1,12 @@
 local name = "oras"
-local org = "shizhMSFT"
+local org = "deislabs"
 local version = "0.3.2"
 
 food = {
     name = name,
     description = "OCI Registry As Storage",
     license = "Apache-2.0",
-    homepage = "https://github.com/shizhMSFT/oras",
+    homepage = "https://github.com/" .. org .. "/" .. name,
     version = version,
     packages = {
         {
