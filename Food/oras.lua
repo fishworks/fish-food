@@ -6,7 +6,7 @@ food = {
     name = name,
     description = "OCI Registry As Storage",
     license = "Apache-2.0",
-    homepage = "https://github.com/deislabs/oras",
+    homepage = "https://github.com/" .. org .. "/" .. name,
     version = version,
     packages = {
         {
