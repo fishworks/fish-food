@@ -10,7 +10,7 @@ food = {
         {
             os = "darwin",
             arch = "amd64",
-            url = "https://github.com/kubernetes/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-" .. version .. "-darwin-amd64.tar.gz",
+            url = "https://github.com/kubernetes/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-darwin-amd64.tar.gz",
             -- shasum of the release archive
             sha256 = "4e409aeedea1be57e2f6613586d1b04aa2d97e9bceaea7cd1e36e744c54bafdc",
             resources = {
@@ -24,7 +24,7 @@ food = {
         {
             os = "linux",
             arch = "amd64",
-            url = "https://github.com/kubernetes/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-" .. version .. "-linux-amd64.tar.gz",
+            url = "https://github.com/kubernetes/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-linux-amd64.tar.gz",
             -- shasum of the release archive
             sha256 = "e2ff06af05334ffa6172dd451f31ac9a1d4addcd47ee449efec5558b21306b6d",
             resources = {
