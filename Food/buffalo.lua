@@ -1,5 +1,5 @@
 local name = "buffalo"
-local version = "0.13.12"
+local version = "0.14.0"
 
 food = {
     name = name,
@@ -11,10 +11,10 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/gobuffalo/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_darwin_amd64.tar.gz",
-            sha256 = "b76582a12cc1e4e84bd248a189b1efeb73502a9f16f673c9782c427233ac729a",
+            sha256 = "fe42c51b034831458418c7c0231c07ad117f7cdc476e22382f4291ea34cf1e32",
             resources = {
                 {
-                    path = name .. "-no-sqlite",
+                    path = name,
                     installpath = "bin/" .. name,
                     executable = true
                 }
@@ -24,10 +24,10 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/gobuffalo/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_linux_amd64.tar.gz",
-            sha256 = "dff7c9cfe6c5cc502f86821f9d3ef60595b88ae0f7f8700424760e6841ce55bb",
+            sha256 = "e824c5259e84060f3487de8cfb652f773fb7c318713c092ac15f6d9856cc98d5",
             resources = {
                 {
-                    path = name .. "-no-sqlite",
+                    path = name,
                     installpath = "bin/" .. name,
                     executable = true
                 }
@@ -37,10 +37,10 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/gobuffalo/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_windows_amd64.tar.gz",
-            sha256 = "8f2b4a05d8b8b983e3541d344b0e3a63004c9674ba6912726e631c2b7ae73fcf",
+            sha256 = "19606a46becc689105bff7939099c32a044fa93eceecc4f11bfc300751e591bc",
             resources = {
                 {
-                    path = name .. "-no-sqlite.exe",
+                    path = name .. ".exe",
                     installpath = "bin\\" .. name .. ".exe"
                 }
             }
