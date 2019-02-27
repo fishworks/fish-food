@@ -1,10 +1,10 @@
 # Fish Food
 
-Core fish food for Fish.
+Core fish food for GoFish.
 
-# How do I add my installable thingy to Fish?
+# How do I add my installable thingy to GoFish?
 
-See https://gofi.sh/#cookbook for further information on adding your own fish food to Fish.
+See https://gofi.sh/#cookbook for further information on adding your own fish food to GoFish.
 
 # License
 
