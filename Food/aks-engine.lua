@@ -1,5 +1,5 @@
 local name = "aks-engine"
-local version = "0.31.2"
+local version = "0.31.3"
 
 food = {
     name = name,
@@ -12,7 +12,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/Azure/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. "-darwin-amd64.tar.gz",
-            sha256 = "63ef3ea403a144bee86ca659db8fd40128d68f1ef4c722da1d9326de5571af87",
+            sha256 = "955ac8a20b4152c1b4c697246dc6d55e62c1c34016b1d06e3eac6c44ba81511a",
             resources = {
                 {
                     path = name .. "-v" .. version .. "-darwin-amd64/" .. name,
@@ -25,7 +25,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/Azure/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. "-linux-amd64.tar.gz",
-            sha256 = "4cb1053b42bdb92cbd0c77af2740a19bb3f324feb7cf3173a083d06f45c793d2",
+            sha256 = "89756f1ef7c93850544fc0c97c2e627a95f56efcfc06a19b45d62222a68995b5",
             resources = {
                 {
                     path = name .. "-v" .. version .. "-linux-amd64/" .. name,
@@ -38,7 +38,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/Azure/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. "-windows-amd64.tar.gz",
-            sha256 = "92cc3b420ec051488730d35fd37b35fec4a863834d6f8f689ae539b75bcaf7ce",
+            sha256 = "90d0126527d518f846652a7299e29889cee6adb4a516f9ed3d6bf04173e6e290",
             resources = {
                 {
                     path = name .. "-v" .. version .. "-windows-amd64/" .. name .. ".exe",
