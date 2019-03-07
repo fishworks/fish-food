@@ -36,7 +36,7 @@ food = {
         {
             os = "windows",
             arch = "amd64",
-            url = "https://github.com/GoogleContainerTools/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "windows-amd64.exe",
+            url = "https://github.com/GoogleContainerTools/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-windows-amd64.exe",
             sha256 = "11ae370a933d7ace4009152bf419bd4aea07e2adf548da829c2b49fc8c24aca8",
             resources = {
                 {
