@@ -24,7 +24,7 @@ food = {
         {
             os = "linux",
             arch = "amd64",
-            url = "https://github.com/example/releases/download/v" .. version .. "/" .. name .. "-linux-amd64",
+            url = "https://github.com/solo-io/gloo/releases/download/v" .. version .. "/" .. name .. "-linux-amd64",
             -- shasum of the release archive
             sha256 = "fd75ffff41264b631cc7dc648f471e55876c304d06e9aa5cfb1a3c3f0ef06c41",
             resources = {
@@ -38,7 +38,7 @@ food = {
         {
             os = "windows",
             arch = "amd64",
-            url = "https://github.com/example/releases/download/v" .. version .. "/" .. name .. "-windows-amd64.exe",
+            url = "https://github.com/solo-io/gloo/releases/download/v" .. version .. "/" .. name .. "-windows-amd64.exe",
             -- shasum of the release archive
             sha256 = "b95ba5df61acefdfb47b64391d69996fee0a996182d46004be4a365ec93046aa",
             resources = {
