@@ -1,5 +1,5 @@
 local name = "dep"
-local version = "0.5.0"
+local version = "0.5.1"
 
 food = {
     name = name,
@@ -11,7 +11,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/golang/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-darwin-amd64",
-            sha256 = "1a7bdb0d6c31ecba8b3fd213a1170adf707657123e89dff234871af9e0498be2",
+            sha256 = "ea873973b4e752a2fb2fa8b164d45164b22e04ef3d898f2ead2077b567120ae3",
             resources = {
                 {
                     path = name .. "-darwin-amd64",
@@ -24,7 +24,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/golang/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-linux-amd64",
-            sha256 = "287b08291e14f1fae8ba44374b26a2b12eb941af3497ed0ca649253e21ba2f83",
+            sha256 = "7479cca72da0596bb3c23094d363ea32b7336daa5473fa785a2099be28ecd0e3",
             resources = {
                 {
                     path = name .. "-linux-amd64",
@@ -37,7 +37,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/golang/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-windows-amd64.exe",
-            sha256 = "9cd5925582a0291f44281d09e3b1ddb8c555a3dd5097fabca1a5ebd3202de88b",
+            sha256 = "cc12b97ca5cec38e7b3b1b5813baf2b5874c691b8352e02c86ed3dc2098f4149",
             resources = {
                 {
                     path = name .. "-windows-amd64.exe",
