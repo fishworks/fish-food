@@ -38,5 +38,6 @@ food = {
                 }
             }
         }
-    }
+    },
+     caveats = [[Note: the command to use Kubernetes-secret-decode is "ksd"]],
 }
