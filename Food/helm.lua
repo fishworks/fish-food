@@ -38,7 +38,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://storage.googleapis.com/kubernetes-helm/helm-v" .. version .. "-windows-amd64.tar.gz",
-            sha256 = "cf2719fdab73525ebf630ce348e2e4327ccef90e10c8bdf42d47ab3601dbe2b3",
+            sha256 = "fc810c306526197dce1d43068bc6385dad13b9d86e912bfd79fc06fe9d275a3d",
             resources = {
                 {
                     path = "windows-amd64\\" .. name .. ".exe",
