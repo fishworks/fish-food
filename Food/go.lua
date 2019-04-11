@@ -1,5 +1,5 @@
 local name = "go"
-local version = "1.12.1"
+local version = "1.12.3"
 
 food = {
     name = name,
@@ -12,7 +12,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://dl.google.com/go/go" .. version .. ".darwin-amd64.tar.gz",
-            sha256 = "1a3d311d77bc685a23f6243a1cb8c52538c4f976239c27dda2d2820225eb8fc9",
+            sha256 = "edb7aad4607509e3eb9f8bd3b43fb9c419b4a007874a9f6e2f99c541411f9304",
             resources = {
                 {
                     path = "go/bin/go",
@@ -35,7 +35,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://dl.google.com/go/go" .. version .. ".linux-amd64.tar.gz",
-            sha256 = "2a3fdabf665496a0db5f41ec6af7a9b15a49fbe71a85a50ca38b1f13a103aeec",
+            sha256 = "3924819eed16e55114f02d25d03e77c916ec40b7fd15c8acb5838b63135b03df",
             resources = {
                 {
                     path = "go/bin/go",
@@ -58,7 +58,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://dl.google.com/go/go" .. version .. ".windows-amd64.zip",
-            sha256 = "2f4849b512fffb2cf2028608aa066cc1b79e730fd146c7b89015797162f08ec5",
+            sha256 = "1806e089e85b84f192d782a7f70f90a32e0eccfd181405857e612f806ec04059",
             resources = {
                 {
                     path = "go\\bin\\go.exe",
