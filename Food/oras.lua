@@ -1,6 +1,6 @@
 local name = "oras"
 local org = "deislabs"
-local version = "0.3.3"
+local version = "0.4.0"
 
 food = {
     name = name,
@@ -13,7 +13,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/" .. org .. "/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_linux_amd64.tar.gz",
-            sha256 = "821a31980c03cb6b5ee6e0e00d7af81a00d080bcdca7a754e37ed1a3453930fe",
+            sha256 = "9761513a50c066f9069e23f7bc11abf5dc1651fe79219be514ffaf102d8c12b9",
             resources = {
                 {
                     path = name,
@@ -26,7 +26,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/" .. org .. "/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_darwin_amd64.tar.gz",
-            sha256 = "0269fb4cffe68be5d7db063700579a1a2d2d02be85865ea63ac844025abdb6a9",
+            sha256 = "819d48dd52a46f24b592633e50985ef4632fffa97a3fc7032dbacf7892851835",
             resources = {
                 {
                     path = name,
@@ -39,7 +39,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/" .. org .. "/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_windows_amd64.tar.gz",
-            sha256 = "7263a5a295ec64d765d378722d7349594773b7e47d71cddb773ece55fcca9bee",
+            sha256 = "37ae5d4d322b60ae670b5ad27e56f3fc72b738134a5eb247d38b55d36b7be86c",
             resources = {
                 {
                     path = name .. ".exe",
