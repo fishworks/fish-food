@@ -13,7 +13,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/" .. org .. "/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_linux_amd64.tar.gz",
-            sha256 = "5e33a68415040f50a38961840feba90db86a6f3a6ac9ed7d5d6979c4fd711a73",
+            sha256 = "9761513a50c066f9069e23f7bc11abf5dc1651fe79219be514ffaf102d8c12b9",
             resources = {
                 {
                     path = name,
@@ -26,7 +26,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/" .. org .. "/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_darwin_amd64.tar.gz",
-            sha256 = "ce143447e0736011f5aaa5d5e653ddf2b0d82eed70728f999bf5bc5f52bc761c",
+            sha256 = "819d48dd52a46f24b592633e50985ef4632fffa97a3fc7032dbacf7892851835",
             resources = {
                 {
                     path = name,
@@ -39,7 +39,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/" .. org .. "/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_windows_amd64.tar.gz",
-            sha256 = "9411f6f0ebd26acbc9c763d5aba88796486abaf7d626ae3474139d52c26340f8",
+            sha256 = "37ae5d4d322b60ae670b5ad27e56f3fc72b738134a5eb247d38b55d36b7be86c",
             resources = {
                 {
                     path = name .. ".exe",
