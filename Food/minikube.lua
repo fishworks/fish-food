@@ -1,5 +1,5 @@
 local name = "minikube"
-local version = "1.0.0"
+local version = "1.0.1"
 
 food = {
     name = name,
@@ -12,7 +12,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/kubernetes/minikube/releases/download/v" .. version .. "/minikube-darwin-amd64",
-            sha256 = "865bd3a13c1ad3b7732b2bea35b26fef150f2b3cbfc257c5d1835527d1b331e9",
+            sha256 = "0af8a3f582c9284ffe10e99444b60a75241325f2bc9ab43ec758802f2b89e1db",
             resources = {
                 {
                     path = name .. "-darwin-amd64",
@@ -25,7 +25,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/kubernetes/minikube/releases/download/v" .. version .. "/minikube-linux-amd64",
-            sha256 = "a315869f81aae782ecc6ff2a6de4d0ab3a17ca1840d1d8e6eea050a8dd05907f",
+            sha256 = "7b56374955990ef2dd0289e6ecb62cf2b4587cab2b481d95f58de5db56799868",
             resources = {
                 {
                     path = name .. "-linux-amd64",
@@ -38,7 +38,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/kubernetes/minikube/releases/download/v" .. version .. "/minikube-windows-amd64.exe",
-            sha256 = "a9e629911498ce774681504abe1797c1957e29d100d40c80c26ac54e22716a85",
+            sha256 = "58abb5fb3e694a451102963e04ce13ea0cea46b7bf5c7947f40fdfc673282ac9",
             resources = {
                 {
                     path = name .. "-windows-amd64.exe",
