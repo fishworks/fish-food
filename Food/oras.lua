@@ -1,11 +1,10 @@
 local name = "oras"
 local org = "deislabs"
-local version = "0.4.0"
-
+local version = "0.5.0"
 food = {
     name = name,
     description = "OCI Registry As Storage",
-    license = "Apache-2.0",
+    license = "MIT",
     homepage = "https://github.com/" .. org .. "/" .. name,
     version = version,
     packages = {
@@ -13,7 +12,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/" .. org .. "/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_linux_amd64.tar.gz",
-            sha256 = "9761513a50c066f9069e23f7bc11abf5dc1651fe79219be514ffaf102d8c12b9",
+            sha256 = "7263b398bfd1c1f50971cdacdbebe2da7e0571695cdedb32c265703eca020411",
             resources = {
                 {
                     path = name,
@@ -26,7 +25,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/" .. org .. "/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_darwin_amd64.tar.gz",
-            sha256 = "819d48dd52a46f24b592633e50985ef4632fffa97a3fc7032dbacf7892851835",
+            sha256 = "1c228cdc9dd7196bd4cf827334d0b4ca5ece5693638afa0d5ed05c6250aacd89",
             resources = {
                 {
                     path = name,
@@ -39,7 +38,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/" .. org .. "/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_windows_amd64.tar.gz",
-            sha256 = "37ae5d4d322b60ae670b5ad27e56f3fc72b738134a5eb247d38b55d36b7be86c",
+            sha256 = "ef9d41ea7dadb80481df3624b08163cc8ad600856fff80a4903497ffbe3b937e",
             resources = {
                 {
                     path = name .. ".exe",
