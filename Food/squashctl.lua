@@ -1,5 +1,5 @@
 local name = "squashctl"
-local version = "0.5.15"
+local version = "0.5.16"
 
 food = {
     name = name,
@@ -12,7 +12,7 @@ food = {
             arch = "amd64",
             url = "https://github.com/solo-io/squash/releases/download/v" .. version .. "/" .. name .. "-darwin",
             -- shasum of the release archive
-            sha256 = "7e0490ec02f277d04ab2ecbab58c5d928c44a41d2a8db4769b667c2e8573788c",
+            sha256 = "7e796a08300316f8495c1ac60271d8c57b8f1a7682dc63b893e169cc3f0ad168",
             resources = {
                 {
                     path = name .. "-darwin",
@@ -26,7 +26,7 @@ food = {
             arch = "amd64",
             url = "https://github.com/solo-io/squash/releases/download/v" .. version .. "/" .. name .. "-linux",
             -- shasum of the release archive
-            sha256 = "d73fe1a77f5aa4094ff6064536a24938685a4ada3ddc2d20277c4489f4d752f0",
+            sha256 = "4378541d637c79c8e316eee55b6df952b88897c340c3c0acfd7732c564e6615d",
             resources = {
                 {
                     path = name .. "-linux",
@@ -40,7 +40,7 @@ food = {
             arch = "amd64",
             url = "https://github.com/solo-io/squash/releases/download/v" .. version .. "/" .. name .. "-windows.exe",
             -- shasum of the release archive
-            sha256 = "1e42f65f17a0fd1ac32d2672235a7da0afabbe784666af840c78cccb51c5eb2a",
+            sha256 = "6018c6b58d4dc5b3f3d22c9f0e40d7b5d80a0264c480927c395baa731b01d5d1",
             resources = {
                 {
                     path = name .. "-windows" .. ".exe",
