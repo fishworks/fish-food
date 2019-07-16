@@ -1,17 +1,18 @@
 local name = "terraform"
-local version = "0.12.2"
+local version = "0.12.4"
 
 food = {
     name = name,
-    description = "Terraform is a tool for building, changing, and combining infrastructure safely and efficiently.",
-    homepage = "https://terraform.io",
+    description = "Terraform enables you to safely and predictably create, change, and improve infrastructure. It is an open source tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.",
+    license = "MPL-2.0",
+    homepage = "https://www.terraform.io/",
     version = version,
     packages = {
         {
             os = "darwin",
             arch = "amd64",
             url = "https://releases.hashicorp.com/" .. name .. "/" .. version .. "/" .. name .. "_" .. version .. "_darwin_amd64.zip",
-            sha256 = "f0cc23bc6ec1a5adc4043108ff5c79c2bddcdc70b056bd207defca1ae386d477",
+            sha256 = "e19691d775849888a0695a07e52a884dc617ca2100759eca5bbe4d0f428a7bc3",
             resources = {
                 {
                     path = name,
@@ -24,7 +25,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://releases.hashicorp.com/" .. name .. "/" .. version .. "/" .. name .. "_" .. version .. "_linux_amd64.zip",
-            sha256 = "d9a96b646420d7f0a80aa5d51bb7b2a125acead537ab13c635f76668de9b8e32",
+            sha256 = "0231562f26262de233e8e8fac668196af21b7aff355bb04f3ee1606cca239c0a",
             resources = {
                 {
                     path = name,
@@ -37,7 +38,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://releases.hashicorp.com/" .. name .. "/" .. version .. "/" .. name .. "_" .. version .. "_windows_amd64.zip",
-            sha256 = "ad4867345c404b21bdb39d8ee8041c2a7897b74590867bd98f12a29e4b3f0a52",
+            sha256 = "3dfe07bb605d6bd098b2eb374c677e9ffdcda7f114c8a4f62466d2864040e623",
             resources = {
                 {
                     path = name .. ".exe",
