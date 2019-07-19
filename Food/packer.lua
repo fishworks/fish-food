@@ -1,17 +1,18 @@
 local name = "packer"
-local version = "1.3.5"
+local version = "1.4.2"
 
 food = {
     name = name,
     description = "Packer is a tool for creating identical machine images for multiple platforms from a single source configuration.",
-    homepage = "https://packer.io",
+    license = "MPL-2.0",
+    homepage = "http://www.packer.io",
     version = version,
     packages = {
         {
             os = "darwin",
             arch = "amd64",
             url = "https://releases.hashicorp.com/" .. name .. "/" .. version .. "/" .. name .. "_" .. version .. "_darwin_amd64.zip",
-            sha256 = "22a3442b896120a47f077396e02b14c9474aba8c50fa306f3e6625597546c474",
+            sha256 = "4e9bf72be16b00953dd7213e19fba97de569b91d8b8116b190efd647efe7d047",
             resources = {
                 {
                     path = name,
@@ -24,7 +25,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://releases.hashicorp.com/" .. name .. "/" .. version .. "/" .. name .. "_" .. version .. "_linux_amd64.zip",
-            sha256 = "14922d2bca532ad6ee8e936d5ad0788eba96f773bcdcde8c2dc7c95f830841ec",
+            sha256 = "2fcbd1662ac76dc4dec381bdc7b5e6316d5b9d48e0774a32fe6ef9ec19f47213",
             resources = {
                 {
                     path = name,
@@ -37,7 +38,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://releases.hashicorp.com/" .. name .. "/" .. version .. "/" .. name .. "_" .. version .. "_windows_amd64.zip",
-            sha256 = "57d30d5d305cf877532e93526c284438daef5db26d984d16ee85e38a7be7cfbb",
+            sha256 = "0db7527e81672d51fc436081eff0e49e8873baee0564e427c5dc73a3f44fa840",
             resources = {
                 {
                     path = name .. ".exe",
