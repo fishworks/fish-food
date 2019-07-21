@@ -1,17 +1,19 @@
 local name = "skaffold"
-local version = "0.24.0"
-
+local org = "GoogleContainerTools"
+local release = "v0.34.0"
+local version = "0.34.0"
 food = {
     name = name,
     description = "Easy and Repeatable Kubernetes Development",
-    homepage = "https://skaffold.dev",
+    license = "Apache-2.0",
+    homepage = "https://skaffold.dev/",
     version = version,
     packages = {
         {
             os = "darwin",
             arch = "amd64",
-            url = "https://github.com/GoogleContainerTools/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-darwin-amd64",
-            sha256 = "e0d377e12bdbdf89a9230eae77fe487916422de1fc91db517f3fe91fea30e156",
+            url = "https://github.com/GoogleContainerTools/" .. name .. "/releases/download/" .. release .. "/" .. name .. "-darwin-amd64",
+            sha256 = "71cf275a40c0c2763b66e0c975ac781d65202b1e355f3447b839439dfd01b27b",
             resources = {
                 {
                     path = name .. "-darwin-amd64",
@@ -23,8 +25,8 @@ food = {
         {
             os = "linux",
             arch = "amd64",
-            url = "https://github.com/GoogleContainerTools/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-linux-amd64",
-            sha256 = "e542a668bc1e585b5de66b7460d820ea7cd07bdbd2eb5f5f5c00efa56495e03d",
+            url = "https://github.com/GoogleContainerTools/" .. name .. "/releases/download/" .. release .. "/" .. name .. "-linux-amd64",
+            sha256 = "5867f2e92c3694da3d7ef2d9240416d693557af5caf56b13bfc1533c7940b341",
             resources = {
                 {
                     path = name .. "-linux-amd64",
@@ -36,8 +38,8 @@ food = {
         {
             os = "windows",
             arch = "amd64",
-            url = "https://github.com/GoogleContainerTools/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-windows-amd64.exe",
-            sha256 = "11ae370a933d7ace4009152bf419bd4aea07e2adf548da829c2b49fc8c24aca8",
+            url = "https://github.com/GoogleContainerTools/" .. name .. "/releases/download/" .. release .. "/" .. name .. "-windows-amd64.exe",
+            sha256 = "0e91979a8cdcccc2d2532627fdd92ee8552abecec4011fbe3b0b836c9e4816ed",
             resources = {
                 {
                     path = name .. "-windows-amd64.exe",
