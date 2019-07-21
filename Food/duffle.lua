@@ -1,17 +1,19 @@
 local name = "duffle"
-local version = "0.1.0-ralpha.5+englishrose"
-
+local org = "deislabs"
+local release = "0.2.0-beta.2"
+local version = "0.2.0-beta.2"
 food = {
     name = name,
-    description = "The CNAB Installer",
+    description = "CNAB installer",
+    license = "MIT",
     homepage = "https://duffle.sh",
     version = version,
     packages = {
         {
             os = "darwin",
             arch = "amd64",
-            url = "https://github.com/deislabs/" .. name .. "/releases/download/" .. version .. "/" .. name .. "-darwin-amd64",
-            sha256 = "79095844bd828068a7b361627f3d2531bf4f979245c4d2965dd601072aeed681",
+            url = "https://github.com/deislabs/" .. name .. "/releases/download/" .. release .. "/" .. name .. "-darwin-amd64",
+            sha256 = "287e43d2d379f8b9de4fae025beb3187aa8279d7e56954c0b9755628961bdccb",
             resources = {
                 {
                     path = name .. "-darwin-amd64",
@@ -23,8 +25,8 @@ food = {
         {
             os = "linux",
             arch = "amd64",
-            url = "https://github.com/deislabs/" .. name .. "/releases/download/" .. version .. "/" .. name .. "-linux-amd64",
-            sha256 = "0f1187d3afc284016d552f1ffa5095514a8535288d2ee65afd32d2757e33a285",
+            url = "https://github.com/deislabs/" .. name .. "/releases/download/" .. release .. "/" .. name .. "-linux-amd64",
+            sha256 = "98af9f16aed67e5eb874fd53b532a451cf41c57b3c4f95db74ea02478b642dc3",
             resources = {
                 {
                     path = name .. "-linux-amd64",
@@ -36,8 +38,8 @@ food = {
         {
             os = "windows",
             arch = "amd64",
-            url = "https://github.com/deislabs/" .. name .. "/releases/download/" .. version .. "/" .. name .. "-windows-amd64.exe",
-            sha256 = "f0767a1f3b03993dfb63f3b31c0c3e94b765fb2ffbeaa47c3ae7f8e291bf401a",
+            url = "https://github.com/deislabs/" .. name .. "/releases/download/" .. release .. "/" .. name .. "-windows-amd64.exe",
+            sha256 = "4ad89fdee2f1a2dd802b3538fdf7798f7f21cb6b35b396c6100cbbd912018676",
             resources = {
                 {
                     path = name .. "-windows-amd64.exe",
