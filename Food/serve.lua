@@ -1,17 +1,19 @@
 local name = "serve"
-local version = "0.3.0"
-
+local org = "syntaqx"
+local release = "v0.4.0"
+local version = "0.4.0"
 food = {
     name = name,
-    description = "A static http server anywhere you need one",
-    homepage = "https://github.com/syntaqx/serve",
+    description = "a static http server anywhere you need one.",
+    license = "MIT",
+    homepage = "https://syntaqx-serve.herokuapp.com/",
     version = version,
     packages = {
         {
             os = "darwin",
             arch = "amd64",
-            url = "https://github.com/syntaqx/serve/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_macos_x86_64.tar.gz",
-            sha256 = "7f132af742033e3bf7b6c227a5f6a95f199ad292737634f4b2a75bce1e911f8d",
+            url = "https://github.com/syntaqx/" .. name .. "/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_macos_x86_64.tar.gz",
+            sha256 = "65c26515f3ee53030f909e078eeacf8a15cdd7b6d88a8d22dae1da61b04eec8d",
             resources = {
                 {
                     path = name,
@@ -23,8 +25,8 @@ food = {
         {
             os = "linux",
             arch = "amd64",
-            url = "https://github.com/syntaqx/serve/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_linux_x86_64.tar.gz",
-            sha256 = "bba3ecc7ef861bbaee109fdca90c876247a2fdd41cf9a95a25bf44c70734a22b",
+            url = "https://github.com/syntaqx/" .. name .. "/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_linux_x86_64.tar.gz",
+            sha256 = "7c95b2e9f57c413b4e3c8205dc167e7beea1d2c5f50252103e5a877fe54e2be1",
             resources = {
                 {
                     path = name,
@@ -36,8 +38,8 @@ food = {
         {
             os = "windows",
             arch = "amd64",
-            url = "https://github.com/syntaqx/serve/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_windows_x86_64.zip",
-            sha256 = "9446e43f488c13261f3bb20136a5ee644c2cff1dba43881ca6784d82a921a2d8",
+            url = "https://github.com/syntaqx/" .. name .. "/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_windows_x86_64.zip",
+            sha256 = "b2c6ef963c5bc85611e104df502104088f5afab6b70503631f230f91935a9097",
             resources = {
                 {
                     path = name .. ".exe",
