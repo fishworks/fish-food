@@ -1,17 +1,19 @@
 local name = "mole"
-local version = "0.2.0"
-
+local org = "davrodpin"
+local release = "v0.4.0"
+local version = "0.4.0"
 food = {
     name = name,
     description = "cli app to create ssh tunnels",
+    license = "MIT",
     homepage = "https://davrodpin.github.io/mole/",
     version = version,
     packages = {
         {
             os = "darwin",
             arch = "amd64",
-            url = "https://github.com/davrodpin/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "" .. version .. ".darwin-amd64.tar.gz",
-            sha256 = "9e6192438c974b760e4e58c27ed4003d75704473f7299e79139d7664c3d1503d",
+            url = "https://github.com/davrodpin/" .. name .. "/releases/download/" .. release .. "/" .. name .. "" .. version .. ".darwin-amd64.tar.gz",
+            sha256 = "f3c87a3f81a2be9b864959ad4f3e3d30c69d806060d5f72cc9127bd4446dc517",
             resources = {
                 {
                     path = name,
@@ -23,13 +25,25 @@ food = {
         {
             os = "linux",
             arch = "amd64",
-            url = "https://github.com/davrodpin/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "" .. version .. ".linux-amd64.tar.gz",
-            sha256 = "0c03423d03a2ffcb44a1e1a1b93926e03a209fc523ed5f89dfa2b4761d33d3f9",
+            url = "https://github.com/davrodpin/" .. name .. "/releases/download/" .. release .. "/" .. name .. "" .. version .. ".linux-amd64.tar.gz",
+            sha256 = "c320ad84f68cd506255b2fe5716b7a9c233ad7e273675fefbe331e60010c368e",
             resources = {
                 {
                     path = name,
                     installpath = "bin/" .. name,
                     executable = true
+                }
+            }
+        },
+        {
+            os = "windows",
+            arch = "amd64",
+            url = "https://github.com/davrodpin/" .. name .. "/releases/download/" .. release .. "/" .. name .. "" .. version .. ".windows-amd64.zip",
+            sha256 = "67cb71a57ef92fbde5090fd8e8232b708464033ab48d5d2f5ee2be4aea858cfe",
+            resources = {
+                {
+                    path = name .. ".exe",
+                    installpath = "bin\\" .. name .. ".exe"
                 }
             }
         }
