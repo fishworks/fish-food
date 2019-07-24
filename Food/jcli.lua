@@ -11,7 +11,7 @@ food = {
         {
             os = "darwin",
             arch = "amd64",
-            url = "https://github.com/linuxsuren/jenkins-cli/releases/download/v" .. version .. "/" .. name .. "-" .. os .. arch .. ".tar.gz",
+            url = "https://github.com/linuxsuren/jenkins-cli/releases/download/v" .. version .. "/" .. name .. "-" .. os .. "" .. arch .. ".tar.gz",
             sha256 = "e78438f10c13ea5e836d7b4726efb1993ebe11fa9fc1589a46d9e48792dcb1d5",
             resources = {
                 {
@@ -24,7 +24,7 @@ food = {
         {
             os = "linux",
             arch = "amd64",
-            url = "https://github.com/linuxsuren/jenkins-cli/releases/download/v" .. version .. "/" .. name .. "-" .. os .. arch .. ".tar.gz",
+            url = "https://github.com/linuxsuren/jenkins-cli/releases/download/v" .. version .. "/" .. name .. "-" .. os .. "" .. arch .. ".tar.gz",
             sha256 = "6ae5095903b32695cd26d632d6082ef62545d23ddd247c4ab6aad2b4335c1d36",
             resources = {
                 {
