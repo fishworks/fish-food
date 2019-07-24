@@ -38,7 +38,7 @@ food = {
             os = "windows",
             arch = "386",
             url = "https://github.com/linuxsuren/jenkins-cli/releases/download/v" .. version .. "/" .. name .. "-window-386.tar.gz",
-            sha256 = "85d4bd2e206ae320376afb7f334c804e3792834a31c036e317a3ab25e56df4ca",
+            sha256 = "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5",
             resources = {
                 {
                     path = name .. ".exe",
