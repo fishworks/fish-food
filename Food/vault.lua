@@ -1,17 +1,18 @@
 local name = "vault"
-local version = "1.1.3"
+local version = "1.2.0"
 
 food = {
     name = name,
     description = "A tool for secrets management, encryption as a service, and privileged access management",
-    homepage = "https://vaultproject.io",
+    license = "MPL-2.0",
+    homepage = "https://www.vaultproject.io/",
     version = version,
     packages = {
         {
             os = "darwin",
             arch = "amd64",
             url = "https://releases.hashicorp.com/" .. name .. "/" .. version .. "/" .. name .. "_" .. version .. "_darwin_amd64.zip",
-            sha256 = "a0a7a242f8299ac4a00af8aa10ccedaf63013c8a068f56eadfb9d730b87155ea",
+            sha256 = "6f4119c4e6758e96ee323e50a6292af3d49033eafbeeb06224f9fc506ef774f4",
             resources = {
                 {
                     path = name,
@@ -24,7 +25,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://releases.hashicorp.com/" .. name .. "/" .. version .. "/" .. name .. "_" .. version .. "_linux_amd64.zip",
-            sha256 = "293b88f4d31f6bcdcc8b508eccb7b856a0423270adebfa0f52f04144c5a22ae0",
+            sha256 = "392b45f0978791d2050c02835494f220f40b70896903197dd9f95033f8855358",
             resources = {
                 {
                     path = name,
@@ -37,7 +38,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://releases.hashicorp.com/" .. name .. "/" .. version .. "/" .. name .. "_" .. version .. "_windows_amd64.zip",
-            sha256 = "a11b6c6a80849fd0c5f0cd25cb1106b95760b7936f6d31e38d945ed71ed93d3c",
+            sha256 = "a57d005cf3c494e7dc78f841d802f1b8cd39f23bb08743f5e488d0344998395e",
             resources = {
                 {
                     path = name .. ".exe",
