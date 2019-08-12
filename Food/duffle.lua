@@ -1,7 +1,7 @@
 local name = "duffle"
 local org = "deislabs"
-local release = "0.2.0-beta.3"
-local version = "0.2.0-beta.3"
+local release = "0.2.0-beta.4"
+local version = "0.2.0-beta.4"
 food = {
     name = name,
     description = "CNAB installer",
@@ -13,7 +13,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/deislabs/" .. name .. "/releases/download/" .. release .. "/" .. name .. "-darwin-amd64",
-            sha256 = "f6260880443b50936099e182840699b96bc7ff379b56ca54931e58a19a69193a",
+            sha256 = "d7d4ac00a596c099361ae1b45dd05a696662665da8579984699ca811a4ba8ffc",
             resources = {
                 {
                     path = name .. "-darwin-amd64",
@@ -26,7 +26,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/deislabs/" .. name .. "/releases/download/" .. release .. "/" .. name .. "-linux-amd64",
-            sha256 = "51a68641884efac0bcd192d22d2292582130c1dea6f9b17b8a3472e34fbbf046",
+            sha256 = "ffc1c256aa073d9344ed9d13e4672aa50dcfa61e692880bd1ccfb5595f9d59f9",
             resources = {
                 {
                     path = name .. "-linux-amd64",
@@ -39,7 +39,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/deislabs/" .. name .. "/releases/download/" .. release .. "/" .. name .. "-windows-amd64.exe",
-            sha256 = "3f1c6bcdc5e203175b222074c87b4fb64655987e5737cc2536261bc6ba78d497",
+            sha256 = "1642405dba846c715853e71e792a9f2ab638e8329cee3e629e9f1f7928629047",
             resources = {
                 {
                     path = name .. "-windows-amd64.exe",
