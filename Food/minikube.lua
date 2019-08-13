@@ -1,6 +1,7 @@
 local name = "minikube"
-local version = "1.3.0"
-
+local org = "kubernetes"
+local release = "v1.3.1"
+local version = "1.3.1"
 food = {
     name = name,
     description = "Run Kubernetes locally",
@@ -11,8 +12,8 @@ food = {
         {
             os = "darwin",
             arch = "amd64",
-            url = "https://github.com/kubernetes/minikube/releases/download/v" .. version .. "/minikube-darwin-amd64",
-            sha256 = "5bda29e2d990bb8ac9da1767143e228772adc45507d22a49b5af70b03e7db682",
+            url = "https://github.com/kubernetes/" .. name .. "/releases/download/" .. release .. "/" .. name .. "-darwin-amd64",
+            sha256 = "5947abe57fa390fcfd96849ac87fc9319f026d4b13f944b6beecc3615e3668be",
             resources = {
                 {
                     path = name .. "-darwin-amd64",
@@ -24,8 +25,8 @@ food = {
         {
             os = "linux",
             arch = "amd64",
-            url = "https://github.com/kubernetes/minikube/releases/download/v" .. version .. "/minikube-linux-amd64",
-            sha256 = "5aa7c5f0b6dd09348f7e2435b9618f6a916fbb573580619b393b514258771eab",
+            url = "https://github.com/kubernetes/" .. name .. "/releases/download/" .. release .. "/" .. name .. "-linux-amd64",
+            sha256 = "057a4f4ca36ff51ecad59509d94d3694543b874949e805e2b79792ceef21f983",
             resources = {
                 {
                     path = name .. "-linux-amd64",
@@ -37,8 +38,8 @@ food = {
         {
             os = "windows",
             arch = "amd64",
-            url = "https://github.com/kubernetes/minikube/releases/download/v" .. version .. "/minikube-windows-amd64.exe",
-            sha256 = "d808b6e42e6f53c9338d135a352bebd4469634f33646d06e7cad3569330225cb",
+            url = "https://github.com/kubernetes/" .. name .. "/releases/download/" .. release .. "/" .. name .. "-windows-amd64.exe",
+            sha256 = "be1999452b166de72f946aac17ca7c40d53b8a5c8f59dad912c2413f7cc42563",
             resources = {
                 {
                     path = name .. "-windows-amd64.exe",
