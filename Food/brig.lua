@@ -1,5 +1,5 @@
 local name = "brig"
-local version = "1.0.0"
+local version = "1.1.0"
 local baseURL = "https://github.com/Azure/brigade/releases/download"
 
 food = {
@@ -13,7 +13,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = baseURL .. "/v" .. version .. "/" .. name .. "-darwin-amd64",
-            sha256 = "faa67cc3e2edf312cc6a8dca7cbbed2931a56b2b7ec56a5f486fd64d73ae3ac1",
+            sha256 = "1c2f0f85d2044a05a4d85f4de0f97c0d2c5c82eb052e61b28490aa28c48d22a2",
             resources = {
                 {
                     path = name .. "-darwin-amd64",
@@ -26,7 +26,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = baseURL .. "/v" .. version .. "/" .. name .. "-linux-amd64",
-            sha256 = "da9f7252c82bc43ad4aa73f20cdeaae87da3d88439181d8160c4fc4e9af43346",
+            sha256 = "95b823aae1a99ea913f3ad14cb3c3a0fabb64f9c20290af90120f676e38cc336",
             resources = {
                 {
                     path = name .. "-linux-amd64",
@@ -39,7 +39,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = baseURL .. "/v" .. version .. "/" .. name .. "-windows-amd64.exe",
-            sha256 = "537cf43b2f9691e5a30494bdbb3e53f34bd293d34023eb86219970fe512b2889",
+            sha256 = "81815b96545eb6e1b20646faaecae01f5be7643b1e2acc948c505c86072a6bb5",
             resources = {
                 {
                     path = name .. "-windows-amd64.exe",
