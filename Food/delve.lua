@@ -1,5 +1,5 @@
 local name = "delve"
-local version = "1.1.0"
+local version = "1.2.0"
 
 -- Executable name is actually "dlv" (vs. "delve")
 local exe = "dlv"
@@ -7,7 +7,7 @@ local exe = "dlv"
 -- One .zip contains executables for all 3 platforms,
 -- so the url and sha256 fields are commom across all packages
 local url = "https://dl.bintray.com/jetbrains/golang/com/jetbrains/delve/" .. version .. "/delve-" .. version .. ".zip"
-local sha256 = "dbeeda31b44fa6e7f65078a350427bac2414fc301cb9ad2b99e8f695b597580c"
+local sha256 = "4965a4ca18a33a9987a25e167f7ecf0957b3fbeef16ff9c69fd2a5f37691992f"
 
 food = {
     name = name,
