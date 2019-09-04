@@ -1,5 +1,5 @@
 local name = "go"
-local version = "1.12.9"
+local version = "1.13"
 
 food = {
     name = name,
@@ -12,16 +12,11 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://dl.google.com/go/go" .. version .. ".darwin-amd64.tar.gz",
-            sha256 = "4f189102b15de0be1852d03a764acb7ac5ea2c67672a6ad3a340bd18d0e04bb4",
+            sha256 = "234ebbba1fbed8474340f79059cfb3af2a0f8b531c4ff0785346e0710e4003dd",
             resources = {
                 {
                     path = "go/bin/go",
                     installpath = "bin/go",
-                    executable = true
-                },
-                {
-                    path = "go/bin/godoc",
-                    installpath = "bin/godoc",
                     executable = true
                 },
                 {
@@ -35,16 +30,11 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://dl.google.com/go/go" .. version .. ".linux-amd64.tar.gz",
-            sha256 = "ac2a6efcc1f5ec8bdc0db0a988bb1d301d64b6d61b7e8d9e42f662fbb75a2b9b",
+            sha256 = "68a2297eb099d1a76097905a2ce334e3155004ec08cdea85f24527be3c48e856",
             resources = {
                 {
                     path = "go/bin/go",
                     installpath = "bin/go",
-                    executable = true
-                },
-                {
-                    path = "go/bin/godoc",
-                    installpath = "bin/godoc",
                     executable = true
                 },
                 {
@@ -58,15 +48,11 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://dl.google.com/go/go" .. version .. ".windows-amd64.zip",
-            sha256 = "ec7550b32ff080b17060b9d4fde7bee94d9cf3c42e846e3a62fe4a3047ec79e3",
+            sha256 = "7d162b83157d3171961f8e05a55b7da8476244df3fac28a5da1c9e215acfea89",
             resources = {
                 {
                     path = "go\\bin\\go.exe",
                     installpath = "bin\\go.exe"
-                },
-                {
-                    path = "go\\bin\\godoc.exe",
-                    installpath = "bin\\godoc.exe"
                 },
                 {
                     path = "go\\bin\\gofmt.exe",
