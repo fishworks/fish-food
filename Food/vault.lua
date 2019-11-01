@@ -1,5 +1,5 @@
 local name = "vault"
-local version = "1.2.3"
+local version = "1.3.0-beta1"
 
 food = {
     name = name,
@@ -12,7 +12,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://releases.hashicorp.com/" .. name .. "/" .. version .. "/" .. name .. "_" .. version .. "_darwin_amd64.zip",
-            sha256 = "5a5cdd19c22dd5b44d2dc212c84f7dbdb63769bb3d89774136a54db1cceb59d2",
+            sha256 = "a2b47a1cac15897b556d3ceebdc96d567c69775ab74db2dfd738dcb153a8e9d2",
             resources = {
                 {
                     path = name,
@@ -25,7 +25,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://releases.hashicorp.com/" .. name .. "/" .. version .. "/" .. name .. "_" .. version .. "_linux_amd64.zip",
-            sha256 = "fe15676404aff35cb45f7c957f90491921b9269d79a8f933c5a36e26a431bfc4",
+            sha256 = "4f6fcfc99bc0691a0947f0ef940037474fa2d8dbe133462171133ed40e488783",
             resources = {
                 {
                     path = name,
@@ -38,7 +38,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://releases.hashicorp.com/" .. name .. "/" .. version .. "/" .. name .. "_" .. version .. "_windows_amd64.zip",
-            sha256 = "7c90485e3ca4bc2c7733539f156ae2246721b5b7fc16e2d4fa6117a94318bf54",
+            sha256 = "f47dce6756571a932fb080175930dd46c06a614b58122a046f7ddc317a6f03fd",
             resources = {
                 {
                     path = name .. ".exe",
