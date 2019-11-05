@@ -1,7 +1,7 @@
 local name = "oras"
 local org = "deislabs"
-local release = "v0.7.0"
-local version = "0.7.0"
+local release = "v0.8.0"
+local version = "0.8.0"
 food = {
     name = name,
     description = "OCI Registry As Storage",
@@ -13,7 +13,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/deislabs/" .. name .. "/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_darwin_amd64.tar.gz",
-            sha256 = "89a0b2aa01b537e2ecd02bfb98e04664cd13e61559f98982c4f1c0c734c3abc7",
+            sha256 = "6f980791de4706584eb966ed51aa523526713810f3c918eae187be81f5ada83e",
             resources = {
                 {
                     path = name,
@@ -26,7 +26,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/deislabs/" .. name .. "/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_linux_amd64.tar.gz",
-            sha256 = "c4bacd26024030d23cc5688603f1a577ccb7b43c57cd2576248418b85b3c15f2",
+            sha256 = "690b019527f6478e91029750a0d111a87b6a67f68265d12ebcccd5d7832e35de",
             resources = {
                 {
                     path = name,
@@ -39,7 +39,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/deislabs/" .. name .. "/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_windows_amd64.tar.gz",
-            sha256 = "c5eeb2383d6cb8a91bf32fcd0414f711022436eb0e7190d01833a0b2eda18b35",
+            sha256 = "abbdce29f6cec952ff77c24831814b74614fd49d044df1804de4ac36a4ec656d",
             resources = {
                 {
                     path = name .. ".exe",
