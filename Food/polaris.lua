@@ -1,7 +1,7 @@
 local name = "polaris"
 local org = "FairwindsOps"
-local release = "0.5.2"
-local version = "0.5.2"
+local release = "0.6.0"
+local version = "0.6.0"
 food = {
     name = name,
     description = "Validation of best practices in your Kubernetes clusters",
@@ -13,7 +13,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/FairwindsOps/" .. name .. "/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_Darwin_x86_64.tar.gz",
-            sha256 = "9e244fdc3a6cd46877f65054d7a78d4cf44e4341a00c370411c26e31b73253dd",
+            sha256 = "cd153b3d0eee70ebb73f898f6d39b1e3689669d2db4e1f79b705e1575c5ecf12",
             resources = {
                 {
                     path = name,
@@ -26,7 +26,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/FairwindsOps/" .. name .. "/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_Linux_x86_64.tar.gz",
-            sha256 = "8111c29d9bfba89740dad614296ccde480a6f6db6388c027cd8c3f799191d227",
+            sha256 = "c509b2cd8286bb37dadf3433c74ee0c29559b264ae3f54b14a25fa522fff2c42",
             resources = {
                 {
                     path = name,
