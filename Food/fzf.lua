@@ -4,9 +4,9 @@ local githubReleaseDownloadURL = "https://github.com/junegunn/fzf-bin/releases/d
 
 food = {
     name = name,
-    description = "Fast Serverless Functions for Kubernetes",
-    license = "Apache-2.0",
-    homepage = "https://github.com/fission/fission",
+    description = "A command-line fuzzy finder",
+    license = "MIT",
+    homepage = "https://github.com/junegunn/fzf",
     version = version,
     packages = {
         {
