@@ -12,37 +12,11 @@ food = {
         {
             os = "darwin",
             arch = "amd64",
-            url = "https://github.com/Versent/" .. name .. "/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_darwin_amd64.sha512",
-            sha256 = "ece0416193771d5544295530f57448e883a66cf4f76a0ea736c0a01ef1c0c31e",
-            resources = {
-                {
-                    path = name .. "_2.20.0_darwin_amd64.sha512",
-                    installpath = "bin/" .. name,
-                    executable = true
-                }
-            }
-        },
-        {
-            os = "darwin",
-            arch = "amd64",
             url = "https://github.com/Versent/" .. name .. "/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_darwin_amd64.tar.gz",
             sha256 = "63cf581085aeae961d3ec6a6ec59793dfff4691b73f9eacbd191058be8136a43",
             resources = {
                 {
                     path = name,
-                    installpath = "bin/" .. name,
-                    executable = true
-                }
-            }
-        },
-        {
-            os = "linux",
-            arch = "amd64",
-            url = "https://github.com/Versent/" .. name .. "/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_linux_amd64.sha512",
-            sha256 = "cdeb9e70d2bf292dc8b91639075f45a4c0d09bb3a34f3cb14edfa2af9e6872a6",
-            resources = {
-                {
-                    path = name .. "_2.20.0_linux_amd64.sha512",
                     installpath = "bin/" .. name,
                     executable = true
                 }
@@ -58,18 +32,6 @@ food = {
                     path = name,
                     installpath = "bin/" .. name,
                     executable = true
-                }
-            }
-        },
-        {
-            os = "windows",
-            arch = "amd64",
-            url = "https://github.com/Versent/" .. name .. "/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_windows_amd64.sha512",
-            sha256 = "39266ff85614be1e39b1d3fa0c9e6a0e29dac84fa9518acf14de72171312060e",
-            resources = {
-                {
-                    path = name,
-                    installpath = "bin\\" .. name .. ".exe"
                 }
             }
         },
