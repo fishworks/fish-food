@@ -1,7 +1,7 @@
 local name = "saml2aws"
 local org = "Versent"
-local release = "v2.20.0"
-local version = "2.20.0"
+local release = "v2.21.0"
+local version = "2.21.0"
 food = {
     name = name,
     description = "CLI tool which enables you to login and retrieve AWS temporary credentials using a SAML IDP",
@@ -13,7 +13,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/Versent/" .. name .. "/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_darwin_amd64.tar.gz",
-            sha256 = "63cf581085aeae961d3ec6a6ec59793dfff4691b73f9eacbd191058be8136a43",
+            sha256 = "620e52fc3914324f244f80a313c2e19b50689bfb2248ec9ef731fae352a89e35",
             resources = {
                 {
                     path = name,
@@ -26,7 +26,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/Versent/" .. name .. "/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_linux_amd64.tar.gz",
-            sha256 = "7ee441a596cdf2c460dd14f4f3e6fc99ac3e6b39409a492376f55421b9b9bc0d",
+            sha256 = "e57bd1f5f4e49447d9d4ad7862d3c43d62b3379605296a6631496a915f2be067",
             resources = {
                 {
                     path = name,
@@ -39,7 +39,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/Versent/" .. name .. "/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_windows_amd64.tar.gz",
-            sha256 = "ae53383909ad0abe1070a9933ad16e1f4069ec7ff0b5e4969e69afa952b31b1c",
+            sha256 = "7f7c3099e9c57bd408af23875209be843024d06f51a0af30bf99490c564b37a9",
             resources = {
                 {
                     path = name .. ".exe",
