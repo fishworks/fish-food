@@ -1,6 +1,6 @@
 local name = "k9s"
 local org = "derailed"
-local release = "0.13.2"
+local release = "v0.13.2"
 local version = "0.13.2"
 food = {
     name = name,
