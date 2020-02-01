@@ -1,5 +1,5 @@
 local name = "jcli"
-local version = "0.0.24"
+local version = "0.0.25"
 
 food = {
     name = name,
@@ -12,7 +12,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/jenkins-zh/jenkins-cli/releases/download/v" .. version .. "/" .. name .. "-darwin-amd64.tar.gz",
-            sha256 = "930924661f42ba7f3bb1282acf79d982c3f5abe6a2fa2554d94f750aa7096be2",
+            sha256 = "21a6eefb95276f2374a15af424150bf0c807aa207c3885b0d09ec48a7b1f203d",
             resources = {
                 {
                     path = name,
@@ -25,7 +25,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/jenkins-zh/jenkins-cli/releases/download/v" .. version .. "/" .. name .. "-linux-amd64.tar.gz",
-            sha256 = "7f29fbd0a7e1d938b0a67eeba99228d77b308866a0d5bc8484d59a45481292c0",
+            sha256 = "5be7ce916266b714f7de9b685479d5be8ad6cbc58e2e78d72b4aab8758833934",
             resources = {
                 {
                     path = name,
@@ -38,7 +38,7 @@ food = {
             os = "windows",
             arch = "386",
             url = "https://github.com/jenkins-zh/jenkins-cli/releases/download/v" .. version .. "/" .. name .. "-windows-386.tar.gz",
-            sha256 = "1381fcef2436586157bb6d414ccb61a9fd092114a3d59050d80301109259478d",
+            sha256 = "8a427df02112cb5e6c81dc6a59fa54fb90edea7037d9b97eff368128c3383c9b",
             resources = {
                 {
                     path = name .. ".exe",
@@ -50,7 +50,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/jenkins-zh/jenkins-cli/releases/download/v" .. version .. "/" .. name .. "-windows-386.tar.gz",
-            sha256 = "1381fcef2436586157bb6d414ccb61a9fd092114a3d59050d80301109259478d",
+            sha256 = "8a427df02112cb5e6c81dc6a59fa54fb90edea7037d9b97eff368128c3383c9b",
             resources = {
                 {
                     path = name .. ".exe",
