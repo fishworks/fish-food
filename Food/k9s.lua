@@ -1,7 +1,7 @@
 local name = "k9s"
 local org = "derailed"
-local release = "v0.13.6"
-local version = "0.13.6"
+local release = "v0.13.7"
+local version = "0.13.7"
 food = {
     name = name,
     description = "🐶 Kubernetes CLI To Manage Your Clusters In Style!",
@@ -13,7 +13,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/derailed/" .. name .. "/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_Darwin_x86_64.tar.gz",
-            sha256 = "e6704bf0672ed80d675480746dc1b54598972b07f613fdfede25585c6c098e56",
+            sha256 = "403f6427a09395315093d713449edb2343150dc709bbc903dfdf775d02d185bd",
             resources = {
                 {
                     path = name,
@@ -26,7 +26,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/derailed/" .. name .. "/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_Linux_x86_64.tar.gz",
-            sha256 = "efa8b90912c793876b8a57c8066a586e7d3866c17821eab577cd2ca367c12dbb",
+            sha256 = "aa29e1f980b018e46ef8c72755714ec57e6b66d94cff67d1da2143510aeb713d",
             resources = {
                 {
                     path = name,
@@ -39,7 +39,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/derailed/" .. name .. "/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_Windows_x86_64.tar.gz",
-            sha256 = "dd97db9617c0b1fead1f7917366fefb237f4aaa487ddd3b9fcac397f90d6db95",
+            sha256 = "45a80b0966103c5284ffcc4bf878cfd4922c339392c1a3813c8364a2bada290a",
             resources = {
                 {
                     path = name .. ".exe",
