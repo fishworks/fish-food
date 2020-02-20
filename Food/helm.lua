@@ -1,5 +1,5 @@
 local name = "helm"
-local version = "3.1.0"
+local version = "3.1.1"
 
 food = {
     name = name,
@@ -12,7 +12,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://get.helm.sh/helm-v" .. version .. "-darwin-amd64.tar.gz",
-            sha256 = "aacb6ce8ffa08eebc4e4a570226675f53963c86feb8386d46abf4b8871066c92",
+            sha256 = "2ce00e6c44ba18fbcbec21c493476e919128710d480789bb35bd228ae695cd66",
             resources = {
                 {
                     path = "darwin-amd64/" .. name,
@@ -25,7 +25,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://get.helm.sh/helm-v" .. version .. "-linux-amd64.tar.gz",
-            sha256 = "f0fd9fe2b0e09dc9ed190239fce892a468cbb0a2a8fffb9fe846f893c8fd09de",
+            sha256 = "cdd7ad304e2615c583dde0ffb0cb38fc1336cd7ce8ff3b5f237434dcadb28c98",
             resources = {
                 {
                     path = "linux-amd64/" .. name,
@@ -38,7 +38,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://get.helm.sh/helm-v" .. version .. "-windows-amd64.tar.gz",
-            sha256 = "5b12caccda24f1056d3b6806e54798477330d2fab4c6b309b979af95ef32da9f",
+            sha256 = "c10aff979af0112ab9f181c2c40045eace48d6cc2587a330ae4f7960f91d05cd",
             resources = {
                 {
                     path = "windows-amd64\\" .. name .. ".exe",
