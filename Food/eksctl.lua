@@ -3,7 +3,7 @@ local version = "0.13.0"
 
 food = {
     name = name,
-    description = "enter description here",
+    description = "The official CLI for Amazon EKS",
     homepage = "https://eksctl.io/",
     version = version,
     packages = {
