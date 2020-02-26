@@ -1,7 +1,7 @@
 local name = "k9s"
 local org = "derailed"
-local release = "v0.13.8"
-local version = "0.13.8"
+local release = "v0.17.0"
+local version = "0.17.0"
 food = {
     name = name,
     description = "🐶 Kubernetes CLI To Manage Your Clusters In Style!",
@@ -12,8 +12,8 @@ food = {
         {
             os = "darwin",
             arch = "amd64",
-            url = "https://github.com/derailed/" .. name .. "/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_Darwin_x86_64.tar.gz",
-            sha256 = "aa2dab714ca09f186e593f043f38bbcd35038897dc52984ec5d9c43e2bb477ac",
+            url = "https://github.com/derailed/" .. name .. "/releases/download/" .. release .. "/" .. name .. "_Darwin_x86_64.tar.gz",
+            sha256 = "e757ce19a58062ba01b6dfa9dcb0d0da92ca68cc0ef551bd0461471799b28258",
             resources = {
                 {
                     path = name,
@@ -25,8 +25,8 @@ food = {
         {
             os = "linux",
             arch = "amd64",
-            url = "https://github.com/derailed/" .. name .. "/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_Linux_x86_64.tar.gz",
-            sha256 = "6bc889e2af25949969b5c4d2bd74fea428b7a075b57bfe8fbf71216475f588c2",
+            url = "https://github.com/derailed/" .. name .. "/releases/download/" .. release .. "/" .. name .. "_Linux_x86_64.tar.gz",
+            sha256 = "f5a9b04792b85bb344202c94e6c52f9da0ae8c95435615e685992834d5c7ced9",
             resources = {
                 {
                     path = name,
@@ -38,8 +38,8 @@ food = {
         {
             os = "windows",
             arch = "amd64",
-            url = "https://github.com/derailed/" .. name .. "/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_Windows_x86_64.tar.gz",
-            sha256 = "614d5c22f8b88be3ffb9e36c44b20a30f9054d75d44577f90fe500e238f66c02",
+            url = "https://github.com/derailed/" .. name .. "/releases/download/" .. release .. "/" .. name .. "_Windows_x86_64.tar.gz",
+            sha256 = "370906a1a0ce1d67bead3e35613b61b1632b7a9bab3ead39023ed3a3dc7051fa",
             resources = {
                 {
                     path = name .. ".exe",
