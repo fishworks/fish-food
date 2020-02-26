@@ -1,5 +1,5 @@
 local name = "helmfile"
-local version = "0.94.1"
+local version = "0.100.2"
 
 food = {
     name = name,
@@ -12,7 +12,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/roboll/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "_darwin_amd64",
-            sha256 = "93d051cc049a48613165c65a5e34c95e2de311c15b0f9e6b0fd5897200e5f317",
+            sha256 = "e12e38f482d8f18cee9db03d62ba873db232b080c510188e64e48bf3263a83bc",
             resources = {
                 {
                     path = name .. "_darwin_amd64",
@@ -25,7 +25,7 @@ food = {
             os = "darwin",
             arch = "386",
             url = "https://github.com/roboll/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "_darwin_386",
-            sha256 = "324c2fd525c4e6672978396b660de695a95b718aa9f27afa628cbf9b3611d86f",
+            sha256 = "29c41ac74d177dde94b58b145ef58bcaf0158448824a413ee9998af4c41a3e39",
             resources = {
                 {
                     path = name .. "_darwin_386",
@@ -38,7 +38,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/roboll/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "_linux_amd64",
-            sha256 = "eb058263f8279e1d0e9bb0c530db549615bb22fdb39c86c8696616c0e6b5beac",
+            sha256 = "7aaa608ba8ec70b2625b33d73cbdcaa97fa536c08e4f7bd7a54a5ba0fcf81a78",
             resources = {
                 {
                     path = name .. "_linux_amd64",
@@ -51,7 +51,7 @@ food = {
             os = "linux",
             arch = "386",
             url = "https://github.com/roboll/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "_linux_386",
-            sha256 = "1a639008a6085dd15d92c75dd93c5c7bcb11d9df50ec48af19472781971e96df",
+            sha256 = "6a7cd02e38de985f2d5da468eb39ca7f932772478767bf54e2ceab0708151d3c",
             resources = {
                 {
                     path = name .. "_linux_386",
@@ -64,7 +64,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/roboll/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "_windows_amd64" .. ".exe",
-            sha256 = "15c2622625823a41d8ea0df23d96bf76a80e99fbcd4302b3149a3c09e3bcf295",
+            sha256 = "0797338550c08be0922e0f87bf72dbd914bb416fff0c97b1c0d9c75682d4cf22",
             resources = {
                 {
                     path = name .. "_windows_amd64.exe",
@@ -76,7 +76,7 @@ food = {
             os = "windows",
             arch = "386",
             url = "https://github.com/roboll/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "_windows_386" .. ".exe",
-            sha256 = "2187bf4aef2002f75b17c6c02535af5e008eb493788aee71ba69ba44f7fe0535",
+            sha256 = "cf1a5d8a1880dfd79b446c8c71b3614a01472eaaa3633d86c2aa8158b773e516",
             resources = {
                 {
                     path = name .. "_windows_386.exe",
