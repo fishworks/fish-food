@@ -30,7 +30,7 @@ food = {
             sha256 = "2b3fb287177fd9cc74884023eb3e7594dd7f1550241e8dd3d549c26db6b82427",
             resources = {
                 {
-                    path = executable,
+                    path = "target/release/" .. executable,
                     installpath = "bin/" .. executable,
                     executable = true
                 }
