@@ -1,7 +1,7 @@
 local name = "jwt-cli"
 local org = "mike-engel"
-local release = "2.5.2"
-local version = "2.5.2"
+local release = "3.0.1"
+local version = "3.0.1"
 local executable = "jwt"
 food = {
     name = name,
@@ -14,7 +14,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/mike-engel/" .. name .. "/releases/download/" .. release .. "/" .. name .. "-" .. version .. "-macOS.tar.gz",
-            sha256 = "d55b408ce84f7b98f0f0f1d8514540ba5be5c9821cad8b6dc7c389f001b94207",
+            sha256 = "f8c2135fcfaad140ba3bd8b4ff0fd3d6fe8f94eaf865c9edea5c534cf517de3e",
             resources = {
                 {
                     path = executable,
@@ -27,7 +27,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/mike-engel/" .. name .. "/releases/download/" .. release .. "/" .. name .. "-" .. version .. "-linux.tar.gz",
-            sha256 = "a23bb2dc2069598c56323acca753038f8978f8b5c5d4ef9b7607f202e04e21fa",
+            sha256 = "2b3fb287177fd9cc74884023eb3e7594dd7f1550241e8dd3d549c26db6b82427",
             resources = {
                 {
                     path = executable,
@@ -40,7 +40,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/mike-engel/" .. name .. "/releases/download/" .. release .. "/" .. name .. "-" .. version .. "-windows.zip",
-            sha256 = "9779193cdd3a1ddecb14ac62707007898d04462da8f021c5bdf2cc5a805dc9da",
+            sha256 = "20d0c72b169d2d63349e6389e98475f4f0b67921998d174d948bcc8207db6312",
             resources = {
                 {
                     path = executable .. ".exe",
