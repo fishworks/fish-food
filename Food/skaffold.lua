@@ -1,7 +1,7 @@
 local name = "skaffold"
 local org = "GoogleContainerTools"
-local release = "v1.5.0"
-local version = "1.5.0"
+local release = "v1.6.0"
+local version = "1.6.0"
 food = {
     name = name,
     description = "Easy and Repeatable Kubernetes Development",
@@ -13,7 +13,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/GoogleContainerTools/" .. name .. "/releases/download/" .. release .. "/" .. name .. "-darwin-amd64",
-            sha256 = "8f53be95a6e71779f2db2e2eae2ae44eacf04e3fbf30ce4668c3ae1708014f40",
+            sha256 = "31d9bc2fda1bf0695cbc2b240d13658ba4c1ef6b8df3b81863322e87d9c91906",
             resources = {
                 {
                     path = name .. "-darwin-amd64",
@@ -26,7 +26,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/GoogleContainerTools/" .. name .. "/releases/download/" .. release .. "/" .. name .. "-linux-amd64",
-            sha256 = "c00e8dc2c5ebd31b8dad7fb2160a1be2dc1f74585f9c3799782889298e6eca27",
+            sha256 = "d283bc26029a41f23c160bd97f043fde14c5ea126ec216447d0dbdc0a251e3f9",
             resources = {
                 {
                     path = name .. "-linux-amd64",
@@ -39,7 +39,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/GoogleContainerTools/" .. name .. "/releases/download/" .. release .. "/" .. name .. "-windows-amd64.exe",
-            sha256 = "fef57cfc95269c2ef97e5fc071bbcdc1fefafe5b739bc1873bcb6416f250a7b7",
+            sha256 = "ac613de539ffaf7698f6400f0d4d0a98daa6b651d1d91c3f377c1a76d121ffb3",
             resources = {
                 {
                     path = name .. "-windows-amd64.exe",
