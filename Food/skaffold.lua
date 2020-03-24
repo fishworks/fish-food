@@ -13,7 +13,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/GoogleContainerTools/" .. name .. "/releases/download/" .. release .. "/" .. name .. "-darwin-amd64",
-            sha256 = "31d9bc2fda1bf0695cbc2b240d13658ba4c1ef6b8df3b81863322e87d9c91906",
+            sha256 = "0c73c582691c18a07f6e5c2b92021f10e46c37847d75e5c313afcbcd71dd1984",
             resources = {
                 {
                     path = name .. "-darwin-amd64",
@@ -26,7 +26,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/GoogleContainerTools/" .. name .. "/releases/download/" .. release .. "/" .. name .. "-linux-amd64",
-            sha256 = "d283bc26029a41f23c160bd97f043fde14c5ea126ec216447d0dbdc0a251e3f9",
+            sha256 = "cc77c74ba468af62f4bcb6305186618184db4aab05dfdd9db3b8c673ae55da36",
             resources = {
                 {
                     path = name .. "-linux-amd64",
@@ -39,7 +39,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/GoogleContainerTools/" .. name .. "/releases/download/" .. release .. "/" .. name .. "-windows-amd64.exe",
-            sha256 = "ac613de539ffaf7698f6400f0d4d0a98daa6b651d1d91c3f377c1a76d121ffb3",
+            sha256 = "30a88e90d69c0c5d6afee808cc106af0c103186cfd09ed8c98ace59ef117ce3b",
             resources = {
                 {
                     path = name .. "-windows-amd64.exe",
