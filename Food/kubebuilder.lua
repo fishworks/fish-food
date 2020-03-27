@@ -1,7 +1,7 @@
 local name = "kubebuilder"
 local org = "kubernetes-sigs"
-local release = "v2.3.0"
-local version = "2.3.0"
+local release = "v2.3.1"
+local version = "2.3.1"
 food = {
     name = name,
     description = "Kubebuilder - SDK for building Kubernetes APIs using CRDs",
@@ -13,7 +13,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/kubernetes-sigs/" .. name .. "/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_darwin_amd64.tar.gz",
-            sha256 = "b44f6c7ba1edf0046354ff29abffee3410d156fabae6eb3fa62da806988aa8bd",
+            sha256 = "39314d45053b6c31eb17e35c9b8d923f8a38277a9a136448345dd4b7f0f308f4",
             resources = {
                 {
                     path = name .. "_" .. version .. "_darwin_amd64" .. "/bin/" .. name,
@@ -26,7 +26,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/kubernetes-sigs/" .. name .. "/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_linux_amd64.tar.gz",
-            sha256 = "a8ffea619f8d6e6c9fab2df8543cf0912420568e3979f44340a7613de5944141",
+            sha256 = "ff496970f209706763f2aba2bdcefc2de8d00085b3b972b5790117b59ea4ed10",
             resources = {
                 {
                     path = name .. "_" .. version .. "_linux_amd64" .. "/bin/" .. name,
