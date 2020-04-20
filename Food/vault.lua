@@ -12,7 +12,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://releases.hashicorp.com/" .. name .. "/" .. version .. "/" .. name .. "_" .. version .. "_darwin_amd64.zip",
-            sha256 = "6b25a36b784ba9a57d891b9bdacc65ad2a9d393684a23de8b3967fe58d284af1",
+            sha256 = "86f25f32f8fd7664e91b1fe04d23b864e9d35034dd4ccd10770656858e9845ca",
             resources = {
                 {
                     path = name,
