@@ -1,7 +1,7 @@
 local name = "buffalo"
 local org = "gobuffalo"
-local release = "v0.16.5"
-local version = "0.16.5"
+local release = "v0.16.8"
+local version = "0.16.8"
 food = {
     name = name,
     description = "Rapid Web Development w/ Go",
@@ -13,7 +13,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/gobuffalo/" .. name .. "/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_Darwin_x86_64.tar.gz",
-            sha256 = "892d1fc386fc32825afe75b57a1286da89825c7a6f4c204912ea3e8395ee54c1",
+            sha256 = "bc427d41f2425f4c502b41942a894e7e08c61dde73e78d6412e74c3fcfb795d9",
             resources = {
                 {
                     path = name,
@@ -26,7 +26,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/gobuffalo/" .. name .. "/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_Linux_x86_64.tar.gz",
-            sha256 = "16f926e535152301349fc51d983ada8b83b3835aa8d3de55aff8b3c8c6edd2d7",
+            sha256 = "77ade8c844d19d40bdece33366902df1b8c9cdde74632d7062621cc81d1a6094",
             resources = {
                 {
                     path = name,
@@ -39,7 +39,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/gobuffalo/" .. name .. "/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_Windows_x86_64.tar.gz",
-            sha256 = "b9fa5d12ccc182bc477206f301ad13b5b1995243caff3d1d48851f6d18be246b",
+            sha256 = "5752288ee76c347bd5aa72136ce33d0d83f007257f3d0aeb94097ec01c9a8ea1",
             resources = {
                 {
                     path = name .. ".exe",
