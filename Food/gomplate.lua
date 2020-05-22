@@ -1,5 +1,6 @@
+
 local name = "gomplate"
-local version = "3.6.0"
+local version = "3.7.0"
 
 food = {
     name = name,
@@ -12,7 +13,8 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/hairyhenderson/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "_darwin-amd64-slim",
-            sha256 = "04a6b6d3a9d67fc56428a4571131f52dd3cc2cedb6ed8e9776db77bff0a72b5b",
+            -- shasum of the release archive
+            sha256 = "e574ccecbae40b90ea6ab590deb1c1e7697961d0782638b0104a73947cd529b3",
             resources = {
                 {
                     path = name .. "_darwin-amd64-slim",
@@ -25,7 +27,8 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/hairyhenderson/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "_linux-amd64-slim",
-            sha256 = "0867b2d6b23c70143a4ea37705d4308d051317dd0532d7f3063acec21f6cbbc8",
+            -- shasum of the release archive
+            sha256 = "edeafbade658f4cf8dde853b7b2d8b8441936587bded5d32444efee3d3be9b87",
             resources = {
                 {
                     path = name .. "_linux-amd64-slim",
@@ -38,7 +41,8 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/hairyhenderson/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "_windows-amd64-slim" .. ".exe",
-            sha256 = "21c8b8c4a033d212effa660a17da68e3f64af8ab1748b8cc62ef2952182c635e",
+            -- shasum of the release archive
+            sha256 = "505e98480cd9355c570780496b0e93b18dbe5020db2e4ce07125168b1b6e985e",
             resources = {
                 {
                     path = name .. "_windows-amd64-slim" .. ".exe",
