@@ -1,5 +1,5 @@
 local name = "argocd"
-local version = "1.5.5"
+local version = "1.5.6"
 food = {
     name = name,
     description = "Declarative continuous deployment for Kubernetes",
@@ -11,7 +11,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/argoproj/argo-cd/releases/download/v" .. version .. "/" .. name .. "-darwin-amd64",
-            sha256 = "521bffa5bd6096755e8ec3f8f0f7b5839f7dff81cc70ce6103af2e97d7628ba8",
+            sha256 = "f42ad90b604e52abc0458095750a43bd08df3ff66026f70a9e8481e88c3c8ca9",
             resources = {
                 {
                     path = name .. "-darwin-amd64",
@@ -24,7 +24,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/argoproj/argo-cd/releases/download/v" .. version .. "/" .. name .. "-linux-amd64",
-            sha256 = "9e1fe8f87e01780775a707cc9f9591eafc7866f04517ea16e89a707679c67b29",
+            sha256 = "7b66af9f3bf654a4dd08685300ae41f1669495e53aa8d7a632979f439a16fe06",
             resources = {
                 {
                     path = name .. "-linux-amd64",
