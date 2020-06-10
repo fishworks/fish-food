@@ -1,5 +1,5 @@
 local name = "packer"
-local version = "1.5.6"
+local version = "1.6.0"
 
 food = {
     name = name,
@@ -12,7 +12,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://releases.hashicorp.com/" .. name .. "/" .. version .. "/" .. name .. "_" .. version .. "_darwin_amd64.zip",
-            sha256 = "2731a5139d1311e3bd346fb8c4658fbba77eca3714534011cc3037543673c64a",
+            sha256 = "037572085722adbeac22b69940330f86b1e82547056740cf1cc42636b057d2a2",
             resources = {
                 {
                     path = name,
@@ -25,7 +25,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://releases.hashicorp.com/" .. name .. "/" .. version .. "/" .. name .. "_" .. version .. "_linux_amd64.zip",
-            sha256 = "2abb95dc3a5fcfb9bf10ced8e0dd51d2a9e6582a1de1cab8ccec650101c1f9df",
+            sha256 = "a678c995cb8dc232db3353881723793da5acc15857a807d96c52e96e671309d9",
             resources = {
                 {
                     path = name,
@@ -38,7 +38,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://releases.hashicorp.com/" .. name .. "/" .. version .. "/" .. name .. "_" .. version .. "_windows_amd64.zip",
-            sha256 = "60c5220bd2617e95949a930625c3276f704ffbb54039312a0a040379786ac49e",
+            sha256 = "318ba9144154100c4d625867a3f8a70838ff657dc07f45454b8b98e001e19608",
             resources = {
                 {
                     path = name .. ".exe",
