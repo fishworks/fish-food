@@ -1,7 +1,7 @@
 local name = "skaffold"
 local org = "GoogleContainerTools"
-local release = "v1.10.1"
-local version = "1.10.1"
+local release = "v1.11.0"
+local version = "1.11.0"
 food = {
     name = name,
     description = "Easy and Repeatable Kubernetes Development",
