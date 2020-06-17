@@ -37,7 +37,7 @@ food = {
         {
             os = "windows",
             arch = "amd64",
-            url = "https://get.helm.sh/helm-v" .. version .. "-windows-amd64.tar.gz",
+            url = "https://get.helm.sh/helm-v" .. version .. "-windows-amd64.zip",
             sha256 = "25ddfae2c40b584538c2990a942c367bbd9c3c934e4fcf7ae35f54f3900d216d",
             resources = {
                 {
