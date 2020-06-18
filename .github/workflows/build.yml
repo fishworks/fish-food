@@ -1,12 +1,8 @@
-name: Running GoFish linter
-
+name: build
 on:
-  pull_request:
+  push:
      branches:
       - master
-     paths:
-      - '**.lua'
-
 jobs:
   linting:
     runs-on: ubuntu-latest
@@ -19,32 +15,14 @@ jobs:
       run: |
         curl -fsSL https://raw.githubusercontent.com/fishworks/gofish/master/scripts/install.sh | bash
         gofish init
-    - name: Changed Files Exporter
-      id: files
-      uses: futuratrepadeira/changed-files@v3.0.1
-      with:
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
-    - name: Run lint check
-      env:
-        FILES: '${{ steps.files.outputs.files_updated }} ${{ steps.files.outputs.files_created }}'
-      run: |
-        echo "The Following files were changed or created:"
-        echo $FILES
-
         eval $(gofish tank)
         rm -rf "$GOFISH_DEFAULT_RIG"
-        cp -R . "$GOFISH_DEFAULT_RIG"
-        
-        for i in $FILES; do
-          if [[ $i != *.lua ]]; then
-            echo "Skipping non lua file: $i"
-            continue
-          fi
-          echo "#############################"
-          echo "## $i"
-          echo "#############################"
-          package=$(basename ${i%.*})
-          gofish lint $i
+        cp -R .. "$GOFISH_DEFAULT_RIG"
+    - name: gofish lint
+      run: |
+        for i in $(ls Food/); do
+          package="${i%.*}"
+          gofish lint Food/$i
           gofish install $package
         done
 
