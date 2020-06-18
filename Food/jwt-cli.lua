@@ -16,7 +16,7 @@ food = {
             sha256 = "221fb0d59aadfff8fbfc715a168adb9b76f98ff7f34a052f04a34e52c5661619",
             resources = {
                 {
-                    path = "target/release/" .. exe,
+                    path = exe,
                     installpath = "bin/" .. exe,
                     executable = true
                 }
@@ -29,7 +29,7 @@ food = {
             sha256 = "dd6bb19b79cf6ddf30c6e9f1a7091df29cb8d40882fa1772ae0e2cd144990393",
             resources = {
                 {
-                    path = "target/release/" .. exe,
+                    path = exe,
                     installpath = "bin/" .. exe,
                     executable = true
                 }
