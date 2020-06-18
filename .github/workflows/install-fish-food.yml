@@ -1,10 +1,10 @@
-name: build
+name: Test installing all available fish dood
 on:
   push:
      branches:
       - master
 jobs:
-  build:
+  install:
     runs-on: ubuntu-latest
     env:
       CI: true
@@ -15,14 +15,8 @@ jobs:
       run: |
         curl -fsSL https://raw.githubusercontent.com/fishworks/gofish/master/scripts/install.sh | bash
         gofish init
-        eval $(gofish tank)
-        rm -rf "$GOFISH_DEFAULT_RIG"
-        cp -R .. "$GOFISH_DEFAULT_RIG"
     - name: gofish lint
       run: |
-        for i in $(ls Food/); do
-          package="${i%.*}"
-          gofish lint Food/$i
-          gofish install $package
+        for i in $(gofish search | tail -n +2 | awk '{print $1}'); do
+          gofish install $i
         done
-

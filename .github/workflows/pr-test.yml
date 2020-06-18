@@ -1,4 +1,4 @@
-name: test
+name: test changed fish food
 on:
   pull_request:
      branches:
@@ -32,7 +32,7 @@ jobs:
         eval $(gofish tank)
         rm -rf "$GOFISH_DEFAULT_RIG"
         cp -R . "$GOFISH_DEFAULT_RIG"
-        
+
         for i in $FILES; do
           if [[ $i != *.lua ]]; then
             echo "Skipping non lua file: $i"
@@ -45,4 +45,3 @@ jobs:
           gofish lint $i
           gofish install $package
         done
-
