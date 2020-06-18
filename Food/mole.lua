@@ -1,7 +1,7 @@
 local name = "mole"
-local org = "davrodpin"
-local release = "v0.5.0"
 local version = "0.5.0"
+local release = "v" .. version
+
 food = {
     name = name,
     description = "cli app to create ssh tunnels",

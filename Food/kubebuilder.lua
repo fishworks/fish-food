@@ -1,7 +1,7 @@
 local name = "kubebuilder"
-local org = "kubernetes-sigs"
-local release = "v2.3.1"
 local version = "2.3.1"
+local release = "v" .. version
+
 food = {
     name = name,
     description = "Kubebuilder - SDK for building Kubernetes APIs using CRDs",

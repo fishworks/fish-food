@@ -1,5 +1,6 @@
 local name = "argocd"
 local version = "1.5.7"
+
 food = {
     name = name,
     description = "Declarative continuous deployment for Kubernetes",

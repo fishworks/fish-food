@@ -1,7 +1,7 @@
 local name = "serve"
-local org = "syntaqx"
-local release = "v0.4.0"
 local version = "0.4.0"
+local release = "v" .. version
+
 food = {
     name = name,
     description = "a static http server anywhere you need one.",

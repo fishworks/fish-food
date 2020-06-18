@@ -1,7 +1,7 @@
 local name = "saml2aws"
-local org = "Versent"
-local release = "v2.26.1"
 local version = "2.26.1"
+local release = "v" .. version
+
 food = {
     name = name,
     description = "CLI tool which enables you to login and retrieve AWS temporary credentials using a SAML IDP",

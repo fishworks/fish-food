@@ -1,7 +1,7 @@
 local name = "minikube"
-local org = "kubernetes"
-local release = "v1.11.0"
 local version = "1.11.0"
+local release = "v" .. version
+
 food = {
     name = name,
     description = "Run Kubernetes locally",

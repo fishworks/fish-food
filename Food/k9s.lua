@@ -1,7 +1,7 @@
 local name = "k9s"
-local org = "derailed"
-local release = "v0.20.5"
 local version = "0.20.5"
+local release = "v" .. version
+
 food = {
     name = name,
     description = "🐶 Kubernetes CLI To Manage Your Clusters In Style!",

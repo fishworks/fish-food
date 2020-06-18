@@ -1,7 +1,6 @@
 local name = "dep"
-local org = "golang"
-local release = "v0.5.4"
 local version = "0.5.4"
+local release = "v" .. version
 food = {
     name = name,
     description = "Go dependency management tool",
