@@ -29,6 +29,10 @@ jobs:
         echo "The Following files were changed or created:"
         echo $FILES
 
+        eval $(gofish tank)
+        rm -rf "$GOFISH_DEFAULT_RIG"
+        cp -R . "$GOFISH_DEFAULT_RIG"
+
         for i in $FILES; do
           if [[ $i != *.lua ]]; then
             echo "Skipping non lua file: $i"
@@ -39,4 +43,5 @@ jobs:
           echo "#############################"
           package=$(basename ${i%.*})
           gofish lint $i
+          gofish install $package
         done
