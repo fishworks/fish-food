@@ -15,7 +15,7 @@ jobs:
       run: |
         curl -fsSL https://raw.githubusercontent.com/fishworks/gofish/master/scripts/install.sh | bash
         gofish init
-    - name: gofish lint
+    - name: gofish install
       run: |
         for i in $(gofish search | tail -n +2 | awk '{print $1}'); do
           gofish install $i
