@@ -1,7 +1,7 @@
 local name = "kind"
-local org = "kubernetes-sigs"
-local release = "v0.8.1"
 local version = "0.8.1"
+local release = "v" .. version
+
 food = {
     name = name,
     description = "Kubernetes IN Docker - local clusters for testing Kubernetes",

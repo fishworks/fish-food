@@ -1,7 +1,7 @@
 local name = "oras"
-local org = "deislabs"
-local release = "v0.8.1"
 local version = "0.8.1"
+local release = "v" .. version
+
 food = {
     name = name,
     description = "OCI Registry As Storage",

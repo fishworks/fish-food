@@ -1,7 +1,7 @@
 local name = "buffalo"
-local org = "gobuffalo"
-local release = "v0.16.10"
 local version = "0.16.10"
+local release = "v" .. version
+
 food = {
     name = name,
     description = "Rapid Web Development w/ Go",

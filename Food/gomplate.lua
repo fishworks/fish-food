@@ -1,4 +1,3 @@
-
 local name = "gomplate"
 local version = "3.7.0"
 

@@ -1,6 +1,5 @@
 local name = "kubernetes-secret-decode"
 local version = "3.0.0"
-
 local exe = "kubectl-ksd"
 
 food = {
