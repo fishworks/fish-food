@@ -6,7 +6,7 @@ on:
      paths:
       - '**.lua'
 jobs:
-  linting:
+  test:
     runs-on: ubuntu-latest
     env:
       CI: true
