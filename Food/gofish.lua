@@ -1,5 +1,5 @@
 local name = "gofish"
-local version = "0.11.0"
+local version = "0.12.1"
 
 food = {
     name = name,
@@ -11,11 +11,11 @@ food = {
         {
             os = "darwin",
             arch = "amd64",
-            url = "https://gofi.sh/releases/" .. name .. "-v" .. version .. "-darwin-amd64.tar.gz",
-            sha256 = "bf392e0e274c3e7dfabad250662bd07fc08c967a7d8a3f4d3739cf0d62c4f3ba",
+            url = "https://gofi.sh/releases/" .. name .. "-v" .. version .. "-macos-amd64.tar.gz",
+            sha256 = "8377d091d931e0de44932540e0ea9b8052cd54294668c55aa1ff481080d9a1dc",
             resources = {
                 {
-                    path = "darwin-amd64/" .. name,
+                    path = name,
                     installpath = "bin/" .. name,
                     executable = true
                 }
@@ -25,10 +25,10 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://gofi.sh/releases/" .. name .. "-v" .. version .. "-linux-amd64.tar.gz",
-            sha256 = "6d0fcc98379ea0bed99fffae7529dbc713591717e6905422fd30690fdd728706",
+            sha256 = "86f91231f85b3f13fd36d3429ed75a9d3a4b1683d897f8c36359e0eb83b4b9e6",
             resources = {
                 {
-                    path = "linux-amd64/" .. name,
+                    path = name,
                     installpath = "bin/" .. name,
                     executable = true
                 }
@@ -38,10 +38,10 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://gofi.sh/releases/" .. name .. "-v" .. version .. "-windows-amd64.tar.gz",
-            sha256 = "c78e195bea6e0de1093204b0f27ec48618b0e850675a77581ead0c9792de7ed4",
+            sha256 = "fd0d7e8be0d5240ed3dbb06cd5ca99f3c836e783277683af4b4c47b07b80abf7",
             resources = {
                 {
-                    path = "windows-amd64\\" .. name .. ".exe",
+                    path = name .. ".exe",
                     installpath = "bin\\" .. name .. ".exe"
                 }
             }
