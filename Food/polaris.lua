@@ -1,5 +1,5 @@
 local name = "polaris"
-local version = "1.0.3"
+local version = "1.1.0"
 
 food = {
     name = name,
@@ -12,7 +12,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/FairwindsOps/" .. name .. "/releases/download/" .. version .. "/" .. name .. "_" .. version .. "_darwin_amd64.tar.gz",
-            sha256 = "24959266d40f6ff69866b8d4060e40a48accd95a5798e2eb374c96f906b9b0e9",
+            sha256 = "9b251a51b93ebe74735ab193bf2248e23633add80418b9c0273f485b839bd0f3",
             resources = {
                 {
                     path = name,
@@ -25,7 +25,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/FairwindsOps/" .. name .. "/releases/download/" .. version .. "/" .. name .. "_" .. version .. "_linux_amd64.tar.gz",
-            sha256 = "bd01b1102a229b6401bdf60e324d992114585380a5df8efc7a64a41df1947007",
+            sha256 = "41b188a84df7dac327a1d82728c9a7b5fe966dc91fe863698d6fef7be62c2123",
             resources = {
                 {
                     path = name,
