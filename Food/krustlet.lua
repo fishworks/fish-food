@@ -18,12 +18,12 @@ food = {
             sha256 = "6b38a4272c87e2f484553f29eaa559c43d68e015674d45472f64bd9740c612f0",
             resources = {
                 {
-                    path = "macos-amd64/" .. wasi,
+                    path = wasi,
                     installpath = "bin/" .. wasi,
                     executable = true
                 },
                 {
-                    path = "macos-amd64/" .. wascc,
+                    path = wascc,
                     installpath = "bin/" .. wascc,
                     executable = true
                 }
@@ -36,12 +36,12 @@ food = {
             sha256 = "dc8e80f656558553cbb6044604d31cc5e1509dd3140f36b20546cd40b34a336d",
             resources = {
                 {
-                    path = "linux-amd64/" .. wasi,
+                    path = wasi,
                     installpath = "bin/" .. wasi,
                     executable = true
                 },
                 {
-                    path = "linux-amd64/" .. wascc,
+                    path = wascc,
                     installpath = "bin/" .. wascc,
                     executable = true
                 }
