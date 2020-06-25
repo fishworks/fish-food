@@ -1,4 +1,4 @@
-name: Test installing all available fish dood
+name: Test installing all available fish food
 on:
   push:
      branches:
