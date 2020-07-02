@@ -23,7 +23,7 @@ food = {
         },
         {
             os = "darwin",
-            arch = "i386",
+            arch = "386",
             url = "https://github.com/ashleyschuett/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_Darwin_i386.tar.gz",
             sha256 = "e0798e8f49b52799bdf5962abb0383e7a15c049016de5dbd6d681296c8546bc8",
             resources = {
@@ -49,7 +49,7 @@ food = {
         },
         {
             os = "linux",
-            arch = "i386",
+            arch = "386",
             url = "https://github.com/ashleyschuett/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_Linux_i386.tar.gz",
             sha256 = "2ab1a52124cce0a00426ece87f48a4a1b06682ab5f52052477d0fcfea0564833",
             resources = {
