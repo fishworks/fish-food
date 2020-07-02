@@ -36,7 +36,7 @@ food = {
         },
         {
             os = "linux",
-            arch = "i386",
+            arch = "386",
             url = "https://github.com/NoUseFreak/letitgo/releases/download/" .. version .. "/linux_386.zip",
             sha256 = "b56c6ea895aab972048f9329fe465edb0e9852d0c983df35cce42e4b93f97691",
             resources = {
