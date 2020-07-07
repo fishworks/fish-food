@@ -1,7 +1,7 @@
 local name = "serve"
-local version = "0.4.0"
-local release = "v" .. version
-
+local org = "syntaqx"
+local release = "v0.5.0"
+local version = "0.5.0"
 food = {
     name = name,
     description = "a static http server anywhere you need one.",
@@ -13,7 +13,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/syntaqx/" .. name .. "/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_macos_x86_64.tar.gz",
-            sha256 = "65c26515f3ee53030f909e078eeacf8a15cdd7b6d88a8d22dae1da61b04eec8d",
+            sha256 = "fd51a18e47f0fc2ac0e177c865fd72b052c411bae96a5b59b4c50d7da2bb2dfc",
             resources = {
                 {
                     path = name,
@@ -26,7 +26,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/syntaqx/" .. name .. "/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_linux_x86_64.tar.gz",
-            sha256 = "7c95b2e9f57c413b4e3c8205dc167e7beea1d2c5f50252103e5a877fe54e2be1",
+            sha256 = "0ef2a32a69977d2da239d5b6b85a297945e0ebbf48a14699ae20da1d642f36d1",
             resources = {
                 {
                     path = name,
@@ -39,7 +39,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/syntaqx/" .. name .. "/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_windows_x86_64.zip",
-            sha256 = "b2c6ef963c5bc85611e104df502104088f5afab6b70503631f230f91935a9097",
+            sha256 = "eb208e680a042f0b3b5c24aed5b8332d7aee7358ebf627b9994b92ae6bec5b14",
             resources = {
                 {
                     path = name .. ".exe",
