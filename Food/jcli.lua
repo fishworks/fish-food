@@ -1,6 +1,7 @@
 local name = "jcli"
-local version = "0.0.26"
-
+local org = "jenkins-zh"
+local release = "v0.0.29"
+local version = "0.0.29"
 food = {
     name = name,
     description = "Jenkins CLI allows you manage your Jenkins as an easy way",
@@ -11,8 +12,8 @@ food = {
         {
             os = "darwin",
             arch = "amd64",
-            url = "https://github.com/jenkins-zh/jenkins-cli/releases/download/v" .. version .. "/" .. name .. "-darwin-amd64.tar.gz",
-            sha256 = "21529e03a592794a0d5473965576a757a158456854f52817cd8fbd0a5b87109a",
+            url = "https://github.com/jenkins-zh/jenkins-cli/releases/download/" .. release .. "/" .. name .. "-darwin-amd64.tar.gz",
+            sha256 = "e5d56a0627df3531f1198335748efcbc034344529546abc423076bba7c7e481e",
             resources = {
                 {
                     path = name,
@@ -24,8 +25,8 @@ food = {
         {
             os = "linux",
             arch = "amd64",
-            url = "https://github.com/jenkins-zh/jenkins-cli/releases/download/v" .. version .. "/" .. name .. "-linux-amd64.tar.gz",
-            sha256 = "e1c5b0611faa34baad33c8f303dc35688551f987fbc8364476d675f18a4aa0b8",
+            url = "https://github.com/jenkins-zh/jenkins-cli/releases/download/" .. release .. "/" .. name .. "-linux-amd64.tar.gz",
+            sha256 = "98bffb1b91ed9961f3359c930453f4761bf3a63515f9244e6e3e40c18e6bfd5d",
             resources = {
                 {
                     path = name,
@@ -36,21 +37,9 @@ food = {
         },
         {
             os = "windows",
-            arch = "386",
-            url = "https://github.com/jenkins-zh/jenkins-cli/releases/download/v" .. version .. "/" .. name .. "-windows-386.tar.gz",
-            sha256 = "d97e9448e663c24e08789dc3b4ddcab6246c6f02c35ff9479b92f825e96c5ba3",
-            resources = {
-                {
-                    path = name .. ".exe",
-                    installpath = "bin\\" .. name .. ".exe"
-                }
-            }
-        },
-        {
-            os = "windows",
             arch = "amd64",
-            url = "https://github.com/jenkins-zh/jenkins-cli/releases/download/v" .. version .. "/" .. name .. "-windows-386.tar.gz",
-            sha256 = "d97e9448e663c24e08789dc3b4ddcab6246c6f02c35ff9479b92f825e96c5ba3",
+            url = "https://github.com/jenkins-zh/jenkins-cli/releases/download/" .. release .. "/" .. name .. "-windows-amd64.zip",
+            sha256 = "7ab08382633e7b09bda12b64b716abbef809ba37e8c47593847acca164bc41e5",
             resources = {
                 {
                     path = name .. ".exe",
