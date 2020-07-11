@@ -1,5 +1,4 @@
 local name = "jcli"
-local org = "jenkins-zh"
 local release = "v0.0.29"
 local version = "0.0.29"
 food = {
