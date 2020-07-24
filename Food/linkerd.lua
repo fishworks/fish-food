@@ -1,5 +1,6 @@
 local name = "linkerd"
-local version = "stable-2.8.1"
+local version = "2.8.1"
+local release = "stable-" .. version
 local repository = "linkerd/linkerd2"
 
 food = {
@@ -12,11 +13,11 @@ food = {
         {
             os = "darwin",
             arch = "amd64",
-            url = "https://github.com/" .. repository .. "/releases/download/" .. version .. "/linkerd2-cli" .. "-" .. version .. "-darwin",
+            url = "https://github.com/" .. repository .. "/releases/download/" .. release .. "/linkerd2-cli" .. "-" .. release .. "-darwin",
             sha256 = "b4c0cfbe4ac8627c15a80133083561c191ef00abc208bc80c5127542d2813279",
             resources = {
                 {
-                    path = "linkerd2-cli-" .. version .. "-darwin",
+                    path = "linkerd2-cli-" .. release .. "-darwin",
                     installpath = "bin/" .. name,
                     executable = true
                 }
@@ -25,11 +26,11 @@ food = {
         {
             os = "linux",
             arch = "amd64",
-            url = "https://github.com/" .. repository .. "/releases/download/" .. version .. "/linkerd2-cli" .. "-" .. version .. "-linux",
+            url = "https://github.com/" .. repository .. "/releases/download/" .. release .. "/linkerd2-cli" .. "-" .. release .. "-linux",
             sha256 = "23831272df6bc26be8da6d1c79563d39ae4656c608513514a1089cb1404a0540",
             resources = {
                 {
-                    path = "linkerd2-cli-" .. version .. "-linux",
+                    path = "linkerd2-cli-" .. release .. "-linux",
                     installpath = "bin/" .. name,
                     executable = true
                 }
@@ -38,11 +39,11 @@ food = {
         {
             os = "windows",
             arch = "amd64",
-            url = "https://github.com/" .. repository .. "/releases/download/" .. version .. "/linkerd2-cli" .. "-" .. version .. "-windows.exe",
+            url = "https://github.com/" .. repository .. "/releases/download/" .. release .. "/linkerd2-cli" .. "-" .. release .. "-windows.exe",
             sha256 = "44a282f53fe20c1fe218bf39f48db8d0d6142dc955bdab3939a6d3a6cb709cb2",
             resources = {
                 {
-                    path = "linkerd2-cli-" .. version .. "-windows.exe",
+                    path = "linkerd2-cli-" .. release .. "-windows.exe",
                     installpath = "bin\\" .. name .. ".exe"
                 }
             }
