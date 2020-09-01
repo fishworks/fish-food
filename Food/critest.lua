@@ -1,5 +1,5 @@
 local name = "critest"
-local version = "1.18.0"
+local version = "1.19.0"
 local repo = "cri-tools"
 
 food = {
@@ -13,7 +13,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/kubernetes-sigs/" .. repo .. "/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. "-linux-amd64.tar.gz",
-            sha256 = "23968677bdf5d4055e5118c85449b19b046ee1d8822cae5859b7a4a80c2f1955",
+            sha256 = "85116040ec93c0b8db8264410d4b1465a8fe064b055a22034aa20bd602bf2695",
             resources = {
                 {
                     path = name,
@@ -26,7 +26,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/kubernetes-sigs/" .. repo .. "/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. "-windows-amd64.tar.gz",
-            sha256 = "49ba51f9ff8e767a5d4aa7b4c7c0f35cddabfd02700b973685a4fac8855d035c",
+            sha256 = "1146b37e540695740d5c7bca85b106fdfc69e094e6759b6a568d6e71624c8576",
             resources = {
                 {
                     path = name .. ".exe",
