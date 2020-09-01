@@ -1,5 +1,5 @@
 local name = "crictl"
-local version = "1.18.0"
+local version = "1.19.0"
 local repo = "cri-tools"
 
 food = {
@@ -13,7 +13,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/kubernetes-sigs/" .. repo .. "/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. "-linux-amd64.tar.gz",
-            sha256 = "876dd2b3d0d1c2590371f940fb1bf1fbd5f15aebfbe456703ee465d959700f4a",
+            sha256 = "87d8ef70b61f2fe3d8b4a48f6f712fd798c6e293ed3723c1e4bbb5052098f0ae",
             resources = {
                 {
                     path = name,
@@ -26,7 +26,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/kubernetes-sigs/" .. repo .. "/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. "-windows-amd64.tar.gz",
-            sha256 = "5045bcc6d8b0e6004be123ab99ea06e5b1b2ae1e586c968fcdf85fccd4d67ae1",
+            sha256 = "df60ff65ab71c5cf1d8c38f51db6f05e3d60a45d3a3293c3248c925c25375921",
             resources = {
                 {
                     path = name .. ".exe",
