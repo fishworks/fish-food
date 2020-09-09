@@ -1,5 +1,5 @@
 local name = "aks-engine"
-local version = "0.55.1"
+local version = "0.55.3"
 
 food = {
     name = name,
