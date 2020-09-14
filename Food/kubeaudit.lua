@@ -1,5 +1,5 @@
 local name = "kubeaudit"
-local version = "0.11.1"
+local version = "0.11.2"
 
 food = {
     name = name,
@@ -12,7 +12,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/Shopify/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_darwin_amd64.tar.gz",
-            sha256 = "900c7ad80a36f95e009cef0850df89b87dc25c124b8381dd5fb101dd22caed40",
+            sha256 = "0a7630172aaf8eb1dd64aa3c4130542fb4691630be9d580678c5f3c63c4795b4",
             resources = {
                 {
                     path = name,
@@ -30,7 +30,7 @@ food = {
             os = "darwin",
             arch = "386",
             url = "https://github.com/Shopify/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_darwin_386.tar.gz",
-            sha256 = "a9f6b20391e5c2121db2bd623eef33cd99569d13f7274daac812deea23947a35",
+            sha256 = "f84c9b515176415f20485b88dca173d2a253c4b35069bd43eb00aa9af0b3211b",
             resources = {
                 {
                     path = name,
@@ -48,7 +48,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/Shopify/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_linux_amd64.tar.gz",
-            sha256 = "5357e18cb9361a1101126646ce4c958d0f9c0804b27bc9930a50d00247b4e687",
+            sha256 = "7c20db1e3b84a8bf486a205fb96b81fc220d86fd6108f2fe23a72bfa296f9b38",
             resources = {
                 {
                     path = name,
@@ -66,7 +66,7 @@ food = {
             os = "linux",
             arch = "386",
             url = "https://github.com/Shopify/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_linux_386.tar.gz",
-            sha256 = "ecd46f4b1fb1fb6ffe0754f4173e2139d73282490343088d543134e7fb320a5a",
+            sha256 = "eae5ff8299a18ef9075e99e488176250d05656b525bce861501bf6f595eb60a8",
             resources = {
                 {
                     path = name,
