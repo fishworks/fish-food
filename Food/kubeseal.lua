@@ -1,7 +1,7 @@
 local name = "kubeseal"
 local org = "bitnami-labs"
-local release = "v0.12.5"
-local version = "0.12.5"
+local release = "v0.12.6"
+local version = "0.12.6"
 food = {
     name = name,
     description = "A Kubernetes controller and tool for one-way encrypted Secrets",
@@ -13,7 +13,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/bitnami-labs/sealed-secrets/releases/download/" .. release .. "/" .. name .. "-darwin-amd64",
-            sha256 = "238a1d290f80527ead1c521e0bb01d42df6e025fdcd711c5d30a039bc4d6c2fd",
+            sha256 = "2cf77775b0c16f68a498ea537673489a185d441bd1fbf86e86e722433b6612d1",
             resources = {
                 {
                     path = name .. "-darwin-amd64",
@@ -26,7 +26,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/bitnami-labs/sealed-secrets/releases/download/" .. release .. "/" .. name .. "-linux-amd64",
-            sha256 = "9e6f5e6a98b86e4801fb14677815655013776140d739c66b74b5968a4bb8be0e",
+            sha256 = "9572b161c6e98faf28a71f8137b3d78c401b531fdc7a0658a519b77caae7ed69",
             resources = {
                 {
                     path = name .. "-linux-amd64",
@@ -39,7 +39,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/bitnami-labs/sealed-secrets/releases/download/" .. release .. "/" .. name .. ".exe",
-            sha256 = "261a627b215b7d54c7442f8036f02d602a0c95c5211a95d33a512574131dffdd",
+            sha256 = "73c7206bde5bda40a3cf7056f5843deb83fecdd8e8a0f8c5475d5d5eb5c01ad9",
             resources = {
                 {
                     path = name .. ".exe",
