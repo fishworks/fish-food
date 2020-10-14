@@ -1,5 +1,5 @@
 local name = "fzf"
-local version = "0.23.0"
+local version = "0.23.1"
 local githubReleaseDownloadURL = "https://github.com/junegunn/fzf-bin/releases/download"
 
 food = {
@@ -13,7 +13,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = githubReleaseDownloadURL .. "/" .. version .. "/" .. name .. "-" .. version .. "-darwin_amd64.tgz",
-            sha256 = "23e1aa01a9b3172d2e3ec1501ac010657795fd9ea121d7374000f63f191094c3",
+            sha256 = "a2d71a72503acd77f8cd3f20a3cc05a98ff2b5b03a50ab8861144f7f95fd6b21",
             resources = {
                 {
                     path = name,
@@ -26,7 +26,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = githubReleaseDownloadURL .. "/" .. version .. "/" .. name .. "-" .. version .. "-linux_amd64.tgz",
-            sha256 = "0c8673d483888ea79e5dee4027b133464b9b5eedab76ab98c59c5eae2b8dd866",
+            sha256 = "60085e86e65cd0ccfafbf3af1f9cf19a8379ec5ef9e5e5322c7b265079a6617c",
             resources = {
                 {
                     path = name,
@@ -39,7 +39,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = githubReleaseDownloadURL .. "/" .. version .. "/" .. name .. "-" .. version .. "-windows_amd64.zip",
-            sha256 = "2a508a280a796d098c5e733c74bd3803af3f37c043b2e156be122727e625a575",
+            sha256 = "87f4d87c8065cac1ecc81bb8cee5dffd18f00d07d132f0eb15a4dc0034350bdf",
             resources = {
                 {
                     path = name,
