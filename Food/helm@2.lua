@@ -25,7 +25,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://get.helm.sh/helm-v" .. version .. "-linux-amd64.tar.gz",
-            sha256 = "c3ebe8fa04b4e235eb7a9ab030a98d3002f93ecb842f0a8741f98383a9493d7f",
+            sha256 = "f3bec3c7c55f6a9eb9e6586b8c503f370af92fe987fcbf741f37707606d70296",
             resources = {
                 {
                     path = "linux-amd64/helm",
