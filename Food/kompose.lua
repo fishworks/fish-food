@@ -1,5 +1,5 @@
 local name = "kompose"
-local version = "1.21.0"
+local version = "1.22.0"
 
 food = {
     name = name,
@@ -12,7 +12,7 @@ food = {
             arch = "amd64",
             url = "https://github.com/kubernetes/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-darwin-amd64.tar.gz",
             -- shasum of the release archive
-            sha256 = "9384e5233859d1bdc676c3ff80f2609e084a23fd5993e81a0a54e9976d18adf1",
+            sha256 = "ce35cec930f907ca49358ca4572ed92822908f91294e5ae203a5f78d9e90e25b",
             resources = {
                 {
                     path = name.."-darwin-amd64",
@@ -26,7 +26,7 @@ food = {
             arch = "amd64",
             url = "https://github.com/kubernetes/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-linux-amd64.tar.gz",
             -- shasum of the release archive
-            sha256 = "88cac7b503cce5a4f83d3ac7690311307bc62a380e29b22a6557581c2b4c6d4d",
+            sha256 = "a695319ed141a522b4e8f82636fc7afb81c8956a71aa1c8aca19403130241126",
             resources = {
                 {
                     path = name.."-linux-amd64",
