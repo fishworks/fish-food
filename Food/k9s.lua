@@ -1,5 +1,5 @@
 local name = "k9s"
-local version = "0.23.3"
+local version = "0.23.4"
 local release = "v" .. version
 
 food = {
@@ -13,7 +13,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/derailed/" .. name .. "/releases/download/" .. release .. "/" .. name .. "_Darwin_x86_64.tar.gz",
-            sha256 = "3cb4bce185fab07cb0d36cdde1e499a6469b477c4e2549ce2445d892181f8565",
+            sha256 = "0d24f5211b8c3e14d2d725c45286e08b29639f4af8a1535d8a0bfe7ee3ca7588",
             resources = {
                 {
                     path = name,
@@ -26,7 +26,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/derailed/" .. name .. "/releases/download/" .. release .. "/" .. name .. "_Linux_x86_64.tar.gz",
-            sha256 = "7f29a145b8ba028d23acac4493f0f1e0ec07f3c49d99eb8eb799fa3af612bc4f",
+            sha256 = "1876dd1ff4388b70c9e25f66c0a51296416f283fc7b3adc9e4be42474b8c7b37",
             resources = {
                 {
                     path = name,
@@ -39,7 +39,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/derailed/" .. name .. "/releases/download/" .. release .. "/" .. name .. "_Windows_x86_64.tar.gz",
-            sha256 = "b6b890e24d67564eabacd0604c4594d24ad9daa54e6564cbcc17080691179ce3",
+            sha256 = "3350efeb3d78f870d0154d4fce389d56162ca36a2d24465707cf286cd653a7da",
             resources = {
                 {
                     path = name .. ".exe",
