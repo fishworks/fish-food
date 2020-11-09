@@ -1,5 +1,5 @@
 local name = "eksctl"
-local version = "0.30.0"
+local version = "0.31.0"
 
 food = {
     name = name,
@@ -12,7 +12,7 @@ food = {
             arch = "amd64",
             url = "https://github.com/weaveworks/" .. name .. "/releases/download/" .. version .. "/" .. name .. "_Darwin_amd64.tar.gz",
             -- shasum of the release archive
-            sha256 = "1e03e83fc97b90fc14b812d15f3b85782e0899dc0e2a5f38ce6464d8e507568e",
+            sha256 = "c2000f61ea249933e8a4e3494ab3513c286f2379c5de61809a9156b80d1fe737",
             resources = {
                 {
                     path = name,
@@ -26,7 +26,7 @@ food = {
             arch = "amd64",
             url = "https://github.com/weaveworks/" .. name .. "/releases/download/" .. version .. "/" .. name .. "_Linux_amd64.tar.gz",
             -- shasum of the release archive
-            sha256 = "5c12240e428874d130cf3bf87be54c5cfa4e4cefa9c15723f1a1c0d9cf40739c",
+            sha256 = "1066fb10812bf39a0997ec7cb09a4fb513cc32ca494eb9b1965de15f527fc0f1",
             resources = {
                 {
                     path = name,
@@ -40,7 +40,7 @@ food = {
             arch = "amd64",
             url = "https://github.com/weaveworks/" .. name .. "/releases/download/" .. version .. "/" .. name .. "_Windows_amd64.zip",
             -- shasum of the release archive
-            sha256 = "d39ef6267118a39f306f026fbc146d5059991089e064f99768e59c277408140b",
+            sha256 = "0662b0e0d759a01a9e0868eeed34d0dffb466805d4d91ba2898995c5e17723c9",
             resources = {
                 {
                     path = name .. ".exe",
