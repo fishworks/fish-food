@@ -1,5 +1,5 @@
 local name = "gotk"
-local version = "0.1.5"
+local version = "0.2.4"
 local release = "v" .. version
 local org = "fluxcd"
 local repo = "toolkit"
@@ -16,7 +16,7 @@ food = {
             arch = "amd64",
             url = url .. "/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_darwin_amd64.tar.gz",
             -- shasum of the release archive
-            sha256 = "7a7a5e5d97c51ae9e5cfec589e51e12b3fe333fd27d655ff657b5d3b27de7db5",
+            sha256 = "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5",
             resources = {
                 {
                     path = name,
@@ -30,7 +30,7 @@ food = {
             arch = "amd64",
             url = url .. "/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_linux_amd64.tar.gz",
             -- shasum of the release archive
-            sha256 = "b23fb794b30a0758307858eb3f8f1e336a45b4a08d912b075261c36c17ab0546",
+            sha256 = "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5",
             resources = {
                 {
                     path = name,
