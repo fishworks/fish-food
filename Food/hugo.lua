@@ -1,5 +1,5 @@
 local name = "hugo"
-local version = "0.78.1"
+local version = "0.78.2"
 
 food = {
     name = name,
@@ -12,7 +12,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/gohugoio/" .. name .. "/releases/download/v" .. version .. "/" .. "hugo_" .. version .. "_macOS-64bit.tar.gz",
-            sha256 = "80733a2523c717a8886f6800531be69b5c5db1c6d7b0b8468b6692d1e7d4ab6a",
+            sha256 = "53fbbd1270ba1ebdf3687d2e41806faefeeebe4befa738e68db3b115a83b7998",
             resources = {
                 {
                     path = name,
@@ -25,7 +25,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/gohugoio/" .. name .. "/releases/download/v" .. version .. "/" .. "hugo_" .. version .. "_Linux-64bit.tar.gz",
-            sha256 = "e0d1b3ca30426931084dd6a0abb451be28f6a3dd23d85d87d272a1f95782912d",
+            sha256 = "6c139580bf42dd66615f61cb33d62fc47cb855790d744050d78924bf1f48df0d",
             resources = {
                 {
                     path = name,
@@ -38,7 +38,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/gohugoio/" .. name .. "/releases/download/v" .. version .. "/" .. "hugo_" .. version .. "_Windows-64bit.zip",
-            sha256 = "3116dedabed44742d018fab0b488d8170b9c285b3583eb79cbc26ec18b9eca7b",
+            sha256 = "ad5dd832d781fac385abd9956b55d2e342a769e6020d49cd372838ca5c39739c",
             resources = {
                 {
                     path = name .. ".exe",
