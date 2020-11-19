@@ -1,5 +1,5 @@
 local name = "kubeaudit"
-local version = "0.11.5"
+local version = "0.11.6"
 
 food = {
     name = name,
@@ -12,7 +12,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/Shopify/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_darwin_amd64.tar.gz",
-            sha256 = "f899c1d010037f32ad4b00a019493bf3be175cfe67c751ca5f7f800cbfd29d4c",
+            sha256 = "ecef9898a21089fbc8b2b13c37d9c2b9a64c4835509e6ad42fa71cffa15ac359",
             resources = {
                 {
                     path = name,
@@ -30,7 +30,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/Shopify/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_linux_amd64.tar.gz",
-            sha256 = "3e8babceed0d3f0a1366abbd8e67084c704874621bd617e57f63b6d1ec51993f",
+            sha256 = "acdaae3bac4b7b042d8682abee8703119cd1859b8583069afb8b67b0a65bd302",
             resources = {
                 {
                     path = name,
@@ -48,7 +48,7 @@ food = {
             os = "linux",
             arch = "386",
             url = "https://github.com/Shopify/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_linux_386.tar.gz",
-            sha256 = "2cca2053a2bd485b0a19f8c9096f6429576fddcb25efc68bdef91122752924ba",
+            sha256 = "3e36a0aa51d79943c738ba2abec7e78bab8c7fea2e099446ced83137a2ab40a2",
             resources = {
                 {
                     path = name,
