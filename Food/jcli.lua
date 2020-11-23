@@ -1,6 +1,6 @@
 local name = "jcli"
-local release = "v0.0.30"
-local version = "0.0.30"
+local release = "v0.0.31"
+local version = "0.0.31"
 food = {
     name = name,
     description = "Jenkins CLI allows you manage your Jenkins as an easy way",
@@ -12,7 +12,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/jenkins-zh/jenkins-cli/releases/download/" .. release .. "/" .. name .. "-darwin-amd64.tar.gz",
-            sha256 = "ca49b17c0223a98682605ace5e9cb0aaf048dc132357541277cac3831b7d5667",
+            sha256 = "93a81499eaa1be1d1382f062acf2967364de430df96a4054891706c5b058fd06",
             resources = {
                 {
                     path = name,
@@ -25,7 +25,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/jenkins-zh/jenkins-cli/releases/download/" .. release .. "/" .. name .. "-linux-amd64.tar.gz",
-            sha256 = "f9671353e14d58b4fbe08aca23a8e427d3a1426ce2f72a8a82aef9b4d14fa574",
+            sha256 = "64ccd883ca77ddc74a1f00cf04061405b198ce3d8e4899daaeaa6bbc3f83c121",
             resources = {
                 {
                     path = name,
@@ -38,7 +38,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/jenkins-zh/jenkins-cli/releases/download/" .. release .. "/" .. name .. "-windows-amd64.zip",
-            sha256 = "648f1c644180f3e0221c8f7d60288d858f24dc5e3a6af2fc240627ff40b04cce",
+            sha256 = "8cf41eda76d48331a442a262fe6481ec2d0e7fd1ad9094c2bc6c14129b31a8c3",
             resources = {
                 {
                     path = name .. ".exe",
