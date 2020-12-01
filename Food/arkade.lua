@@ -38,7 +38,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/alexellis/" .. name .. "/releases/download/" .. version .. "/" .. name .. ".exe",
-            sha256 = "7e2b696073a1e8eaaa238566df1f308cb4c31ceb91dc3804e33263ff9b8885ab",
+            sha256 = "20c93f12b572992c8e811cda9a2c2526d043bd3842b438f20ed8354a47452615",
             resources = {
                 {
                     path = name .. ".exe",
