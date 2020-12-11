@@ -1,5 +1,5 @@
 local name = "skaffold"
-local version = "1.17.1"
+local version = "1.17.2"
 local release = "v" .. version
 
 food = {
@@ -13,7 +13,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/GoogleContainerTools/" .. name .. "/releases/download/" .. release .. "/" .. name .. "-darwin-amd64",
-            sha256 = "5f008c8b1a1c3c5ae786270cdc5619bc902f9886647682038d24b70cbbe5894d",
+            sha256 = "1e9ad5ed0ba3b277c582dbdb7e13c3307ff1dc21887bf18d4c5aece486e0518c",
             resources = {
                 {
                     path = name .. "-darwin-amd64",
@@ -26,7 +26,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/GoogleContainerTools/" .. name .. "/releases/download/" .. release .. "/" .. name .. "-linux-amd64",
-            sha256 = "a44d548aea2ee67099f3f7ecf6dbaa0b309d120dee8862f02ff69f32b5f86821",
+            sha256 = "55dea8be16fa3abd81820a6a03f5d708beb5e152fe71e00f00744a4dd321c55a",
             resources = {
                 {
                     path = name .. "-linux-amd64",
@@ -39,7 +39,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/GoogleContainerTools/" .. name .. "/releases/download/" .. release .. "/" .. name .. "-windows-amd64.exe",
-            sha256 = "56a92d23466840e853a6afed281fc50d35c72b082f572dadf735606b389b4686",
+            sha256 = "65f107d8fec1b5848c0eb144c3869fd253193b2450cf1f67df9e7c51786fc860",
             resources = {
                 {
                     path = name .. "-windows-amd64.exe",
