@@ -33,6 +33,18 @@ food = {
                     executable = true
                 }
             }
+        },
+        {
+            os = "windows",
+            arch = "amd64",
+            url = "https://github.com/argoproj/argo-cd/releases/download/v" .. version .. "/" .. name .. "-windows-amd64.exe",
+            sha256 = "3facaa8588162a100fee8d7c364dbe9dc33048ef330aa038d24f86bade110133",
+            resources = {
+                {
+                    path = name .. "-windows-amd64.exe",
+                    installpath = "bin\\" .. name .. ".exe"
+                }
+            }
         }
     }
 }
