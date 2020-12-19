@@ -15,7 +15,7 @@ food = {
             sha256 = "9a9d0139267e91d06b5dff4f5947d3b89c98a4ae2534acd7beb8ac74baf8dde2",
             resources = {
                 {
-                    path = name .. "_" .. version .. "_linux_amd64" .. "/bin/" .. name,
+                    path = name .. "_" .. version .. "_macOS_amd64" .. "/bin/" .. name,
                     installpath = "bin/" .. name,
                     executable = true
                 }
