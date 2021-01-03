@@ -5,16 +5,36 @@ on:
       - main
 jobs:
   install:
-    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        os: [macOS-latest, ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
     steps:
     - name: Setup Action
       uses: actions/checkout@v2
     - name: Install gofish
+      if: runner.os != 'Windows'
       run: |
         curl -fsSL https://raw.githubusercontent.com/fishworks/gofish/main/scripts/install.sh | bash
         gofish init
     - name: gofish install
+      if: runner.os != 'Windows'
       run: |
+        eval $(gofish tank)
+        rm -rf "$GOFISH_DEFAULT_RIG"
+        cp -R . "$GOFISH_DEFAULT_RIG"
+
         for i in $(gofish search | tail -n +2 | awk '{print $1}'); do
           gofish install $i
         done
+    - name: Install gofish (windows)
+      if: runner.os == 'Windows'
+      run: |
+        Set-ExecutionPolicy Bypass -Scope Process -Force
+        iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/fishworks/gofish/main/scripts/install.ps1'))
+        echo "C:\ProgramData\bin" | Out-File -FilePath $env:GITHUB_PATH -Encoding utf8 -Append
+    - name: gofish install (windows)
+      if: runner.os == 'Windows'
+      run: |
+        gofish.exe init
+        gofish.exe tank | iex

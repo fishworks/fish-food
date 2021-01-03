@@ -6,7 +6,7 @@ on:
      paths:
       - '**.lua'
 jobs:
-  test:
+  lint:
     runs-on: ubuntu-latest
     steps:
     - name: Setup Action
@@ -41,5 +41,45 @@ jobs:
           echo "#############################"
           package=$(basename ${i%.*})
           gofish lint $i
+        done
+
+  install:
+    needs: lint
+    strategy:
+      matrix:
+        os: [macOS-latest, ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+    - name: Setup Action
+      uses: actions/checkout@v2
+    - name: Install gofish
+      run: |
+        curl -fsSL https://raw.githubusercontent.com/fishworks/gofish/main/scripts/install.sh | bash
+        gofish init
+    - name: Changed Files Exporter
+      id: files
+      uses: futuratrepadeira/changed-files@v3.0.1
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+    - name: gofish install
+      env:
+        FILES: '${{ steps.files.outputs.files_updated }} ${{ steps.files.outputs.files_created }}'
+      run: |
+        echo "The Following files were changed or created:"
+        echo $FILES
+
+        eval $(gofish tank)
+        rm -rf "$GOFISH_DEFAULT_RIG"
+        cp -R . "$GOFISH_DEFAULT_RIG"
+
+        for i in $FILES; do
+          if [[ $i != *.lua ]]; then
+            echo "Skipping non lua file: $i"
+            continue
+          fi
+          echo "#############################"
+          echo "## $i"
+          echo "#############################"
+          package=$(basename ${i%.*})
           gofish install $package
         done
