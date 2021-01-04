@@ -10,6 +10,19 @@ food = {
     version = version,
     packages = {
         {
+            os = "darwin",
+            arch = "amd64",
+            url = "https://github.com/kubernetes-sigs/" .. repo .. "/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. "-darwin-amd64.tar.gz",
+            sha256 = "83f3c232c0958d836330fb04ff94a53d93abcc710e4f7a93a17a710e04421b60",
+            resources = {
+                {
+                    path = name,
+                    installpath = "bin/" .. name,
+                    executable = true
+                }
+            }
+        },
+        {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/kubernetes-sigs/" .. repo .. "/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. "-linux-amd64.tar.gz",
