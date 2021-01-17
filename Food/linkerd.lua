@@ -1,5 +1,5 @@
 local name = "linkerd"
-local version = "2.8.1"
+local version = "2.9.2"
 local release = "stable-" .. version
 local repository = "linkerd/linkerd2"
 
@@ -14,7 +14,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/" .. repository .. "/releases/download/" .. release .. "/linkerd2-cli" .. "-" .. release .. "-darwin",
-            sha256 = "b4c0cfbe4ac8627c15a80133083561c191ef00abc208bc80c5127542d2813279",
+            sha256 = "625d46eef585a6ee8ffb6c0fd1a68d71a039238a48ae2c36dac6a2a72b9a5e6e",
             resources = {
                 {
                     path = "linkerd2-cli-" .. release .. "-darwin",
@@ -26,11 +26,11 @@ food = {
         {
             os = "linux",
             arch = "amd64",
-            url = "https://github.com/" .. repository .. "/releases/download/" .. release .. "/linkerd2-cli" .. "-" .. release .. "-linux",
-            sha256 = "23831272df6bc26be8da6d1c79563d39ae4656c608513514a1089cb1404a0540",
+            url = "https://github.com/" .. repository .. "/releases/download/" .. release .. "/linkerd2-cli" .. "-" .. release .. "-linux-amd64",
+            sha256 = "67e51106600fe48315659e9e3261efd0169e6bb229ceb8d96af0eabd159624ef",
             resources = {
                 {
-                    path = "linkerd2-cli-" .. release .. "-linux",
+                    path = "linkerd2-cli-" .. release .. "-linux-amd64",
                     installpath = "bin/" .. name,
                     executable = true
                 }
@@ -40,7 +40,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/" .. repository .. "/releases/download/" .. release .. "/linkerd2-cli" .. "-" .. release .. "-windows.exe",
-            sha256 = "44a282f53fe20c1fe218bf39f48db8d0d6142dc955bdab3939a6d3a6cb709cb2",
+            sha256 = "895e4075d15b6cbe3b0f4c76b8ab06aa63ed5ecd01220bca908b67575398d742",
             resources = {
                 {
                     path = "linkerd2-cli-" .. release .. "-windows.exe",
