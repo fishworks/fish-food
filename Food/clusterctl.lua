@@ -1,5 +1,5 @@
 local name = "clusterctl"
-local version = "0.3.12"
+local version = "0.3.13"
 local release = "v" .. version
 local org = "kubernetes-sigs"
 local repo = "cluster-api"
@@ -16,7 +16,7 @@ food = {
             arch = "amd64",
             url = url .. "/releases/download/" .. release .. "/" .. name .. "-darwin-amd64",
             -- shasum of the release archive
-            sha256 = "4d6e5882588f2369e599b3b0d7673ab152215853832c70264ef6707dcf98c62a",
+            sha256 = "4f86a05d4306222efa2ca879f689f5091cf71c2ea63c1611b2efc421a11b623c",
             resources = {
                 {
                     path = name .. "-darwin-amd64",
@@ -30,7 +30,7 @@ food = {
             arch = "amd64",
             url = url .. "/releases/download/" .. release .. "/" .. name .. "-linux-amd64",
             -- shasum of the release archive
-            sha256 = "26a6247e73bab4c113114e7c88368abdaaaf67522955a3024731cd12544b326d",
+            sha256 = "44f7344bb169ddfafa27c602dbaf2e2c51f3a71ae78168d583b2f43ca08bb927",
             resources = {
                 {
                     path = name .. "-linux-amd64",
