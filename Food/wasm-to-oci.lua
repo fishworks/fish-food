@@ -1,5 +1,5 @@
 local name = "wasm-to-oci"
-local version = "0.1.1"
+local version = "0.1.2"
 local release = "v" .. version
 local githubReleaseDownloadURL = "https://github.com/engineerd/wasm-to-oci/releases/download"
 
@@ -14,7 +14,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = githubReleaseDownloadURL .. "/" .. release .. "/" .. "darwin-amd64-" .. name,
-            sha256 = "3a612230dc9f4dafbf6fadbe0f871ad60c3d5d74f687c35acb388701814214a3",
+            sha256 = "352fd4b2203b5c47429f4993ac9c08ac18fa3a3b63e2948e16fab8392cb9fda8",
             resources = {
                 {
                     path = "darwin-amd64-" .. name,
@@ -27,7 +27,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = githubReleaseDownloadURL .. "/" .. release .. "/" .. "linux-amd64-" .. name,
-            sha256 = "54eb3091554cd79a9c7db355e509ac37a1b75e9b743adc2c7f8563ef14606d3f",
+            sha256 = "73f6055586ca59aeec8d9934bd7574f947d764f6c2c7c1c3f1e084197b65cad7",
             resources = {
                 {
                     path = "linux-amd64-" .. name,
@@ -40,7 +40,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = githubReleaseDownloadURL .. "/" .. release .. "/" .. "windows-amd64-" .. name .. ".exe",
-            sha256 = "0ac66370cd348887aa34708eb4a7fe7fdeeef44a9f5401f971ddf95485bc98d1",
+            sha256 = "b9003d1b4f523a5daee02f33b49a2ce8c5bacb76371880f85e187da4112af36e",
             resources = {
                 {
                     path = "windows-amd64-" .. name .. ".exe",
