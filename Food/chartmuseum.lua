@@ -1,5 +1,5 @@
 local name = "chartmuseum"
-local version = "0.12.0"
+local version = "0.13.0"
 
 food = {
     name = name,
@@ -11,11 +11,11 @@ food = {
         {
             os = "darwin",
             arch = "amd64",
-            url = "https://s3.amazonaws.com/chartmuseum/release/v" .. version .. "/bin/darwin/amd64/chartmuseum",
-            sha256 = "33363f7471968a983d3f52562398fb120cc9022595ce5d090a5870d34ec45088",
+            url = "https://get.helm.sh/chartmuseum-v" .. version .. "-darwin-amd64.tar.gz",
+            sha256 = "289606831886ad10d56e851cd5ce2cdd32ea7b255cae4dd3a0da099aea201a49",
             resources = {
                 {
-                    path = name,
+                    path = "darwin-amd64/" .. name,
                     installpath = "bin/" .. name,
                     executable = true
                 }
@@ -24,11 +24,11 @@ food = {
         {
             os = "linux",
             arch = "amd64",
-            url = "https://s3.amazonaws.com/chartmuseum/release/v" .. version .. "/bin/linux/amd64/chartmuseum",
-            sha256 = "53402edf5ac9f736cb6da8f270f6bbf356dcbbe5592d8a09ee6f91a2dc30e4f6",
+            url = "https://get.helm.sh/chartmuseum-v" .. version .. "-linux-amd64.tar.gz",
+            sha256 = "fc6a8beda32975737a95b99292d18dd755ecfead0ceac1840f353d238818f683",
             resources = {
                 {
-                    path = name,
+                    path = "linux-amd64/" .. name,
                     installpath = "bin/" .. name,
                     executable = true
                 }
@@ -37,14 +37,14 @@ food = {
         {
             os = "windows",
             arch = "amd64",
-            url = "https://s3.amazonaws.com/chartmuseum/release/v" .. version .. "/bin/windows/amd64/chartmuseum",
-            sha256 = "af460d28a4e27980410f366a3e8549cdebcb09bfdc17bcd333881951781c770d",
+            url = "https://get.helm.sh/chartmuseum-v" .. version .. "-windows-amd64.zip",
+            sha256 = "52ba66952a5ac6c03d9368b6508eb227976e6c84b29c5926284c1119ae4643fc",
             resources = {
                 {
-                    path = name,
+                    path = "windows-amd64\\" .. name .. ".exe",
                     installpath = "bin\\" .. name .. ".exe"
                 }
             }
-        },
+        }
     }
 }
