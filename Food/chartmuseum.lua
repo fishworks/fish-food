@@ -37,7 +37,7 @@ food = {
         {
             os = "windows",
             arch = "amd64",
-            url = "https://get.helm.sh/chartmuseum-v" .. version .. "-windows-amd64.tar.gz",
+            url = "https://get.helm.sh/chartmuseum-v" .. version .. "-windows-amd64.zip",
             sha256 = "52ba66952a5ac6c03d9368b6508eb227976e6c84b29c5926284c1119ae4643fc",
             resources = {
                 {
