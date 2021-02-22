@@ -1,6 +1,6 @@
 local name = "devdash"
-local release = "v0.4.1"
-local version = "0.4.1"
+local release = "v0.4.2"
+local version = "0.4.2"
 food = {
     name = name,
     description = ":bento: Highly Configurable Terminal Dashboard for Developers",
@@ -12,7 +12,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/Phantas0s/" .. name .. "/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_Darwin_x86_64.tar.gz",
-            sha256 = "d9d57ddb96367564a113a6f1708a6f630d99400d2e168b91fa0a543b1d394639",
+            sha256 = "fddf7f53758182438a52426af27901b0251806488bab7eb94b09d579ccb621b7",
             resources = {
                 {
                     path = name,
@@ -25,7 +25,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/Phantas0s/" .. name .. "/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_Linux_x86_64.tar.gz",
-            sha256 = "5c1b18af9651d0bd4d85cf04c5604d01fcb602b67a342b402d7ee1b2507f2ed7",
+            sha256 = "831c4542a78629a0bc95af48c0948cf4497772effb64c74c882191bc28acdc09",
             resources = {
                 {
                     path = name,
@@ -38,7 +38,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/Phantas0s/" .. name .. "/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_Windows_x86_64.zip",
-            sha256 = "965f4c396a0922fbd73a53debf0660bf3327d17caf34ef7c0a0d3ea1422d6ac5",
+            sha256 = "9b9f1b859e8eb4c8be7af270b53a06aed885345100ef6635a150e0fe22552be5",
             resources = {
                 {
                     path = name .. ".exe",
