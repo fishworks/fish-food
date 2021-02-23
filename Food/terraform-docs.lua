@@ -1,5 +1,5 @@
 local name = "terraform-docs"
-local version = "0.8.2"
+local version = "0.11.2"
 
 food = {
     name = name,
@@ -12,7 +12,7 @@ food = {
             arch = "amd64",
             url = "https://github.com/segmentio/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. "-darwin-amd64",
             -- shasum of the release archive
-            sha256 = "f5179063450fa52808e49ee2e23981516343a7a418fde13e8f039707f77d2dad",
+            sha256 = "554512aabf8f4cb8579f797dea21085711a21eefa1492456c4854991326cebb9",
             resources = {
                 {
                     path = name .. "-v" .. version .. "-darwin-amd64",
@@ -26,7 +26,7 @@ food = {
             arch = "amd64",
             url = "https://github.com/segmentio/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. "-linux-amd64",
             -- shasum of the release archive
-            sha256 = "d572e23425dd914e43933761f85dbcde2d7d473d6b960e12b191f3076b36caa0",
+            sha256 = "0d1e42d6fcb15b14027ae8efb794edb1cd7faa7a32507ccad449340529d04937",
             resources = {
                 {
                     path = name .. "-v" .. version .. "-linux-amd64",
@@ -40,7 +40,7 @@ food = {
             arch = "amd64",
             url = "https://github.com/segmentio/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. "-windows-amd64.exe",
             -- shasum of the release archive
-            sha256 = "dbba61a77e0317ec5d0977c9f10b88b272f177e8f9e29ead1232ce68a8ed4675",
+            sha256 = "8bdf5ddb865cd095cb47eabeb4c4c89aec4aff4215b6be8a0f23aebbd94635af",
             resources = {
                 {
                     path = name .. "-v" .. version .. "-windows-amd64.exe",
