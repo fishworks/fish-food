@@ -24,7 +24,7 @@ food = {
         {
             os = "linux",
             arch = "amd64",
-	        url = "https://github.com/vmware-tanzu/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_Linux-64bit.tar.gz", 
+            url = "https://github.com/vmware-tanzu/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_Linux-64bit.tar.gz", 
             -- shasum of the release archive
             sha256 = "9f10ef7a0ae7f4dffa18da66d608c63c0116c6709eab1e0db75a17da3f165d98",
             resources = {
@@ -37,8 +37,8 @@ food = {
         },
         {
             os = "windows",
-	        arch = "amd64",
-	        url = "https://github.com/vmware-tanzu/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_Windows-64bit.zip",
+            arch = "amd64",
+            url = "https://github.com/vmware-tanzu/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_Windows-64bit.zip",
             -- shasum of the release archive
             sha256 = "5c5b10c2d97997a8c051f1c8625762a56603a708050f343098717480fed45c4f",
             resources = {
