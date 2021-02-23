@@ -4,18 +4,17 @@ local version = "0.11.2"
 food = {
     name = name,
     description = "Generate documentation from Terraform modules in various output formats",
-    homepage = "https://github.com/segmentio/terraform-docs",
+    homepage = "https://github.com/terraform-docs/terraform-docs",
     version = version,
     packages = {
         {
             os = "darwin",
             arch = "amd64",
-            url = "https://github.com/segmentio/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. "-darwin-amd64",
-            -- shasum of the release archive
-            sha256 = "554512aabf8f4cb8579f797dea21085711a21eefa1492456c4854991326cebb9",
+            url = "https://github.com/terraform-docs/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. "-darwin-amd64.tar.gz",
+            sha256 = "ac7ce685dea91212199c58de2379b419a5f512f70eda08b435176c1b5594716c",
             resources = {
                 {
-                    path = name .. "-v" .. version .. "-darwin-amd64",
+                    path = name,
                     installpath = "bin/" .. name,
                     executable = true
                 }
@@ -24,12 +23,11 @@ food = {
         {
             os = "linux",
             arch = "amd64",
-            url = "https://github.com/segmentio/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. "-linux-amd64",
-            -- shasum of the release archive
-            sha256 = "0d1e42d6fcb15b14027ae8efb794edb1cd7faa7a32507ccad449340529d04937",
+            url = "https://github.com/terraform-docs/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. "-linux-amd64.tar.gz",
+            sha256 = "daae08cc21d639bb88697d6caae7efc8eb17c44ff30aff7e801bd4d34ac8372c",
             resources = {
                 {
-                    path = name .. "-v" .. version .. "-linux-amd64",
+                    path = name,
                     installpath = "bin/" .. name,
                     executable = true
                 }
@@ -38,12 +36,11 @@ food = {
         {
             os = "windows",
             arch = "amd64",
-            url = "https://github.com/segmentio/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. "-windows-amd64.exe",
-            -- shasum of the release archive
-            sha256 = "8bdf5ddb865cd095cb47eabeb4c4c89aec4aff4215b6be8a0f23aebbd94635af",
+            url = "https://github.com/terraform-docs/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. "-windows-amd64.zip",
+            sha256 = "8af86bea8b6bd65798aba30f6c6da778614d0c66b9007dd05c5605fc71913c53",
             resources = {
                 {
-                    path = name .. "-v" .. version .. "-windows-amd64.exe",
+                    path = name .. ".exe",
                     installpath = "bin\\" .. name,
                     executable = true
                 }
