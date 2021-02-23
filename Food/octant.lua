@@ -1,5 +1,5 @@
 local name = "octant"
-local version = "0.15.0"
+local version = "0.17.0"
 
 food = {
     name = name,
