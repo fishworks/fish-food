@@ -1,5 +1,5 @@
 local name = "bicep"
-local version = "0.2.328"
+local version = "0.3.1"
 local release = "v" .. version
 
 
@@ -14,7 +14,7 @@ food = {
             arch = "amd64",
             url = "https://github.com/Azure/" .. name .. "/releases/download/" .. release .. "/" .. name .. "-osx-x64",
             -- shasum of the release archive
-            sha256 = "939bd7dfe3be66c8d800de482ed0aba0dc0bf16a9abad564346e597ac0d81c05",
+            sha256 = "89351c783d05ea00aad6ffedfce83ad9b5036313d76f4d255fc48fb030bcc9a7",
             resources = {
                 {
                     path = name .. "-osx-x64",
@@ -28,7 +28,7 @@ food = {
             arch = "amd64",
             url = "https://github.com/Azure/" .. name .. "/releases/download/" .. release .. "/" .. name .. "-linux-x64",
             -- shasum of the release archive
-            sha256 = "1cc91367eb22019e73e852fc0289da80e2063be72dbf361e6592dccdbb8571a7",
+            sha256 = "1086389858f0f63715fb21cf744c7c8e045c00162404c1d4acfaff072857b1d8",
             resources = {
                 {
                     path = name .. "-linux-x64",
@@ -42,7 +42,7 @@ food = {
             arch = "amd64",
             url = "https://github.com/Azure/" .. name .. "/releases/download/" .. release .. "/" .. name .. "-win-x64.exe",
             -- shasum of the release archive
-            sha256 = "4d9f635abfa950b1e2bd32e5a72d8eb7a31d24a3401d71c4e21324a291f11134",
+            sha256 = "3b885fba1d215ff516bd2265fea977178c6242f4ec255ae2025d4660c0f06e32",
             resources = {
                 {
                     path = name .. "-win-x64.exe",
