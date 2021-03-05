@@ -1,5 +1,5 @@
 local name = "gh"
-local version = "1.6.2"
+local version = "1.7.0"
 
 food = {
     name = name,
@@ -12,7 +12,7 @@ food = {
             arch = "amd64",
             url = "https://github.com/cli/cli/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_macOS_amd64.tar.gz",
             -- shasum of the release archive
-            sha256 = "b9534cb9927d8ec658db73256a35a19b3e1dd216bf185954ecc92bc27b913f79",
+            sha256 = "1fe7c9679067ceb2348cd18f556dfbba3447c77fbe874d4decb499e955df9980",
             resources = {
                 {
                     path = name .. "_" .. version .. "_macOS_amd64" .. "/bin/" .. name,
@@ -26,7 +26,7 @@ food = {
             arch = "amd64",
             url = "https://github.com/cli/cli/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_linux_amd64.tar.gz",
             -- shasum of the release archive
-            sha256 = "f7d858ff84b2f60793a989399ec12d0d7d8067192e87cf59bd74b1196ac0f5fa",
+            sha256 = "30299170a8e48fa88f0d85613dd93bffc806761d902c8144809f80092759513f",
             resources = {
                 {
                     path = name .. "_" .. version .. "_linux_amd64" .. "/bin/" .. name,
@@ -40,7 +40,7 @@ food = {
             arch = "amd64",
             url = "https://github.com/cli/cli/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_windows_amd64.zip",
             -- shasum of the release archive
-            sha256 = "c8e5cffbc818f66bf644d38b4cac65aa500a8888fe28970e98b601a3472f8300",
+            sha256 = "8574f8eda8b20b131201b72c68d88f9ac25400379932c9100ffd30b1a751959b",
             resources = {
                 {
                     path = "bin/" .. name .. ".exe",
