@@ -1,5 +1,5 @@
 local name = "krustlet"
-local version = "0.6.0"
+local version = "0.7.0"
 local release = "v" .. version
 local wasi = name .. "-wasi"
 local wascc = name .. "-wascc"
@@ -15,7 +15,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://krustlet.blob.core.windows.net/releases/" .. name .. "-" .. release .. "-macos-amd64.tar.gz",
-            sha256 = "a49bdc6b52ef575fd73c2c3a03ab3b1a33292be06950d91d1745611055d39509",
+            sha256 = "1fb4d2f133562244e2f68952b8f8b0ce81e2cde4e6e4579f0bd99efb1e9821e9",
             resources = {
                 {
                     path = wasi,
@@ -33,7 +33,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://krustlet.blob.core.windows.net/releases/" .. name .. "-" .. release .. "-linux-amd64.tar.gz",
-            sha256 = "e41912515b4cee30abbc866f25e37bc0147d2f219a10c56a1be93f31ca428724",
+            sha256 = "8863d602f9f1e488a11291d4fe8d7dff5de7247659d1cdc20bdeebbe999cc105",
             resources = {
                 {
                     path = wasi,
