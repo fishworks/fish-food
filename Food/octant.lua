@@ -1,21 +1,21 @@
 local name = "octant"
-local version = "0.17.0"
-
+local release = "v0.18.0"
+local version = "0.18.0"
 food = {
     name = name,
-    description = "Highly extensible platform for developers to better understand the complexity of Kubernetes clusters",
-    homepage = "https://github.com/vmware-tanzu/octant",
+    description = "Highly extensible platform for developers to better understand the complexity of Kubernetes clusters.",
+    license = "Apache-2.0",
+    homepage = "https://octant.dev",
     version = version,
     packages = {
         {
             os = "darwin",
             arch = "amd64",
-            url = "https://github.com/vmware-tanzu/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_macOS-64bit.tar.gz",
-            -- shasum of the release archive
-            sha256 = "ca379e2680e1cf4a0b753fc389de6f700be985b63244ded6cc72d1e3b3f69730",
+            url = "https://github.com/vmware-tanzu/" .. name .. "/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_macOS-64bit.tar.gz",
+            sha256 = "b30bd351daa1c67d7c27ca9c67065e4ab97c294badffc63d454fda07e44edb24",
             resources = {
                 {
-                    path = "octant_" .. version .. "_macOS-64bit/" .. name,
+                    path = name,
                     installpath = "bin/" .. name,
                     executable = true
                 }
@@ -24,12 +24,11 @@ food = {
         {
             os = "linux",
             arch = "amd64",
-            url = "https://github.com/vmware-tanzu/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_Linux-64bit.tar.gz", 
-            -- shasum of the release archive
-            sha256 = "9f10ef7a0ae7f4dffa18da66d608c63c0116c6709eab1e0db75a17da3f165d98",
+            url = "https://github.com/vmware-tanzu/" .. name .. "/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_Linux-64bit.tar.gz",
+            sha256 = "16550c2de2492bac62ec257934be087af7ec9f05925042bf9fd7034493f62350",
             resources = {
                 {
-                    path = "octant_" .. version .. "_Linux-64bit/" .. name,
+                    path = name,
                     installpath = "bin/" .. name,
                     executable = true
                 }
@@ -38,16 +37,14 @@ food = {
         {
             os = "windows",
             arch = "amd64",
-            url = "https://github.com/vmware-tanzu/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_Windows-64bit.zip",
-            -- shasum of the release archive
-            sha256 = "5c5b10c2d97997a8c051f1c8625762a56603a708050f343098717480fed45c4f",
+            url = "https://github.com/vmware-tanzu/" .. name .. "/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_Windows-64bit.zip",
+            sha256 = "490c8524fa7fcfa364b5200da255e0265df41ea61646f12a8a508b67d5127ea3",
             resources = {
                 {
-                    path = "octant_" .. version .. "_Windows-64bit/" .. name .. ".exe",
+                    path = name .. ".exe",
                     installpath = "bin\\" .. name .. ".exe"
                 }
             }
         }
     }
 }
-
