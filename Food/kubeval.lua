@@ -1,6 +1,6 @@
 local name = "kubeval"
-local release = "0.15.0"
-local version = "0.15.0"
+local release = "0.16.0"
+local version = "0.16.0"
 food = {
     name = name,
     description = "Validate your Kubernetes configuration files, supports multiple Kubernetes versions",
@@ -12,7 +12,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/instrumenta/" .. name .. "/releases/download/" .. release .. "/" .. name .. "-darwin-amd64.tar.gz",
-            sha256 = "f445e9a7ff30645fb3850cdbdf9031095b14d5a9e524113dad6fc76d6e11d605",
+            sha256 = "14c82cb404be7939f1e27136cfaed16136762b4128571f679be7758540e62050",
             resources = {
                 {
                     path = name,
@@ -25,7 +25,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/instrumenta/" .. name .. "/releases/download/" .. release .. "/" .. name .. "-linux-amd64.tar.gz",
-            sha256 = "70bff2642a2886c0d9ebea452ffb81f333a956e26bbe0826fd7c6797e343e5aa",
+            sha256 = "8f37cd3f1bac0f52112530ae7f7334edbc4ec5044ac3d1b010d0c413777e4b0a",
             resources = {
                 {
                     path = name,
@@ -38,7 +38,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/instrumenta/" .. name .. "/releases/download/" .. release .. "/" .. name .. "-windows-amd64.zip",
-            sha256 = "1d03ced8490fdc1625348fedb47da9cd5afc9e77205618756823c5a5abf9d8d1",
+            sha256 = "94d22562046505fe375ce02daafe91cd45560ef6974f903b28d2c0a24cc1fb9e",
             resources = {
                 {
                     path = name .. ".exe",
