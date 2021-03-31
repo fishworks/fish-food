@@ -2,7 +2,6 @@ local name = "krustlet"
 local version = "0.7.0"
 local release = "v" .. version
 local wasi = name .. "-wasi"
-local wascc = name .. "-wascc"
 
 food = {
     name = name,
@@ -21,11 +20,6 @@ food = {
                     path = wasi,
                     installpath = "bin/" .. wasi,
                     executable = true
-                },
-                {
-                    path = wascc,
-                    installpath = "bin/" .. wascc,
-                    executable = true
                 }
             }
         },
@@ -38,11 +32,6 @@ food = {
                 {
                     path = wasi,
                     installpath = "bin/" .. wasi,
-                    executable = true
-                },
-                {
-                    path = wascc,
-                    installpath = "bin/" .. wascc,
                     executable = true
                 }
             }
