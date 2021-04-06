@@ -1,7 +1,7 @@
 local name = "fluxctl"
 local org = "fluxcd"
-local release = "1.22.0"
-local version = "1.22.0"
+local release = "1.22.1"
+local version = "1.22.1"
 food = {
     name = name,
     description = "The GitOps Kubernetes operator",
@@ -13,7 +13,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/fluxcd/flux/releases/download/" .. release .. "/" .. name .. "_darwin_amd64",
-            sha256 = "7bcdcc245e74b602aeaafe59f9bd0bdc927cc679926dc8ad3e1c3d06809bfe52",
+            sha256 = "d1753ab7bf0262f408c8510dde23be944d64778d269a303f6039638efd415af6",
             resources = {
                 {
                     path = name .. "_darwin_amd64",
@@ -26,7 +26,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/fluxcd/flux/releases/download/" .. release .. "/" .. name .. "_linux_amd64",
-            sha256 = "bc3c5c1f4b82ddc6f5c56b5c2a12a0e695950d53ab77f7c52b893dbcb0625def",
+            sha256 = "991f77ec238b26238819c654455adf28e7f58f43a891011212f060a34af51b08",
             resources = {
                 {
                     path = name .. "_linux_amd64",
@@ -39,7 +39,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/fluxcd/flux/releases/download/" .. release .. "/" .. name .. "_windows_amd64",
-            sha256 = "8848a5d00ddf9e1811801c1a9eba103640df56d004595ed8cfec86c70ce8fc4f",
+            sha256 = "6e3abe108744cbe31c2501f91ef7a9df3ee1bf5f5a4feb0a51b9bdf1232662bd",
             resources = {
                 {
                     path = name .. "_windows_amd64",
