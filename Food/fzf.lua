@@ -1,10 +1,9 @@
 local name = "fzf"
-local version = "0.23.1"
-local githubReleaseDownloadURL = "https://github.com/junegunn/fzf-bin/releases/download"
-
+local release = "0.27.0"
+local version = "0.27.0"
 food = {
     name = name,
-    description = "A command-line fuzzy finder",
+    description = ":cherry_blossom: A command-line fuzzy finder",
     license = "MIT",
     homepage = "https://github.com/junegunn/fzf",
     version = version,
@@ -12,8 +11,8 @@ food = {
         {
             os = "darwin",
             arch = "amd64",
-            url = githubReleaseDownloadURL .. "/" .. version .. "/" .. name .. "-" .. version .. "-darwin_amd64.tgz",
-            sha256 = "a2d71a72503acd77f8cd3f20a3cc05a98ff2b5b03a50ab8861144f7f95fd6b21",
+            url = "https://github.com/junegunn/" .. name .. "/releases/download/" .. release .. "/" .. name .. "-" .. version .. "-darwin_amd64.zip",
+            sha256 = "d1c4093b622f5b7c96f0ed6cd6565feef0b8201d34fbb42d8c652f8ef30365b2",
             resources = {
                 {
                     path = name,
@@ -25,8 +24,8 @@ food = {
         {
             os = "linux",
             arch = "amd64",
-            url = githubReleaseDownloadURL .. "/" .. version .. "/" .. name .. "-" .. version .. "-linux_amd64.tgz",
-            sha256 = "60085e86e65cd0ccfafbf3af1f9cf19a8379ec5ef9e5e5322c7b265079a6617c",
+            url = "https://github.com/junegunn/" .. name .. "/releases/download/" .. release .. "/" .. name .. "-" .. version .. "-linux_amd64.tar.gz",
+            sha256 = "1794d7f89a7e0a3d5fcb010c042fef097e5cfdf306ef45b532c4ac0e6ce276a1",
             resources = {
                 {
                     path = name,
@@ -38,13 +37,12 @@ food = {
         {
             os = "windows",
             arch = "amd64",
-            url = githubReleaseDownloadURL .. "/" .. version .. "/" .. name .. "-" .. version .. "-windows_amd64.zip",
-            sha256 = "87f4d87c8065cac1ecc81bb8cee5dffd18f00d07d132f0eb15a4dc0034350bdf",
+            url = "https://github.com/junegunn/" .. name .. "/releases/download/" .. release .. "/" .. name .. "-" .. version .. "-windows_amd64.zip",
+            sha256 = "81df7f29bd1121f8326bba961b365b50afecdcee0c09845d44afec0a52fc50a1",
             resources = {
                 {
-                    path = name,
-                    installpath = "bin\\" .. name .. ".exe",
-                    executable = true
+                    path = name .. ".exe",
+                    installpath = "bin\\" .. name .. ".exe"
                 }
             }
         }
