@@ -1,5 +1,5 @@
 local name = "saml2aws"
-local version = "2.28.4"
+local version = "2.29.0"
 local release = "v" .. version
 
 food = {
@@ -13,7 +13,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/Versent/" .. name .. "/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_darwin_amd64.tar.gz",
-            sha256 = "389d8a233f69ad40b84b955e3ea1a7ee5578e7888bb74044c09d029534310c82",
+            sha256 = "4ed089322ecf8b41be4e9f55747d0ad608b04193a351292bb585295e98d9eaba",
             resources = {
                 {
                     path = name,
@@ -26,7 +26,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/Versent/" .. name .. "/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_linux_amd64.tar.gz",
-            sha256 = "d29eff4f1a76f0ad2099910086babdd8ba01a756582407c61b6c62a00e368236",
+            sha256 = "06d0e70405a2c2e719759098523c97acb4c3afce4191d5e56e2db11e1ae3d8d6",
             resources = {
                 {
                     path = name,
@@ -39,7 +39,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/Versent/" .. name .. "/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_windows_amd64.zip",
-            sha256 = "123add8e968fb59a7bc8d3aed137d360f9c7e9f07487c691afbe5f1196b4cb1f",
+            sha256 = "0896a1bb0fd5a30c231d8b3e19093449a282f19e159764b7071b16be59651a8d",
             resources = {
                 {
                     path = name .. ".exe",
