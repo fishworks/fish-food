@@ -41,7 +41,7 @@ food = {
             sha256 = "430fe1a253e39885db4760b5f53abaa29d4ba1bd7ab41bf30ab098a2fd01573f",
             resources = {
                 {
-                    path = "istio-" .. version .. "/bin/" .. name .. "exe",
+                    path = "istio-" .. version .. "/bin/" .. name .. ".exe",
                     installpath = "bin\\" .. name .. ".exe"
                 }
             }
