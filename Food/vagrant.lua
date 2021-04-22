@@ -1,5 +1,5 @@
 local name = "vagrant"
-local version = "2.2.14"
+local version = "2.2.15"
 
 food = {
     name = name,
@@ -12,7 +12,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://releases.hashicorp.com/" .. name .. "/" .. version .. "/" .. name .. "_" .. version .. "_linux_amd64.zip",
-            sha256 = "e811ac3318f394175a4877ad51fc1f3382ae0a1d735e3786fdec1764c80aca5a",
+            sha256 = "426acf095abb143b07d4f27382661ed02a2e91aea58a8a6f16c62a74693ffa20",
             resources = {
                 {
                     path = name,
