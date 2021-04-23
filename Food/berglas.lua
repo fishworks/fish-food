@@ -41,7 +41,7 @@ food = {
             sha256 = "db857c9f9a4d441074ab645fb95f63a78a7a1838fbc796c2963941dd8a6ec53c",
             resources = {
                 {
-                    path = name .. ".exe",
+                    path = name,
                     installpath = "bin\\" .. name .. ".exe"
                 }
             }
