@@ -92,7 +92,7 @@ food = {
             sha256 = "217be149449fb40efb34f643512739bdb145aa2e138ac46d3b6972c907f11cc7",
             resources = {
                 {
-                    path = name .. "-win-386",
+                    path = name .. "-win-386.exe",
                     installpath = "bin\\" .. name .. ".exe"
                 }
             }
@@ -104,7 +104,7 @@ food = {
             sha256 = "254e89ce2243f0513df56f62573e5bca3fdb4efd48a6c58ad4c57e9a4b5ba6d7",
             resources = {
                 {
-                    path = name .. "-win-amd64",
+                    path = name .. "-win-amd64.exe",
                     installpath = "bin\\" .. name .. ".exe"
                 }
             }
