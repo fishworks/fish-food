@@ -15,7 +15,7 @@ food = {
             sha256 = "bb7e51429ff03a2c065873c3bd9e7448af1b9733a4b58b71de12bc4a728879de",
             resources = {
                 {
-                    path = name .. "-0.7.5-darwin-amd64",
+                    path = name .. "-" .. version .. "-darwin-amd64",
                     installpath = "bin/" .. name,
                     executable = true
                 }
@@ -28,7 +28,7 @@ food = {
             sha256 = "e2949316cdfe360374b76d45ea512f603b42c0db693a70a6a4c11624aa200b8c",
             resources = {
                 {
-                    path = name .. "-0.7.5-linux-amd64",
+                    path = name .. "-" .. version .. "-linux-amd64",
                     installpath = "bin/" .. name,
                     executable = true
                 }
@@ -41,7 +41,7 @@ food = {
             sha256 = "bffb1499d62c46b70dd25d557b653f812ccdc8b4bfb08473c063a6265faf78b3",
             resources = {
                 {
-                    path = name,
+                    path = name .. "-" .. version .. "-windows-amd64",
                     installpath = "bin\\" .. name .. ".exe"
                 }
             }
