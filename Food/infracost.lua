@@ -1,5 +1,5 @@
 local name = "infracost"
-local version = "0.7.13"
+local version = "0.8.5"
 
 food = {
     name = name,
@@ -12,7 +12,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/" .. name .. "/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-darwin-amd64.tar.gz",
-            sha256 = "b9197467ecf8f66b58886b6f7bf7ee212bc3ef51586d57847b40e29df4db8013",
+            sha256 = "c2218bcb57c41c267b453fd56beb06034d348c88ad6d5e8e7b253f21017ba30b",
             resources = {
                 {
                     path = name .. "-darwin-amd64",
@@ -25,7 +25,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/" .. name .. "/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-linux-amd64.tar.gz",
-            sha256 = "5fa6bbc2b46e41697b5d25e56e46157d0cda08506236dc56be021cb6f7d06762",
+            sha256 = "37103c8606dd6cc510313406efd9b2f087e6ea7b4030eeda0accd50d031ed9d7",
             resources = {
                 {
                     path = name .. "-linux-amd64",
@@ -38,10 +38,10 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/" .. name .. "/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-windows-amd64.tar.gz",
-            sha256 = "6fa983ec650d4b3ebb3f8e1ad3d8228ddbaa116ddef2d53779bc6cf06ca3fa26",
+            sha256 = "6c476c153f509c3cb5c57c81a31d8d374e6e4a0bc2378d636d43e4017f3987e7",
             resources = {
                 {
-                    path = name .. "-windows-amd64" .. ".exe",
+                    path = name .. "-windows-amd64",
                     installpath = "bin\\" .. name .. ".exe"
                 }
             }
