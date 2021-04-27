@@ -1,5 +1,5 @@
 local name = "buffalo"
-local version = "0.16.22"
+local version = "0.16.23"
 local release = "v" .. version
 
 food = {
@@ -13,7 +13,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/gobuffalo/" .. name .. "/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_Darwin_x86_64.tar.gz",
-            sha256 = "700bec471cdc4a326013b2eeca229393c2743db9582628c433a558a8d9b0adb8",
+            sha256 = "95a3ed8e99a942f5117766cd2f82f8be4a88131307bc1493f4f28ca0efd4ded5",
             resources = {
                 {
                     path = name,
@@ -26,7 +26,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/gobuffalo/" .. name .. "/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_Linux_x86_64.tar.gz",
-            sha256 = "559e21da237edfb95ecb747c468d28a2915bd8deadd3a89596f48ea810828326",
+            sha256 = "603258ee05ab9b8489bd93f41222132cb0a1ce9c6784c3f066b39af6137daffa",
             resources = {
                 {
                     path = name,
@@ -39,7 +39,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/gobuffalo/" .. name .. "/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_Windows_x86_64.tar.gz",
-            sha256 = "37e775934b3b9b356a572b6ff151cd34701127c8554c9b27f51152b2cdab009d",
+            sha256 = "21a6632e479eb289ebdb5cc7bcea5c6be655c118a397c8fac4e473d37afbf5a7",
             resources = {
                 {
                     path = name .. ".exe",
