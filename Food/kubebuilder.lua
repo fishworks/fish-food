@@ -12,11 +12,11 @@ food = {
         {
             os = "darwin",
             arch = "amd64",
-            url = "https://github.com/kubernetes-sigs/" .. name .. "/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_darwin_amd64.tar.gz",
-            sha256 = "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5",
+            url = "https://github.com/kubernetes-sigs/" .. name .. "/releases/download/" .. release .. "/" .. name .. "_darwin_amd64",
+            sha256 = "c8bcbb32de6a6e17676a21ce202d2da7d97f342582f42d4dfe672260b7f2c100",
             resources = {
                 {
-                    path = name .. "_" .. version .. "_darwin_amd64" .. "/bin/" .. name,
+                    path = name .. "_darwin_amd64",
                     installpath = "bin/" .. name,
                     executable = true
                 }
@@ -25,11 +25,11 @@ food = {
         {
             os = "linux",
             arch = "amd64",
-            url = "https://github.com/kubernetes-sigs/" .. name .. "/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_linux_amd64.tar.gz",
-            sha256 = "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5",
+            url = "https://github.com/kubernetes-sigs/" .. name .. "/releases/download/" .. release .. "/" .. name .. "_linux_amd64",
+            sha256 = "d762c5cd954f9eb8620c64d27fc413e383e8100108d9edaee2211457165d2dff",
             resources = {
                 {
-                    path = name .. "_" .. version .. "_linux_amd64" .. "/bin/" .. name,
+                    path = name .. "_linux_amd64",
                     installpath = "bin/" .. name,
                     executable = true
                 }
