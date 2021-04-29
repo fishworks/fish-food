@@ -1,5 +1,5 @@
 local name = "kubebuilder"
-local version = "2.3.2"
+local version = "3.0.0"
 local release = "v" .. version
 
 food = {
@@ -13,7 +13,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/kubernetes-sigs/" .. name .. "/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_darwin_amd64.tar.gz",
-            sha256 = "7e7dc6f5b106909a13a24beea73427940a6ed81a8dea66d65b185dc2c71dcc28",
+            sha256 = "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5",
             resources = {
                 {
                     path = name .. "_" .. version .. "_darwin_amd64" .. "/bin/" .. name,
@@ -26,7 +26,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/kubernetes-sigs/" .. name .. "/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_linux_amd64.tar.gz",
-            sha256 = "c65b86f497726fcb8b887d55c10a68e38a503aa736c0d02b2cce11df267ad91d",
+            sha256 = "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5",
             resources = {
                 {
                     path = name .. "_" .. version .. "_linux_amd64" .. "/bin/" .. name,
