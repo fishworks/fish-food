@@ -1,5 +1,5 @@
 local name = "glooctl"
-local version = "1.7.2"
+local version = "1.7.3"
 
 food = {
     name = name,
@@ -12,7 +12,7 @@ food = {
             arch = "amd64",
             url = "https://github.com/solo-io/gloo/releases/download/v" .. version .. "/" .. name .. "-darwin-amd64",
             -- shasum of the release archive
-            sha256 = "9e2509da0f14feccee81c9207dffe43818308bd2cb0ac3a547b1f6c8d4c1c2e6",
+            sha256 = "fa8529ad827e5ec9064934a6486cb7f3a8e6819bf4a11ab4ff025486abc0703b",
             resources = {
                 {
                     path = name .. "-darwin-amd64",
@@ -26,7 +26,7 @@ food = {
             arch = "amd64",
             url = "https://github.com/solo-io/gloo/releases/download/v" .. version .. "/" .. name .. "-linux-amd64",
             -- shasum of the release archive
-            sha256 = "425308eccf8947fbfc3e70f68f5240bb0689c91ae58e600483e5014ec20dafd7",
+            sha256 = "2b26c705596aae561f972dd7f576735a8d6e2f8fb424b5b4d48f4d16237004ff",
             resources = {
                 {
                     path = name .. "-linux-amd64",
@@ -40,7 +40,7 @@ food = {
             arch = "amd64",
             url = "https://github.com/solo-io/gloo/releases/download/v" .. version .. "/" .. name .. "-windows-amd64.exe",
             -- shasum of the release archive
-            sha256 = "14c89bc9895521e7c0af28c0c2daf20e2a32e2063d73be082d3868181c6395c0",
+            sha256 = "07b82ef1c4229e170c28b2668d1cf28800fb161810b58ca397fa41c9435669e3",
             resources = {
                 {
                     path = name .. "-windows-amd64" .. ".exe",
