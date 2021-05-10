@@ -1,5 +1,5 @@
 local name = "act"
-local version = "0.2.21"
+local version = "0.2.22"
 
 food = {
     name = name,
@@ -12,7 +12,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/nektos/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "_Darwin_x86_64.tar.gz",
-            sha256 = "f88cc57844d942fe6c87466804daec6b1071e5ac8f734dcfdfed6b505af55957",
+            sha256 = "256143c67d22906739244bdddb1142f0f72752c61b47098159f3afc6e894ae7d",
             resources = {
                 {
                     path = name,
@@ -25,7 +25,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/nektos/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "_Linux_x86_64.tar.gz",
-            sha256 = "6519ceb385b55c6fc936eaa00a44413d425a8c2f78204756a00980098935dfde",
+            sha256 = "49446600a0555d3f6c61deb01bd6495bb868b6e8547cc04123f67ce6099db095",
             resources = {
                 {
                     path = name,
@@ -38,7 +38,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/nektos/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "_Windows_x86_64.zip",
-            sha256 = "34f287d28a51e5eb5e750710cf35e1596e266d3c6a32b7a9f8d73ad0371e9e67",
+            sha256 = "ccc06a0d16525b35b670067c361aeba591b265d2afb348f5c065562fd8c96c59",
             resources = {
                 {
                     path = name .. ".exe",
