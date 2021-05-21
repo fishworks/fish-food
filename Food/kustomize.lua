@@ -1,5 +1,5 @@
 local name = "kustomize"
-local version = "4.1.2"
+local version = "4.1.3"
 
 food = {
     name = name,
@@ -12,7 +12,7 @@ food = {
             arch = "amd64",
             url = "https://github.com/kubernetes-sigs/" .. name .. "/releases/download/" .. name .. "%2Fv" .. version .. "/" .. name .. "_v" .. version .. "_darwin_amd64.tar.gz",
             -- shasum of the release archive
-            sha256 = "08bf3888391a526d247aead55b6bd940574bba238d9d32aa40c0adb4998f812e",
+            sha256 = "f1e54fdb659a68e5ec0a65aa52868bcc32b18fd3bc2b545db890ba261d3781c4",
             resources = {
                 {
                     path = name,
@@ -26,7 +26,7 @@ food = {
             arch = "amd64",
             url = "https://github.com/kubernetes-sigs/" .. name .. "/releases/download/" .. name .. "%2Fv" .. version .. "/" .. name .. "_v" .. version .. "_linux_amd64.tar.gz",
             -- shasum of the release archive
-            sha256 = "4efb7d0dadba7fab5191c680fcb342c2b6f252f230019cf9cffd5e4b0cad1d12",
+            sha256 = "f028cd2b675d215572d54634311777aa475eb5612fb8a70d84b957c4a27a861e",
             resources = {
                 {
                     path = name,
@@ -40,7 +40,7 @@ food = {
             arch = "amd64",
             url = "https://github.com/kubernetes-sigs/" .. name .. "/releases/download/" .. name .. "%2Fv" .. version .. "/" .. name .. "_v" .. version .. "_windows_amd64.tar.gz",
             -- shasum of the release archive
-            sha256 = "6074f536a4ded829cc56e75078932836a1a8a5bd154d82c1470999128022b2ed",
+            sha256 = "67a21b674a8dad5e027224c3426e496028e10a65e779e950d07e5d6d8c1d9d2d",
             resources = {
                 {
                     path = name .. ".exe",
