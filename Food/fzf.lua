@@ -1,6 +1,6 @@
 local name = "fzf"
-local release = "0.27.0"
-local version = "0.27.0"
+local release = "0.27.1"
+local version = "0.27.1"
 food = {
     name = name,
     description = ":cherry_blossom: A command-line fuzzy finder",
@@ -12,7 +12,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/junegunn/" .. name .. "/releases/download/" .. release .. "/" .. name .. "-" .. version .. "-darwin_amd64.zip",
-            sha256 = "d1c4093b622f5b7c96f0ed6cd6565feef0b8201d34fbb42d8c652f8ef30365b2",
+            sha256 = "df29e1a63f8f4555109804fa1cfb944aa644fc4ba40bb0ddde9ef67b134bfcce",
             resources = {
                 {
                     path = name,
@@ -25,7 +25,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/junegunn/" .. name .. "/releases/download/" .. release .. "/" .. name .. "-" .. version .. "-linux_amd64.tar.gz",
-            sha256 = "1794d7f89a7e0a3d5fcb010c042fef097e5cfdf306ef45b532c4ac0e6ce276a1",
+            sha256 = "064497717c8968a371e15a52ef40194e6a0b2bb2b8079ae6abf9602a5ef0914f",
             resources = {
                 {
                     path = name,
@@ -38,7 +38,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/junegunn/" .. name .. "/releases/download/" .. release .. "/" .. name .. "-" .. version .. "-windows_amd64.zip",
-            sha256 = "81df7f29bd1121f8326bba961b365b50afecdcee0c09845d44afec0a52fc50a1",
+            sha256 = "525ea7743e739097020c92a9ae4fa25cbd053443802dad6d582ab1456afb171f",
             resources = {
                 {
                     path = name .. ".exe",
