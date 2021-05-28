@@ -1,6 +1,6 @@
 local name = "kind"
-local release = "v0.11.0"
-local version = "0.11.0"
+local release = "v0.11.1"
+local version = "0.11.1"
 food = {
     name = name,
     description = "Kubernetes IN Docker - local clusters for testing Kubernetes",
@@ -12,7 +12,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/kubernetes-sigs/" .. name .. "/releases/download/" .. release .. "/" .. name .. "-darwin-amd64",
-            sha256 = "930bd1d7c7e6ec9e0130f58930b9265c41e362073b7f8746c518c346cdbdac2e",
+            sha256 = "432bef555a70e9360b44661c759658265b9eaaf7f75f1beec4c4d1e6bbf97ce3",
             resources = {
                 {
                     path = name .. "-darwin-amd64",
@@ -25,7 +25,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/kubernetes-sigs/" .. name .. "/releases/download/" .. release .. "/" .. name .. "-linux-amd64",
-            sha256 = "e778b00f75c2c902c41ea5dceb23bbb9a5ad7274cfc1b3f7e0e2da881f4f7fd6",
+            sha256 = "949f81b3c30ca03a3d4effdecda04f100fa3edc07a28b19400f72ede7c5f0491",
             resources = {
                 {
                     path = name .. "-linux-amd64",
@@ -38,7 +38,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/kubernetes-sigs/" .. name .. "/releases/download/" .. release .. "/" .. name .. "-windows-amd64",
-            sha256 = "a74e7338378458d8a09ab2944ddfbdf7541f775486de977038817cc29376118a",
+            sha256 = "d309d8056cec8bcabb24e185200ef8f9702e0c01a9ec8a7f7185fe956783ed97",
             resources = {
                 {
                     path = name .. "-windows-amd64",
