@@ -36,6 +36,19 @@ food = {
             }
         },
         {
+            os = "linux",
+            arch = "arm64",
+            url = "https://github.com/fluxcd/flux2/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_linux_arm64.tar.gz",
+            sha256 = "dd740fb16864470ae50db13ecaad6915fede7665f59a174ec4528fd8a5027eb7",
+            resources = {
+                {
+                    path = name,
+                    installpath = "bin/" .. name,
+                    executable = true
+                }
+            }
+        },
+        {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/fluxcd/flux2/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_windows_amd64.zip",
