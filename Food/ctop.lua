@@ -1,6 +1,6 @@
 local name = "ctop"
-local release = "v0.7.5"
-local version = "0.7.5"
+local release = "0.7.6"
+local version = "0.7.6"
 food = {
     name = name,
     description = "Top-like interface for container metrics",
@@ -12,7 +12,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/bcicen/" .. name .. "/releases/download/" .. release .. "/" .. name .. "-" .. version .. "-darwin-amd64",
-            sha256 = "bb7e51429ff03a2c065873c3bd9e7448af1b9733a4b58b71de12bc4a728879de",
+            sha256 = "1598866d645e5d3e9b5279b5a4c8e4b2228492bf041888a451a22d4e9aff4e28",
             resources = {
                 {
                     path = name .. "-" .. version .. "-darwin-amd64",
@@ -25,7 +25,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/bcicen/" .. name .. "/releases/download/" .. release .. "/" .. name .. "-" .. version .. "-linux-amd64",
-            sha256 = "e2949316cdfe360374b76d45ea512f603b42c0db693a70a6a4c11624aa200b8c",
+            sha256 = "c5f8da250ec733084fb3891f2f8d04a49ffd25e81af59079216f2e6bb35fd983",
             resources = {
                 {
                     path = name .. "-" .. version .. "-linux-amd64",
@@ -38,7 +38,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/bcicen/" .. name .. "/releases/download/" .. release .. "/" .. name .. "-" .. version .. "-windows-amd64",
-            sha256 = "bffb1499d62c46b70dd25d557b653f812ccdc8b4bfb08473c063a6265faf78b3",
+            sha256 = "8e9badf4f03e289a551694604fef2df9584d0ec17787fd54aefa1b950dd63e17",
             resources = {
                 {
                     path = name .. "-" .. version .. "-windows-amd64",
