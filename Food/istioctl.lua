@@ -1,5 +1,5 @@
 local name = "istioctl"
-local version = "1.10.0"
+local version = "1.10.1"
 
 food = {
     name = name,
@@ -12,7 +12,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/istio/istio" .. "/releases/download/" .. version .. "/istio" .. "-" .. version .. "-osx.tar.gz",
-            sha256 = "728bba3f05b66c96a90afbaa17e663061869657fe6359ed3b77fb5f887b5c6d8",
+            sha256 = "2c58c8cbb380484392b00f8d514ab732a2efc00db14a2f57413141adf3512f9e",
             resources = {
                 {
                     path = "istio-" .. version .. "/bin/" .. name ,
@@ -25,7 +25,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/istio/istio" .. "/releases/download/" .. version .. "/istio" .. "-" .. version .. "-linux-amd64.tar.gz",
-            sha256 = "1d00a2ea0cb7608ce2266fc65572ac9316978b01c0c2c8dd8c65efcb63f5fe97",
+            sha256 = "f7da085b39bfde4a635a48656c69cbf83031ab115a8f55166ee4cb60a710fa58",
             resources = {
                 {
                     path = "istio-" .. version .. "/bin/" .. name ,
@@ -38,7 +38,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/istio/istio" .. "/releases/download/" .. version .. "/istio" .. "-" .. version .. "-win.zip",
-            sha256 = "6df946c1be0bc483e349324a27399c9cec3e30f837f5865776bdb2ae972ac1f4",
+            sha256 = "d4fcf5df7be9d2f3fd90de66df5a682bea2f57d10396b8d07a09bbe787b76ffd",
             resources = {
                 {
                     path = "istio-" .. version .. "/bin/" .. name .. ".exe",
