@@ -11,7 +11,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/anycable/anycable-go/releases/download/v" .. version .. "/anycable-go-darwin-amd64",
-            sha256 = "d880de0509a8468bde6b29024d68a73eeb88ec3294c7acd949ebeb1a36f8c19c",
+            sha256 = "2a675c45ef93a6bf9ba7455a409b51047fc2c5786fe85f6cafc55138c618a321",
             resources = {
                 {
                     path = name .. "-darwin-amd64",
