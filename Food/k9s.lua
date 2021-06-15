@@ -1,5 +1,5 @@
 local name = "k9s"
-local version = "0.24.9"
+local version = "0.24.10"
 local release = "v" .. version
 
 food = {
@@ -12,8 +12,8 @@ food = {
         {
             os = "darwin",
             arch = "amd64",
-            url = "https://github.com/derailed/" .. name .. "/releases/download/" .. release .. "/" .. name .. "_Darwin_x86_64.tar.gz",
-            sha256 = "8847ff5c3fa0352746384f6fdc89f1dea4703bf0ad44aba0176305583667bf38",
+            url = "https://github.com/derailed/" .. name .. "/releases/download/" .. release .. "/" .. name .. "_" .. release .. "_Darwin_x86_64.tar.gz",
+            sha256 = "742fdc53d7e2f3b9bbd78de45b7dc9e453f84f5d3f6e594c057d4d823d8dda42",
             resources = {
                 {
                     path = name,
@@ -25,8 +25,8 @@ food = {
         {
             os = "linux",
             arch = "amd64",
-            url = "https://github.com/derailed/" .. name .. "/releases/download/" .. release .. "/" .. name .. "_Linux_x86_64.tar.gz",
-            sha256 = "18d68347b5f6427724a9b5645c211c61678a00138ad050edfa4aa8e92a87d042",
+            url = "https://github.com/derailed/" .. name .. "/releases/download/" .. release .. "/" .. name .. "_" .. release .. "_Linux_x86_64.tar.gz",
+            sha256 = "bf1fbcf145b8e021b675bae009183e7028afbce52fc44c37f6a0dd2982152c21",
             resources = {
                 {
                     path = name,
@@ -38,8 +38,8 @@ food = {
         {
             os = "windows",
             arch = "amd64",
-            url = "https://github.com/derailed/" .. name .. "/releases/download/" .. release .. "/" .. name .. "_Windows_x86_64.tar.gz",
-            sha256 = "91f6b589c7ff639a300e94e0d93ae259058c17fb619fd91c243543cc6f7f5eb5",
+            url = "https://github.com/derailed/" .. name .. "/releases/download/" .. release .. "/" .. name .. "_" .. release .. "_Windows_x86_64.tar.gz",
+            sha256 = "d77262593c554c98cb70eb086068d4b0fa025d96f116e37d013069a007b73562",
             resources = {
                 {
                     path = name .. ".exe",
