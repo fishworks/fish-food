@@ -1,5 +1,5 @@
 local name = "anycable-go"
-local version = "1.1.0"
+local version = "1.1.1"
 
 food = {
     name = name,
@@ -11,7 +11,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/anycable/anycable-go/releases/download/v" .. version .. "/anycable-go-darwin-amd64",
-            sha256 = "2a675c45ef93a6bf9ba7455a409b51047fc2c5786fe85f6cafc55138c618a321",
+            sha256 = "55c97a02cf2d3b382c2dda0cb89592e97c59dfecf80cb9b64156a429eaea9051",
             resources = {
                 {
                     path = name .. "-darwin-amd64",
@@ -24,7 +24,7 @@ food = {
             os = "darwin",
             arch = "arm64",
             url = "https://github.com/anycable/anycable-go/releases/download/v" .. version .. "/anycable-go-darwin-arm64",
-            sha256 = "d880de0509a8468bde6b29024d68a73eeb88ec3294c7acd949ebeb1a36f8c19c",
+            sha256 = "8c17357f64cca321f55ff2bfcbb9ea3176cbae56422d916bc8ff2207f39f0d23",
             resources = {
                 {
                     path = name .. "-darwin-arm64",
@@ -37,7 +37,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/anycable/anycable-go/releases/download/v" .. version .. "/anycable-go-linux-amd64",
-            sha256 = "e5d702ffe8b92836e25fabc1ed8a104ee28181500cf43f77b54137c20d083255",
+            sha256 = "4aafcd4537eab73edcd14d6e01ee2512c6035a1dc465f806bdc398c746a61b11",
             resources = {
                 {
                     path = name .. "-linux-amd64",
@@ -50,7 +50,7 @@ food = {
             os = "linux",
             arch = "arm",
             url = "https://github.com/anycable/anycable-go/releases/download/v" .. version .. "/anycable-go-linux-arm",
-            sha256 = "cf825abd0569a681e80e32af877f1933e36b0ae7d6ae15512547629cc0acaa2f",
+            sha256 = "5e01b413edc395896f2acc33d2659ae6ad79d97b7d9a0f3e73fbc758ebd4251d",
             resources = {
                 {
                     path = name .. "-linux-arm",
@@ -63,7 +63,7 @@ food = {
             os = "linux",
             arch = "arm64",
             url = "https://github.com/anycable/anycable-go/releases/download/v" .. version .. "/anycable-go-linux-arm64",
-            sha256 = "553ec4fba13a23241a55acbba55bf0f26199f141b9177415ca41f6b72f0aa4c3",
+            sha256 = "89a4f3121acb1e91ee36bb9132ac86dd4b60e5719e009130d2db991314aefab0",
             resources = {
                 {
                     path = name .. "-linux-arm64",
@@ -76,7 +76,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/anycable/anycable-go/releases/download/v" .. version .. "/anycable-go-win-amd64.exe",
-            sha256 = "3901030967ee286049591c0e06ca2a11bcf08db8b49d35cd403c70496ea0ac77",
+            sha256 = "229a73e57d3ad1094282f667a3183fbd9af198380bfaf4fed44232fb679471f0",
             resources = {
                 {
                     path = name .. "-win-amd64.exe",
