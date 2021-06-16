@@ -1,5 +1,5 @@
 local name = "fission"
-local version = "1.12.0"
+local version = "1.13.0"
 local githubReleaseDownloadURL = "https://github.com/fission/fission/releases/download"
 
 food = {
@@ -12,11 +12,11 @@ food = {
         {
             os = "darwin",
             arch = "amd64",
-            url = githubReleaseDownloadURL .. "/" .. version .. "/fission-cli-osx",
-            sha256 = "d6c192b96cca741e264c6bacb900ebe40419c4a68e2cec93a889c5c2874ecd5b",
+            url = githubReleaseDownloadURL .. "/" .. version .. "/fission-" .. version .. "-darwin-amd64",
+            sha256 = "47d47196e15455a60ec15b80141f3de7435bb524e4a9b373f059cb89e63e68ff",
             resources = {
                 {
-                    path = name .. "-cli-osx",
+                    path = name .. "-" .. version .. "-darwin-amd64",
                     installpath = "bin/" .. name,
                     executable = true
                 }
@@ -25,11 +25,11 @@ food = {
         {
             os = "linux",
             arch = "amd64",
-            url = githubReleaseDownloadURL .. "/" .. version .. "/fission-cli-linux",
-            sha256 = "bcb3d84a424af45fb8ba5e846238475e481c01907eb10d38a3a614b288da785c",
+            url = githubReleaseDownloadURL .. "/" .. version .. "/fission-" .. version .. "-linux-amd64",
+            sha256 = "641fd6f8bb7508d1a88209cd1111decde91ad33a20066b2951d4eb3df0fed083",
             resources = {
                 {
-                    path = name .. "-cli-linux",
+                    path = name .. "-" .. version .. "-linux-amd64",
                     installpath = "bin/" .. name,
                     executable = true
                 }
@@ -38,11 +38,11 @@ food = {
         {
             os = "windows",
             arch = "amd64",
-            url = githubReleaseDownloadURL .. "/" .. version .. "/fission-cli-windows.exe",
-            sha256 = "005f5404545d49546259ee801b52987cb375816ba1c341f8e8fc6f316b16c0b2",
+            url = githubReleaseDownloadURL .. "/" .. version .. "/fission-" .. version .. "-windows-amd64.exe",
+            sha256 = "755d5b0316a11f2357cf1880ba10daa2309a3906201d5d89e2a66311c888f2e0",
             resources = {
                 {
-                    path = name .. "-cli-windows.exe",
+                    path = name .. "-" .. version .. "-windows-amd64.exe",
                     installpath = "bin\\" .. name .. ".exe",
                     executable = true
                 }
