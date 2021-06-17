@@ -36,8 +36,8 @@ food = {
         {
             os = "windows",
             arch = "amd64",
-            url = "https://github.com/bytecodealliance/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. "-x86_64-windows.tar.xz",
-            sha256 = "a570950176a1cb85fd6df2ca8baea40e04954609795b40801d191b43eed7ae1a",
+            url = "https://github.com/bytecodealliance/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. "-x86_64-windows.zip",
+            sha256 = "68f9a42bdad0337b96668a40b149a88d8c08f384426d64dab82ebff6e0db2dce",
             resources = {
                 {
                     path = name .. ".exe",
