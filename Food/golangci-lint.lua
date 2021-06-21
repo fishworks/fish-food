@@ -1,5 +1,5 @@
 local name = "golangci-lint"
-local version = "1.41.0"
+local version = "1.41.1"
 local release = "v" .. version
 
 food = {
@@ -12,7 +12,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/golangci/" .. name .. "/releases/download/" .. release .. "/" .. name .. "-" .. version .. "-darwin-amd64.tar.gz",
-            sha256 = "203a5d34818888adba23c4d66b050b00715a3f071b460ae08c33119f255d26b6",
+            sha256 = "904a2100b073f67cfc0d9bee48aa75fcf170e3027ca475b1f050af4acc19fcad",
             resources = {
                 {
                     path = name .. "-" .. version .. "-darwin-amd64/" .. name,
@@ -25,7 +25,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/golangci/" .. name .. "/releases/download/" .. release .. "/" .. name .. "-" .. version .. "-linux-amd64.tar.gz",
-            sha256 = "3235174db16aa1b91d0af520c8e54d65ab037fd54031c9d03adc831fd8bb5beb",
+            sha256 = "23e1078ab00a750afcde7e7eb5aab8e908ef18bee5486eeaa2d52ee57d178580",
             resources = {
                 {
                     path = name .. "-" .. version .. "-linux-amd64/" .. name,
@@ -38,7 +38,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/golangci/" .. name .. "/releases/download/" .. release .. "/" .. name .. "-" .. version .. "-windows-amd64.zip",
-            sha256 = "38d3971269aa82bb259f03b7af06f7f61deaebf1691232089de64879e2800623",
+            sha256 = "b4a8197746dc62cd19c6158616de4ec308a76e2e49beec7095bd60ec293ec220",
             resources = {
                 {
                     path = name .. "-" .. version .. "-windows-amd64\\" .. name .. ".exe",
