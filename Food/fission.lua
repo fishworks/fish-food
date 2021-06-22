@@ -1,5 +1,5 @@
 local name = "fission"
-local version = "1.13.0"
+local version = "1.13.1"
 local githubReleaseDownloadURL = "https://github.com/fission/fission/releases/download"
 
 food = {
@@ -13,7 +13,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = githubReleaseDownloadURL .. "/" .. version .. "/fission-" .. version .. "-darwin-amd64",
-            sha256 = "47d47196e15455a60ec15b80141f3de7435bb524e4a9b373f059cb89e63e68ff",
+            sha256 = "89572be25f5427422b97b7d68d47378cc7f84ee8e17aa4af30b81ee1f3b0079e",
             resources = {
                 {
                     path = name .. "-" .. version .. "-darwin-amd64",
@@ -26,7 +26,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = githubReleaseDownloadURL .. "/" .. version .. "/fission-" .. version .. "-linux-amd64",
-            sha256 = "641fd6f8bb7508d1a88209cd1111decde91ad33a20066b2951d4eb3df0fed083",
+            sha256 = "fe8295618e32aaa5ba771f3ebabbf1514e12588ce96048f0d56cdb94e6f57d13",
             resources = {
                 {
                     path = name .. "-" .. version .. "-linux-amd64",
@@ -39,7 +39,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = githubReleaseDownloadURL .. "/" .. version .. "/fission-" .. version .. "-windows-amd64.exe",
-            sha256 = "755d5b0316a11f2357cf1880ba10daa2309a3906201d5d89e2a66311c888f2e0",
+            sha256 = "c7f78cfbbaa34f493cbf1837eaacc470d785fb921b0c4db39e7163e662dedeb3",
             resources = {
                 {
                     path = name .. "-" .. version .. "-windows-amd64.exe",
