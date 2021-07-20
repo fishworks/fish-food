@@ -1,5 +1,5 @@
 local name = "yaegi"
-local version = "0.9.19"
+local version = "0.9.21"
 
 food = {
     name = name,
@@ -12,7 +12,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/traefik/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "_v" .. version .. "_darwin_amd64.tar.gz",
-            sha256 = "ec29288c93379125fc22aea64364856e470a36678000bf3a4e2fd8f6ea96549f",
+            sha256 = "ddc502315fb300ee8915761f0c7d42cf4a3687d0244f73888bb4880f83f7022c",
             resources = {
                 {
                     path = name,
@@ -25,7 +25,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/traefik/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "_v" .. version .. "_linux_amd64.tar.gz",
-            sha256 = "079ea8e4b97f89c403e9388fb546df17829537b66dbb1c73f7ef124d6c943b76",
+            sha256 = "c86c073629aa713a15fcc4722cec08dfefc4a69eca94a9e7ee79dd8c403b626e",
             resources = {
                 {
                     path = name,
