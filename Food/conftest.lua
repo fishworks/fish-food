@@ -1,6 +1,6 @@
 local name = "conftest"
-local release = "v0.25.0"
-local version = "0.25.0"
+local release = "v0.26.0"
+local version = "0.26.0"
 food = {
     name = name,
     description = "Write tests against structured configuration data using the Open Policy Agent Rego query language",
@@ -12,7 +12,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/open-policy-agent/" .. name .. "/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_Darwin_x86_64.tar.gz",
-            sha256 = "a28136f5d993c92f0eca2318260a2010221fa75ee8036f3d30b148d300edae13",
+            sha256 = "696b0b44540cb5f97ccaa27be1001dab030bd1670fde37e730a42c18265e03af",
             resources = {
                 {
                     path = name,
@@ -25,7 +25,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/open-policy-agent/" .. name .. "/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_Linux_x86_64.tar.gz",
-            sha256 = "7db479454657a83520124d80d4aeeda2d7eba1200bb903e565a9a408bee29c08",
+            sha256 = "e2de45c4ae45b3069ec0d1f8e711527fcec623022325d3b51566b2a1df690674",
             resources = {
                 {
                     path = name,
@@ -38,7 +38,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/open-policy-agent/" .. name .. "/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_Windows_x86_64.zip",
-            sha256 = "c881f3b6f0dd73543b6d676df258afecf82d72a2936335f861a806a7e34e2755",
+            sha256 = "7b8d3c6ea5f9da14308daa3b0edacdd011173ad27b6ba89279005096f227b20c",
             resources = {
                 {
                     path = name .. ".exe",
