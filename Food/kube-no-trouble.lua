@@ -1,6 +1,6 @@
 local name = "kube-no-trouble"
-local release = "0.4.0"
-local version = "0.4.0"
+local release = "0.5.0"
+local version = "0.5.0"
 
 -- Executable name is actually "kubent" (vs. "kube-no-trouble")
 local exe = "kubent"
@@ -16,7 +16,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/doitintl/" .. name .. "/releases/download/" .. release .. "/kubent-" .. version .. "-darwin-amd64.tar.gz",
-            sha256 = "0e5e0d18935b67004d1749bb686ab2143812ee2de3c782ceac8f7da6e6ecd0b0",
+            sha256 = "02f8f418d2d278f7663c38f3ea71ef55dc2c2c7c04439176ea73f78975dcefa1",
             resources = {
                 {
                     path = exe,
@@ -29,7 +29,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/doitintl/" .. name .. "/releases/download/" .. release .. "/kubent-" .. version .. "-linux-amd64.tar.gz",
-            sha256 = "9903b80a2e1c1c084903db10ff8f3c1c38ee4a0d4608f124813de8a3794d8926",
+            sha256 = "60fb3067324fdf12849b9359c0b9519b977fcb4f3b6491bd4054093865f23d6a",
             resources = {
                 {
                     path = exe,
@@ -42,7 +42,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/doitintl/" .. name .. "/releases/download/" .. release .. "/kubent-" .. version .. "-windows-amd64.tar.gz",
-            sha256 = "29e0d3d1ed47abc205eed1bb5e95dfe2abaab7f764a4d2ebb784628f60327b35",
+            sha256 = "da923e68f234efeff560acdb5f78d81480a975fe801a425ccf57250ec1346501",
             resources = {
                 {
                     path = exe .. ".exe",
