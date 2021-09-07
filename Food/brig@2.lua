@@ -1,5 +1,5 @@
 local name = "brig@2"
-local version = "2.0.0-beta.1"
+local version = "2.0.0-beta.2"
 local baseURL = "https://github.com/brigadecore/brigade/releases/download"
 
 food = {
@@ -13,7 +13,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = baseURL .. "/v" .. version .. "/brig-darwin-amd64",
-            sha256 = "22a8d08002f0c40740d1e64e95ab515692d421d54d0b1b2141f537a77657733e",
+            sha256 = "b6ec2e0d02f6795aeb259f9431c57e5f5a49220cd56018edc7a729b676ce6837",
             resources = {
                 {
                     path = "brig-darwin-amd64",
@@ -23,10 +23,23 @@ food = {
             }
         },
         {
+            os = "darwin",
+            arch = "arm64",
+            url = baseURL .. "/v" .. version .. "/brig-darwin-arm64",
+            sha256 = "24eedfe1966a72634ae1e6693b41a9efa78a3b32857b6a7dfec7fd6dfdf0d4b6",
+            resources = {
+                {
+                    path = "brig-darwin-arm64",
+                    installpath = "bin/brig",
+                    executable = true
+                }
+            }
+        },
+        {
             os = "linux",
             arch = "amd64",
             url = baseURL .. "/v" .. version .. "/brig-linux-amd64",
-            sha256 = "2b79ebbeef7db20eb72c6196934a3d45fcab2a0a05ea1307ddf6991631d0548a",
+            sha256 = "4d554c9a08bde566e81cf006c4f601eed4fc40fc35aa6b733aa71c46cc66e039",
             resources = {
                 {
                     path = "brig-linux-amd64",
@@ -36,10 +49,23 @@ food = {
             }
         },
         {
+            os = "linux",
+            arch = "arm64",
+            url = baseURL .. "/v" .. version .. "/brig-linux-arm64",
+            sha256 = "3a9757318c3d89527662d699654d3f63717556a5fe884b33016933d6ecea8521",
+            resources = {
+                {
+                    path = "brig-linux-arm64",
+                    installpath = "bin/brig",
+                    executable = true
+                }
+            }
+        },
+        {
             os = "windows",
             arch = "amd64",
             url = baseURL .. "/v" .. version .. "/brig-windows-amd64.exe",
-            sha256 = "0dfe38310ceb6a54c0d00ea82d7474e8927301149de1e20f34a0f7ffb8c14b0c",
+            sha256 = "91be918235ec5da5ce75c07d2c4a9bd37f3aed8de3d17e6a41043ec8d07b2fe2",
             resources = {
                 {
                     path = "brig-windows-amd64.exe",
