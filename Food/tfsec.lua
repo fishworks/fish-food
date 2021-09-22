@@ -1,6 +1,6 @@
 local name = "tfsec"
-local release = "v0.56.0"
-local version = "0.56.0"
+local release = "v0.58.9"
+local version = "0.58.9"
 food = {
     name = name,
     description = "🔒🌍 Security scanner for your Terraform code",
@@ -12,7 +12,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/tfsec/" .. name .. "/releases/download/" .. release .. "/" .. name .. "-darwin-amd64",
-            sha256 = "407abfb136969a0badff1ce3506adc295c1d67465c5fa04939ff0503eec1c78e",
+            sha256 = "3636db9027f97295135e8cdcd5e0ea2e66e11466ca9b4e58cceee8d9a1cb3699",
             resources = {
                 {
                     path = name .. "-darwin-amd64",
@@ -25,7 +25,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/tfsec/" .. name .. "/releases/download/" .. release .. "/" .. name .. "-linux-amd64",
-            sha256 = "2edbb9338d9c4879343d56e2b2b46b5f3a41104412f4c8710311e7b8639801cd",
+            sha256 = "1e1902a67149e15f7ee52c3b4335b75a24623ec2f18faed1ae25cb368d5fadde",
             resources = {
                 {
                     path = name .. "-linux-amd64",
@@ -38,7 +38,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/tfsec/" .. name .. "/releases/download/" .. release .. "/" .. name .. "-windows-amd64.exe",
-            sha256 = "1bbb3071f01882b15990bbec1b0e3fd4752a1e5771049b1f6a49e87c95f868f8",
+            sha256 = "b625805dd606c20a0fc75e3beeac661e98725d1cfb61598952b4cec3fd3b2039",
             resources = {
                 {
                     path = name .. "-windows-amd64.exe",
