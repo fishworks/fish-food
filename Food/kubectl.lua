@@ -1,5 +1,5 @@
 local name = "kubectl"
-local version = "1.22.0"
+local version = "1.22.2"
 
 food = {
     name = name,
@@ -12,7 +12,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://dl.k8s.io/v" .. version .. "/kubernetes-client-darwin-amd64.tar.gz",
-            sha256 = "a0f6dc2d793fa1e112835e86d619db134bc9b1afc8a4f9f039aa20b51360a610",
+            sha256 = "9685abc0dd0549309cff2fdc0e3b4e5935026b896702ecf6a304f26dc687f701",
             resources = {
                 {
                     path = "kubernetes/client/bin/" .. name,
@@ -25,7 +25,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://dl.k8s.io/v" .. version .. "/kubernetes-client-linux-amd64.tar.gz",
-            sha256 = "db439999a3e87525011f45b962243691107a12448f0c2218c14509d32adc1c3c",
+            sha256 = "4e06002df0b5e835867595ce713c970f5838f959c90532ce1c691df33b6108a0",
             resources = {
                 {
                     path = "kubernetes/client/bin/" .. name,
@@ -38,7 +38,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://dl.k8s.io/v" .. version .. "/kubernetes-client-windows-amd64.tar.gz",
-            sha256 = "5937c2c0cfa956c16c6bc0c2fb1f628686e74224e3145b68d3773a278e1c7e0d",
+            sha256 = "b1542769081d471a7317eb742983da84e3ebf4ee97b97ac83592a2d4adbe57b4",
             resources = {
                 {
                     path = "kubernetes\\client\\bin\\" .. name .. ".exe",
