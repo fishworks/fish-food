@@ -1,6 +1,6 @@
 local name = "gitleaks"
-local release = "v7.5.0"
-local version = "7.5.0"
+local release = "v7.6.1"
+local version = "7.6.1"
 food = {
     name = name,
     description = "Scan git repos (or files) for secrets using regex and entropy 🔑",
@@ -12,7 +12,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/zricethezav/" .. name .. "/releases/download/" .. release .. "/" .. name .. "-darwin-amd64",
-            sha256 = "f24abb1a4ea9ed7e2cce763761c61bf143e1fea13e3239530d39ba2eb29b986f",
+            sha256 = "5e51a33beb6f358970815ecbbc40c6c28fb785ef6342da9a689713f99fece54f",
             resources = {
                 {
                     path = name .. "-darwin-amd64",
@@ -25,7 +25,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/zricethezav/" .. name .. "/releases/download/" .. release .. "/" .. name .. "-linux-amd64",
-            sha256 = "bf0dc4eb39d58fe90f4ff174a939c4e1bff76d85be45d13675496d659b191708",
+            sha256 = "ab3d667982b2bfb00e846bd7b751c640216d2bbe0f71e2c53c4514ca415d99ec",
             resources = {
                 {
                     path = name .. "-linux-amd64",
@@ -38,7 +38,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/zricethezav/" .. name .. "/releases/download/" .. release .. "/" .. name .. "-windows-amd64.exe",
-            sha256 = "25bea066e61de04bbe28b89389a8c0bb381b2b392c057af587a63073239ec0ae",
+            sha256 = "c539c3c1b183dbc2fad648f5a99c545d64bd956136b9cc981c618d90bdb33d86",
             resources = {
                 {
                     path = name .. "-windows-amd64.exe",
