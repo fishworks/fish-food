@@ -1,6 +1,6 @@
 local name = "terragrunt"
-local release = "v0.31.3"
-local version = "0.31.3"
+local release = "v0.32.4"
+local version = "0.32.4"
 food = {
     name = name,
     description = "Terragrunt is a thin wrapper for Terraform that provides extra tools for working with multiple Terraform modules.",
@@ -12,7 +12,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/gruntwork-io/" .. name .. "/releases/download/" .. release .. "/" .. name .. "_darwin_amd64",
-            sha256 = "592b3af69c27b2693e9848fa895ac803d293f2dc88ead34363ba06f2322647b7",
+            sha256 = "f8346c4ba53b6a0b54f910260428bac8be24f2d144b88f0a0c43f4270ad1fb92",
             resources = {
                 {
                     path = name .. "_darwin_amd64",
@@ -25,7 +25,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/gruntwork-io/" .. name .. "/releases/download/" .. release .. "/" .. name .. "_linux_amd64",
-            sha256 = "7c79777b89a5cd5aab9ae30e33bbcb49b3b43c6c5277d1819c2387ae30277abb",
+            sha256 = "e59cdde685366cc40e56603f5ccc8e7bcffb875f171a6bf9f119a22c6f56ef71",
             resources = {
                 {
                     path = name .. "_linux_amd64",
@@ -38,7 +38,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/gruntwork-io/" .. name .. "/releases/download/" .. release .. "/" .. name .. "_windows_amd64.exe",
-            sha256 = "871934e416161d1d1e80203ae6f4aa80016de066b84fe8d99aad2920cd7e2cfc",
+            sha256 = "1fed24795cbc702d9a602c9606541f7a55801af53c304abc229511cce4280fe0",
             resources = {
                 {
                     path = name .. "_windows_amd64.exe",
