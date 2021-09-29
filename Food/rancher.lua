@@ -1,5 +1,5 @@
 local name = "rancher"
-local version = "2.4.12"
+local version = "2.4.13"
 local release = "v" .. version
 
 food = {
@@ -13,7 +13,7 @@ food = {
             arch = "amd64",
             url = "https://github.com/rancher/cli/releases/download/" .. release .. "/" .. name .. "-darwin-amd64-" .. release .. ".tar.gz",
             -- shasum of the release archive
-            sha256 = "1ae0b118ffb62b5450fbc4e7080b356ae1d4fe63ba207fded3f310cbe461cb2a",
+            sha256 = "5d62257dd24130a99462306c68fc92f57a8f9e6cf18f162ceec845601fc26071",
             resources = {
                 {
                     path = name .. "-" .. release .. "/",
@@ -27,7 +27,7 @@ food = {
             arch = "amd64",
             url = "https://github.com/rancher/cli/releases/download/" .. release .. "/" .. name .. "-linux-amd64-" .. release .. ".tar.gz",
             -- shasum of the release archive
-            sha256 = "89155b55402df8e7152e2fd707e13cfbbdc104d18cbcc9105441affa6377523f",
+            sha256 = "d515fd0014f316e219801707a7c28ce42fdc9608e8580072afd4c806b4cb20b9",
             resources = {
                 {
                     path = name .. "-" .. release .. "/" .. name,
@@ -41,7 +41,7 @@ food = {
             arch = "amd64",
             url = "https://github.com/rancher/cli/releases/download/" .. release .. "/" .. name .. "-windows-amd64-" .. release .. ".zip",
             -- shasum of the release archive
-            sha256 = "3dbc3f58b5af3383ed32da7c6447c71f7697a877b07d1dfcb84dd1957ce9a8ac",
+            sha256 = "97fb6f1a26d1882fe8b9bcc00cf35a19b41911bd16d72ce123107a41a0ed3489",
             resources = {
                 {
                     path = name .. "-" .. release .. "/" .. name .. ".exe",
