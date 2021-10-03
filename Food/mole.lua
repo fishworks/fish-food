@@ -1,6 +1,6 @@
 local name = "mole"
-local release = "v1.0.1"
-local version = "1.0.1"
+local release = "v2.0.0"
+local version = "2.0.0"
 food = {
     name = name,
     description = "CLI application to create ssh tunnels focused on resiliency and user experience.",
@@ -12,7 +12,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/davrodpin/" .. name .. "/releases/download/" .. release .. "/" .. name .. "" .. version .. ".darwin-amd64.tar.gz",
-            sha256 = "b1254b8a06c79cfdd892ee312f4fba1c0e815ddc70d6865e4557b0b0bdab72a5",
+            sha256 = "9533d05ae28f3c4fde41ce6955ad0e37673e792bce7a6cdb3202d4f09fa5ea74",
             resources = {
                 {
                     path = name,
@@ -25,7 +25,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/davrodpin/" .. name .. "/releases/download/" .. release .. "/" .. name .. "" .. version .. ".linux-amd64.tar.gz",
-            sha256 = "5012785c28a3fd292a0883a1dcb38e27c534671ec9673b1cc134adebd6b838d3",
+            sha256 = "fd38d9f529181651b230c013825849fc467292fa11c44b27b0c21c579f883d82",
             resources = {
                 {
                     path = name,
@@ -38,7 +38,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/davrodpin/" .. name .. "/releases/download/" .. release .. "/" .. name .. "" .. version .. ".windows-amd64.zip",
-            sha256 = "82a68c67502df7abf08c82508994fec8607df07aaaf79fa18dd4bf921c457839",
+            sha256 = "185ae6c432295c880430fc49c6c59befc0581e8b3f343eaf9a314610ebe82ac6",
             resources = {
                 {
                     path = name .. ".exe",
