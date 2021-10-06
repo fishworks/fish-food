@@ -1,5 +1,5 @@
 local name = "k3d"
-local version = "4.4.8"
+local version = "5.0.0"
 local release = "v" .. version
 
 food = {
@@ -14,7 +14,7 @@ food = {
             arch = "amd64",
             
             url = "https://github.com/rancher/" .. name .. "/releases/download/" .. release .. "/" .. name .. "-darwin-amd64",
-            sha256 = "7e26f85859a0d07b45ff4fb4e41dfc9e297572fc1c1afe41b4c4692430f670a6",
+            sha256 = "e023e0153e08ad5e63a96783021138affbdfbde42c02eb060aaa846d60a9b76c",
             resources = {
                 {
                     path = name .. "-darwin-amd64",
@@ -27,7 +27,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/rancher/" .. name .. "/releases/download/" .. release .. "/" .. name .. "-linux-amd64",
-            sha256 = "7a89e3693fa17fae4e8cefdeb4c65db49c377f78328d708d0bfd304b89719625",
+            sha256 = "6744bfd5cea611dc3f2a24da7b25a28fd0dd4b78c486193c238d55619d7b7c43",
             resources = {
                 {
                     path = name .. "-linux-amd64",
@@ -40,7 +40,7 @@ food = {
             os = "linux",
             arch = "386",
             url = "https://github.com/rancher/" .. name .. "/releases/download/" .. release .. "/" .. name .. "-linux-386",
-            sha256 = "9d13bf908ff67c73e1322bdb8022ce3e74892121cff08fafb8b30038d121885b",
+            sha256 = "04e854ab0eede70f278f8ddcf8ae512175a6e9b9beeae026ff2b057833cefd5e",
             resources = {
                 {
                     path = name .. "-linux-386",
@@ -53,7 +53,7 @@ food = {
             os = "linux",
             arch = "arm",
             url = "https://github.com/rancher/" .. name .. "/releases/download/" .. release .. "/" .. name .. "-linux-arm",
-            sha256 = "f7107ad62c8815949af0d6db19bba9bb343107a56d6a38c70bf6ae2ae2ca10dd",
+            sha256 = "165ecf9ee29b9768f07f3349662898b6eefa40e7fee325b931c2f9179d202a86",
             resources = {
                 {
                     path = name .. "-linux-arm",
@@ -66,7 +66,7 @@ food = {
             os = "linux",
             arch = "arm64",
             url = "https://github.com/rancher/" .. name .. "/releases/download/" .. release .. "/" .. name .. "-linux-arm64",
-            sha256 = "475c7fff186a793329e1ac9f7977762ae248c9171a091b73a8731f551a27d789",
+            sha256 = "c4d34ac455750e46dcdfd98b5d63002481a1edb7eef5585241c8ec8137d96735",
             resources = {
                 {
                     path = name .. "-linux-arm64",
@@ -79,7 +79,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/rancher/" .. name .. "/releases/download/" .. release .. "/" .. name .. "-windows-amd64.exe",
-            sha256 = "4efbc1ee734f68f4f0d89987693cec728f057c9bdaf377e7485a1602b36d10af",
+            sha256 = "0aa602e2d544e6a3200d0d7cded4eec9441658eb294526aca9d4262d1fe873de",
             resources = {
                 {
                     path = name .. "-windows-amd64.exe",
