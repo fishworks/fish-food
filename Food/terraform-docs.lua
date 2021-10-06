@@ -1,5 +1,5 @@
 local name = "terraform-docs"
-local version = "0.15.0"
+local version = "0.16.0"
 
 food = {
     name = name,
@@ -11,7 +11,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/terraform-docs/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. "-darwin-amd64.tar.gz",
-            sha256 = "03f0b0bc090241b499e104eca0bb7c3ea8bf32d37ca63a660c4b4c8bf14551ee",
+            sha256 = "f48422e2e3c4a30852992177db17cb37b18810a3e8392401ba69e875c8bb1090",
             resources = {
                 {
                     path = name,
@@ -24,7 +24,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/terraform-docs/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. "-linux-amd64.tar.gz",
-            sha256 = "e0b399d9dc2eb97853a7e12f1ae678e7160cae4c811646ce70169a8d611f6cf9",
+            sha256 = "328c16cd6552b3b5c4686b8d945a2e2e18d2b8145b6b66129cd5491840010182",
             resources = {
                 {
                     path = name,
@@ -37,7 +37,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/terraform-docs/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. "-windows-amd64.zip",
-            sha256 = "8414aa93ccc430966c70e5b184549f893bf5e78b77c977874dca51b94c063631",
+            sha256 = "b1e63cede84ae139045d5385c389232fbbcb369a99496b94ec1cd733b8d4d125",
             resources = {
                 {
                     path = name .. ".exe",
