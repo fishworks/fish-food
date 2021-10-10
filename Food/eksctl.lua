@@ -1,5 +1,5 @@
 local name = "eksctl"
-local version = "0.60.0"
+local version = "0.69.0"
 
 food = {
     name = name,
@@ -10,9 +10,8 @@ food = {
         {
             os = "darwin",
             arch = "amd64",
-            url = "https://github.com/weaveworks/" .. name .. "/releases/download/" .. version .. "/" .. name .. "_Darwin_amd64.tar.gz",
-            -- shasum of the release archive
-            sha256 = "13ba75dbfe4c772743413b4b14adca41e588318165356e748573769a6cdf8716",
+            url = "https://github.com/weaveworks/eksctl/releases/download/v" .. version .. "/" .. name .. "_Darwin_amd64.tar.gz",
+            sha256 = "803265099754c4d27aa1e4cdb6e939b43cf6fe0a4c0f20dbbbc2b680e5da4e16",
             resources = {
                 {
                     path = name,
@@ -24,9 +23,8 @@ food = {
         {
             os = "linux",
             arch = "amd64",
-            url = "https://github.com/weaveworks/" .. name .. "/releases/download/" .. version .. "/" .. name .. "_Linux_amd64.tar.gz",
-            -- shasum of the release archive
-            sha256 = "7cd513ccd4a663cc2032bc7f93645460664e99cf4c34eeb279b68edb7afbf2a7",
+            url = "https://github.com/weaveworks/eksctl/releases/download/v" .. version .. "/" .. name .. "_Linux_amd64.tar.gz",
+            sha256 = "3f81cc7ce41a84f4ea275c0ffa7f0403b258260e050dbe6c5fbabc12d48891e5",
             resources = {
                 {
                     path = name,
@@ -38,9 +36,8 @@ food = {
         {
             os = "windows",
             arch = "amd64",
-            url = "https://github.com/weaveworks/" .. name .. "/releases/download/" .. version .. "/" .. name .. "_Windows_amd64.zip",
-            -- shasum of the release archive
-            sha256 = "bbf0ae547b0e66bb616416fb4f694e604d10285d233bdb43ea9ff04c7fd877cf",
+            url = "https://github.com/weaveworks/eksctl/releases/download/v" .. version .. "/" .. name .. "_Windows_amd64.zip",
+            sha256 = "13a6e4efaf7cc526870460dcba76711839c5d52ccc7fc4657d41c3e102e8da48",
             resources = {
                 {
                     path = name .. ".exe",
