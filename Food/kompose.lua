@@ -1,5 +1,5 @@
 local name = "kompose"
-local version = "1.22.0"
+local version = "1.24.0"
 
 food = {
     name = name,
@@ -12,7 +12,7 @@ food = {
             arch = "amd64",
             url = "https://github.com/kubernetes/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-darwin-amd64.tar.gz",
             -- shasum of the release archive
-            sha256 = "ce35cec930f907ca49358ca4572ed92822908f91294e5ae203a5f78d9e90e25b",
+            sha256 = "453d83658069737870e380c9a69b2d44808c7f5766decad24b8ada94f038e613",
             resources = {
                 {
                     path = name.."-darwin-amd64",
@@ -26,7 +26,7 @@ food = {
             arch = "amd64",
             url = "https://github.com/kubernetes/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-linux-amd64.tar.gz",
             -- shasum of the release archive
-            sha256 = "a695319ed141a522b4e8f82636fc7afb81c8956a71aa1c8aca19403130241126",
+            sha256 = "4e2f8710d66b175475aba0cae2a290bd93b6678b10191389728ddb05b75d4568",
             resources = {
                 {
                     path = name.."-linux-amd64",
@@ -40,7 +40,7 @@ food = {
             arch = "amd64",
             url = "https://github.com/kubernetes/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-windows-amd64.exe",
             -- shasum of the release archive
-            sha256 = "0a01f3eb0cb810b61a4d7aaa5b59824e829f2e9042f061ff27f3c419822f08d3",
+            sha256 = "0baf4a66e5020455e06f27a56fd785e3a2f1e3bcb5dfa55c2b21c77a614ca2c8",
             resources = {
                 {
                     path = name .. "-windows-amd64.exe",
