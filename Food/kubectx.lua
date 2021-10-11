@@ -1,5 +1,5 @@
 local name = "kubectx"
-local version = "0.9.1"
+local version = "0.9.4"
 
 food = {
     name = name,
@@ -12,7 +12,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/ahmetb/kubectx/releases/download/v" .. version .. "/" .. name .. "_v" .. version .. "_darwin_x86_64.tar.gz",
-            sha256 = "a46c5cf1f6ba8f6aa4dc75fc5a7086d294a28a19cf2fbbf18ac54108a7f713e1",
+            sha256 = "99392d5cc3d174a18b68d9cce6872dc6c7216d58b6913e4f6a51274cffa95583",
             resources = {
                 {
                     path = name,
@@ -25,7 +25,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/ahmetb/kubectx/releases/download/v" .. version .. "/" .. name .. "_v" .. version .. "_linux_x86_64.tar.gz",
-            sha256 = "ce689516f3ae916492bb8f9ee3344da03f6b5a098c1ce2c4a5107b8e9e1cf445",
+            sha256 = "db5a48e85ff4d8c6fa947e3021e11ba4376f9588dd5fa779a80ed5c18287db22",
             resources = {
                 {
                     path = name,
@@ -38,7 +38,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/ahmetb/kubectx/releases/download/v" .. version .. "/" .. name .. "_v" .. version .. "_windows_x86_64.zip",
-            sha256 = "50da8ffd2ac9ca7f41c8aa6bf47a7fbd91d17603827b24267b8618fc30e7923f",
+            sha256 = "31a30912ace13fe0a458a253bc76bd106c48f3b0967ac2676cfd8b7fae71e314",
             resources = {
                 {
                     path = name .. ".exe",
