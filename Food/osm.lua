@@ -1,5 +1,5 @@
 local name = "osm"
-local version = "0.10.0"
+local version = "0.11.0"
 
 food = {
     name = name,
@@ -12,7 +12,7 @@ food = {
             arch = "amd64",
             url = "https://github.com/openservicemesh/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. "-darwin-amd64.tar.gz",
             -- shasum of the release archive
-            sha256 = "69e6f3236a82006fa2ec69ea27e8727f80b843c745b7f91de0313408324394d0",
+            sha256 = "706ea80438027311d9c6e47bc46b0284a0afec42be3771fc9f5c87bafc40b3ae",
             resources = {
                 {
                     path = "darwin-amd64/" .. name,
@@ -26,7 +26,7 @@ food = {
             arch = "amd64",
             url = "https://github.com/openservicemesh/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. "-linux-amd64.tar.gz",
             -- shasum of the release archive
-            sha256 = "ff7ca963eee4f7ee769ae3794962ef2735ee5e57c5662e598032a68e97199231",
+            sha256 = "93d4b80625f72cfa7184f367b60ae1394e125422fefbe8c29a9f16690ffe335a",
             resources = {
                 {
                     path = "linux-amd64/" .. name,
@@ -40,7 +40,7 @@ food = {
             arch = "amd64",
             url = "https://github.com/openservicemesh/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. "-windows-amd64.zip",
             -- shasum of the release archive
-            sha256 = "7382faa8c50322789297e928ecf56dcb913a625bb32023d8d3224a119d38c434",
+            sha256 = "fa97b662b95bc5128276e499d35159c5aabda1acf9f5ebeda56f456274ca47d4",
             resources = {
                 {
                     path = "windows-amd64/" .. name .. ".exe",
