@@ -1,6 +1,6 @@
 local name = "terragrunt"
-local release = "v0.34.2"
-local version = "0.34.2"
+local release = "v0.34.3"
+local version = "0.34.3"
 
 food = {
     name = name,
@@ -13,7 +13,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/gruntwork-io/" .. name .. "/releases/download/" .. release .. "/" .. name .. "_darwin_amd64",
-            sha256 = "0e4615c2173c75dd00dfea7d3a9da3b006a6d0f012fbe3e9e301b44c05075f28",
+            sha256 = "9bb0817d6245388e40393e008ffab9a3b86674b9b9132a50056a89f0368d621e",
             resources = {
                 {
                     path = name .. "_darwin_amd64",
@@ -26,7 +26,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/gruntwork-io/" .. name .. "/releases/download/" .. release .. "/" .. name .. "_linux_amd64",
-            sha256 = "4dfaa62999df3288c966109afaa5b94c8bda92a4f51104a306a6e2f1ca14a1c4",
+            sha256 = "ed84bad121302450452bdf964684ba3d60280d1249d22c63dfe9ade4c360e6b7",
             resources = {
                 {
                     path = name .. "_linux_amd64",
@@ -39,7 +39,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/gruntwork-io/" .. name .. "/releases/download/" .. release .. "/" .. name .. "_windows_amd64.exe",
-            sha256 = "ffc4961cfbede01b13ac028095ebac02e1ead9987d36f2e8869352fc40c2abf0",
+            sha256 = "4cc4b59bf08693637b28ca06bd655e45e2949e762495f294e0fc5178828805df",
             resources = {
                 {
                     path = name .. "_windows_amd64.exe",
