@@ -1,5 +1,5 @@
 local name = "flux"
-local version = "0.18.1"
+local version = "0.18.2"
 local release = "v" .. version
 
 food = {
@@ -13,7 +13,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/fluxcd/flux2/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_darwin_amd64.tar.gz",
-            sha256 = "277d50715fa7353a90223482221040949ed552fe2f7694242d66490cdd53d256",
+            sha256 = "05ab02d27bcd0a412fa560a23204161c33732efe4b5cb99781351230ee09fb8c",
             resources = {
                 {
                     path = name,
@@ -26,7 +26,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/fluxcd/flux2/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_linux_amd64.tar.gz",
-            sha256 = "87586ef770ae2d9e2681ceb8c6ac4290ca0eae18fbb964e29caed987020bc394",
+            sha256 = "2138c0ef989cfdb0f197b62309283c25aaf06334c8c40a6e3dfd98daf21fffe1",
             resources = {
                 {
                     path = name,
@@ -39,7 +39,7 @@ food = {
             os = "linux",
             arch = "arm64",
             url = "https://github.com/fluxcd/flux2/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_linux_arm64.tar.gz",
-            sha256 = "5ca329c055ba3e2ff19f7d90b83499101f8c972b3366560910209f5e211e12a0",
+            sha256 = "c45b2d28768643cea322d1908e02fd91752847ab682e967ece4b243485658340",
             resources = {
                 {
                     path = name,
@@ -52,7 +52,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/fluxcd/flux2/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_windows_amd64.zip",
-            sha256 = "bbc3992b374ea359fd18fccadcaff85d4f0003c68eb6725029ff28c7d227b073",
+            sha256 = "27ad5c4734d3d1d0efbed60a0c04d2bc01ac06396cf41c08d6d887cc9e358e7b",
             resources = {
                 {
                     path = name .. ".exe",
