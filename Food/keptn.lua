@@ -1,5 +1,5 @@
 local name = "keptn"
-local version = "0.7.3"
+local version = "0.9.2"
 
 food = {
     name = name,
@@ -11,11 +11,11 @@ food = {
         {
             os = "darwin",
             arch = "amd64",
-            url = "https://github.com/keptn/" .. name .. "/releases/download/" .. version .. "/" .. version .. "_" .. name .. "-macOS.zip",
-            sha256 = "974abd3f6e79266fdfd6d0b29331e59d768ea81efa067c2ccde36f0406a87178",
+            url = "https://github.com/keptn/" .. name .. "/releases/download/" .. version .. "/" .. name .. "-" .. version .. "-darwin-amd64.tar.gz",
+            sha256 = "5b8f91731be413e4cf7b69219c0523d6fbef0225cf33d9aed573e242d1d9261d",
             resources = {
                 {
-                    path = name,
+                    path = name .. "-" .. version .. "-darwin-amd64",
                     installpath = "bin/" .. name,
                     executable = true
                 }
@@ -24,11 +24,11 @@ food = {
         {
             os = "linux",
             arch = "amd64",
-            url = "https://github.com/keptn/" .. name .. "/releases/download/" .. version .. "/" .. version .. "_" .. name .. "-linux.zip",
-            sha256 = "df402fd075c7ab6727ae437578031afe166908e02464c68b511f57ba6f42df3c",
+            url = "https://github.com/keptn/" .. name .. "/releases/download/" .. version .. "/" .. name .. "-" .. version .. "-linux-amd64.tar.gz",
+            sha256 = "e064e43c365109bb223f10da6ac554975283eda31437e75b8765ef3e43390a3d",
             resources = {
                 {
-                    path = name,
+                    path = name .. "-" .. version .. "-linux-amd64",
                     installpath = "bin/" .. name,
                     executable = true
                 }
@@ -37,11 +37,11 @@ food = {
         {
             os = "windows",
             arch = "amd64",
-            url = "https://github.com/keptn/" .. name .. "/releases/download/" .. version .. "/" .. version .. "_" .. name .. "-windows.zip",
-            sha256 = "1bd1fa3146d7e8ea0fc813e976ee7aab8da179ac3bcf850adae1277f12c9d08f",
+            url = "https://github.com/keptn/" .. name .. "/releases/download/" .. version .. "/" .. name .. "-" .. version .. "-windows-amd64.tar.gz",
+            sha256 = "a3dc433596dd2cb74b5501352512ed073a6fa5a1f5867a7e683f8ad712c9d0f7",
             resources = {
                 {
-                    path = name .. ".exe",
+                    path = name .. "-" .. version .. "-windows-amd64.exe",
                     installpath = "bin\\" .. name .. ".exe"
                 }
             }
