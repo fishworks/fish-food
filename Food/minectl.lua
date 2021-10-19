@@ -1,5 +1,5 @@
 local name = "minectl"
-local version = "0.11.0"
+local version = "0.12.0"
 
 food = {
     name = name,
@@ -9,48 +9,10 @@ food = {
     version = version,
     packages = {
         {
-            os = "linux",
-            arch = "arm64",
-            url = "https://github.com/dirien/".. name .."/releases/download/v".. version .."/".. name .."_".. version .."_linux_arm64.tar.gz",
-            sha256 = "83beec774482212d202c00585494c584f6c1d9e41055b25395bd99bb90f196c4",
-            resources = {
-                {
-                    path = name,
-                    installpath = "bin/" .. name,
-                    executable = true
-                }
-            }
-        },
-        {
-            os = "windows",
-            arch = "amd64",
-            url = "https://github.com/dirien/".. name .."/releases/download/v".. version .."/".. name .."_".. version .."_windows_amd64.zip",
-            sha256 = "772230a810dae53d37f5b6ad21cabb5211da3ee92a4f8a5a3fab7831c5c7ac49",
-            resources = {
-                {
-                    path = name .. ".exe",
-                    installpath = "bin\\" .. name .. ".exe"
-                }
-            }
-        },
-        {
-            os = "linux",
-            arch = "amd64",
-            url = "https://github.com/dirien/".. name .."/releases/download/v".. version .."/".. name .."_".. version .."_linux_amd64.tar.gz",
-            sha256 = "d342b22951a85d663a3a2608df816ea8372723905eb60e519869bf763070fa43",
-            resources = {
-                {
-                    path = name,
-                    installpath = "bin/" .. name,
-                    executable = true
-                }
-            }
-        },
-        {
             os = "darwin",
             arch = "arm64",
             url = "https://github.com/dirien/".. name .."/releases/download/v".. version .."/".. name .."_".. version .."_darwin_arm64.tar.gz",
-            sha256 = "02d4e889ba502073cd39fea53a9d526c833d5eda89d584029a95a95fa06a1765",
+            sha256 = "9a717839dd3358d1268143476b768e18466704af5b006342c3f9548500345dcb",
             resources = {
                 {
                     path = name,
@@ -63,12 +25,50 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/dirien/".. name .."/releases/download/v".. version .."/".. name .."_".. version .."_darwin_amd64.tar.gz",
-            sha256 = "3b99887a1bdde5ba8828137ad42b6c901cbaa6e2c5039a3e5a31a63fe36b011d",
+            sha256 = "79d96d9edc435dad2df0c6ab0b386bc09bbdef39eb802eb26f959d4bf89f5a29",
             resources = {
                 {
                     path = name,
                     installpath = "bin/" .. name,
                     executable = true
+                }
+            }
+        },
+        {
+            os = "linux",
+            arch = "arm64",
+            url = "https://github.com/dirien/".. name .."/releases/download/v".. version .."/".. name .."_".. version .."_linux_arm64.tar.gz",
+            sha256 = "b4d152762b78359ef9ec93ddf097a9dbbfd2a65a4a6eda9f10cdbb4b9ae2898f",
+            resources = {
+                {
+                    path = name,
+                    installpath = "bin/" .. name,
+                    executable = true
+                }
+            }
+        },
+        {
+            os = "linux",
+            arch = "amd64",
+            url = "https://github.com/dirien/".. name .."/releases/download/v".. version .."/".. name .."_".. version .."_linux_amd64.tar.gz",
+            sha256 = "e8423f05c60c68a240e95a72c1bdc9ef7d266055ebf39f4c2cde343553e9dfdc",
+            resources = {
+                {
+                    path = name,
+                    installpath = "bin/" .. name,
+                    executable = true
+                }
+            }
+        },
+        {
+            os = "windows",
+            arch = "amd64",
+            url = "https://github.com/dirien/".. name .."/releases/download/v".. version .."/".. name .."_".. version .."_windows_amd64.zip",
+            sha256 = "97e94c215a9123abdc4cb2c96902cacf1df9ee0c036bc2edd5fa6106e51df9f3",
+            resources = {
+                {
+                    path = name .. ".exe",
+                    installpath = "bin\\" .. name .. ".exe"
                 }
             }
         },
