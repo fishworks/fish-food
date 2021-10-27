@@ -49,4 +49,3 @@ food = {
         }
     }
 }
-https://github.com/Shopify/ejson/releases/download/v1.3.0/darwin-amd64
