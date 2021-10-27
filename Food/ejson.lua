@@ -29,7 +29,7 @@ food = {
             sha256 = "5329e8f22d1665d7e379d5f30c1fe8be7538174b0d59daea4b2dc19c1a267735",
             resources = {
                 {
-                    path = name .. "linux-amd64",
+                    path = "linux-amd64",
                     installpath = "bin/" .. name,
                     executable = true
                 }
@@ -42,7 +42,7 @@ food = {
             sha256 = "91baa5b9a688361884da21df5656c859240a14de78c8e2203ee867a40ccbbac3",
             resources = {
                 {
-                    path = name .. "windows-amd64.exe",
+                    path = "windows-amd64.exe",
                     installpath = "bin\\" .. name .. ".exe"
                 }
             }
