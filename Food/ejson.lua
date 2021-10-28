@@ -16,7 +16,7 @@ food = {
             resources = {
                 {
                     path = "darwin-amd64", 
-		    installpath = "bin/" .. name,
+                    installpath = "bin/" .. name,
                     executable = true
                 }
             }
