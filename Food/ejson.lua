@@ -38,7 +38,7 @@ food = {
         {
             os = "windows",
             arch = "amd64",
-            url = "https://github.com/Shopify/ejson/releases/download/v" .. version .. "/windows-amd64",
+            url = "https://github.com/Shopify/ejson/releases/download/v" .. version .. "/windows-amd64.exe",
             sha256 = "91baa5b9a688361884da21df5656c859240a14de78c8e2203ee867a40ccbbac3",
             resources = {
                 {
