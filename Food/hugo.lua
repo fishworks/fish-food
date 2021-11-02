@@ -1,5 +1,5 @@
 local name = "hugo"
-local version = "0.88.1"
+local version = "0.89.0"
 
 food = {
     name = name,
@@ -11,8 +11,21 @@ food = {
         {
             os = "darwin",
             arch = "amd64",
-            url = "https://github.com/gohugoio/" .. name .. "/releases/download/v" .. version .. "/" .. "hugo_" .. version .. "_macOS-64bit.tar.gz",
-            sha256 = "d669333078cf6b96824928145c2e4533756cc68a49a8cca240af4a170d7f5c5e",
+            url = "https://github.com/gohugoio/" .. name .. "/releases/download/v" .. version .. "/" .. "hugo_" .. version .. "_macOS-all.tar.gz",
+            sha256 = "eca53651c4e68ef5a7b09489a1e08e77fd68d6b477b5b291d816644c34e42ce0",
+            resources = {
+                {
+                    path = name,
+                    installpath = "bin/" .. name,
+                    executable = true
+                }
+            }
+        },
+        {
+            os = "darwin",
+            arch = "arm64",
+            url = "https://github.com/gohugoio/" .. name .. "/releases/download/v" .. version .. "/" .. "hugo_" .. version .. "_macOS-all.tar.gz",
+            sha256 = "eca53651c4e68ef5a7b09489a1e08e77fd68d6b477b5b291d816644c34e42ce0",
             resources = {
                 {
                     path = name,
@@ -25,7 +38,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/gohugoio/" .. name .. "/releases/download/v" .. version .. "/" .. "hugo_" .. version .. "_Linux-64bit.tar.gz",
-            sha256 = "80cbb0b12a03838a1f053849c9d3accad1f328a8ea824294d57f9a0c6f89620b",
+            sha256 = "3542ef01e13f5cb7fb8c10dc7ed63be74c24d3a2a0aedf9d65b998f5eaa773e0",
             resources = {
                 {
                     path = name,
@@ -38,7 +51,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/gohugoio/" .. name .. "/releases/download/v" .. version .. "/" .. "hugo_" .. version .. "_Windows-64bit.zip",
-            sha256 = "ad81192d188cb584a73074d3dea9350d4609a13ed5fccaafd229b424247e5890",
+            sha256 = "d8a54705263f2e5d7fd4a0808e3074f76b691b2e6f9d5a2c4f59f2f8b6afa9e3",
             resources = {
                 {
                     path = name .. ".exe",
