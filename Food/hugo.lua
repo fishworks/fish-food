@@ -1,5 +1,5 @@
 local name = "hugo"
-local version = "0.89.0"
+local version = "0.89.1"
 
 food = {
     name = name,
@@ -11,8 +11,8 @@ food = {
         {
             os = "darwin",
             arch = "amd64",
-            url = "https://github.com/gohugoio/" .. name .. "/releases/download/v" .. version .. "/" .. "hugo_" .. version .. "_macOS-all.tar.gz",
-            sha256 = "eca53651c4e68ef5a7b09489a1e08e77fd68d6b477b5b291d816644c34e42ce0",
+            url = "https://github.com/gohugoio/" .. name .. "/releases/download/v" .. version .. "/" .. "hugo_" .. version .. "_macOS-64bit.tar.gz",
+            sha256 = "5da706605a6952384bc9fdf02e0496284dbf4696bd09640e52f9ee3441b3f836",
             resources = {
                 {
                     path = name,
@@ -24,8 +24,8 @@ food = {
         {
             os = "darwin",
             arch = "arm64",
-            url = "https://github.com/gohugoio/" .. name .. "/releases/download/v" .. version .. "/" .. "hugo_" .. version .. "_macOS-all.tar.gz",
-            sha256 = "eca53651c4e68ef5a7b09489a1e08e77fd68d6b477b5b291d816644c34e42ce0",
+            url = "https://github.com/gohugoio/" .. name .. "/releases/download/v" .. version .. "/" .. "hugo_" .. version .. "_macOS-ARM64.tar.gz",
+            sha256 = "4663d542465c2c7ee02bc4e5b890e8332680c91cf753f1170b7dd1721410618d",
             resources = {
                 {
                     path = name,
@@ -38,7 +38,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/gohugoio/" .. name .. "/releases/download/v" .. version .. "/" .. "hugo_" .. version .. "_Linux-64bit.tar.gz",
-            sha256 = "3542ef01e13f5cb7fb8c10dc7ed63be74c24d3a2a0aedf9d65b998f5eaa773e0",
+            sha256 = "4a4072150791e2b0d0b60b408775c7feb33cf95a888be200dffabab56cb48b7a",
             resources = {
                 {
                     path = name,
@@ -51,7 +51,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/gohugoio/" .. name .. "/releases/download/v" .. version .. "/" .. "hugo_" .. version .. "_Windows-64bit.zip",
-            sha256 = "d8a54705263f2e5d7fd4a0808e3074f76b691b2e6f9d5a2c4f59f2f8b6afa9e3",
+            sha256 = "485a5f37b590c598263c37c0c734233a052c1f18a93f58a26f0210b94f4e1dc5",
             resources = {
                 {
                     path = name .. ".exe",
