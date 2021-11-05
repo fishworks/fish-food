@@ -1,5 +1,5 @@
 local name = "flux"
-local version = "0.21.0"
+local version = "0.21.1"
 local release = "v" .. version
 
 food = {
@@ -13,7 +13,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/fluxcd/flux2/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_darwin_amd64.tar.gz",
-            sha256 = "7d1112e8c50abda00c5208bf83efecdb56e9e123a4f579657c2e2d54685db9e1",
+            sha256 = "2c06b93b6d36219cc507c94eb7174e64777e7b068cf7d93482ed98eeb1647086",
             resources = {
                 {
                     path = name,
@@ -26,7 +26,7 @@ food = {
             os = "darwin",
             arch = "arm64",
             url = "https://github.com/fluxcd/flux2/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_darwin_arm64.tar.gz",
-            sha256 = "739b820f5426baef4b970b2ecd46d69e3430b427e9ac0483b18b435124017df0",
+            sha256 = "764d1cba0fe367301f8739e74d462f5aaab16b314d37019e20a539d79cee33f4",
             resources = {
                 {
                     path = name,
@@ -39,7 +39,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/fluxcd/flux2/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_linux_amd64.tar.gz",
-            sha256 = "3fd32882f08e009f58d44a594941752f0a7e1c56adff023b393facb315c0565a",
+            sha256 = "b54cb7b65df89f9c0255bf75552a144667267a6928f9557c39178238cf13c243",
             resources = {
                 {
                     path = name,
@@ -52,7 +52,7 @@ food = {
             os = "linux",
             arch = "arm64",
             url = "https://github.com/fluxcd/flux2/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_linux_arm64.tar.gz",
-            sha256 = "d1260f727095aec1a187f7a76c406c81e34325d930cb7fabaa1ef2fddc998b12",
+            sha256 = "48efbfd56e10f87935125e50eb2e469617a360d34cc89de9fa02745aff022682",
             resources = {
                 {
                     path = name,
@@ -65,7 +65,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/fluxcd/flux2/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_windows_amd64.zip",
-            sha256 = "284b7b7b40137800ae2e4bdb31b7dd909ed70140781f00fce6769fd21952069a",
+            sha256 = "eb88f383d58ef0c030772c682493d47b38383d2933c84d481c7458098bd7a4ef",
             resources = {
                 {
                     path = name .. ".exe",
