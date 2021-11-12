@@ -1,5 +1,5 @@
 local name = "kustomize"
-local version = "4.4.0"
+local version = "4.4.1"
 
 food = {
     name = name,
@@ -12,7 +12,7 @@ food = {
             arch = "amd64",
             url = "https://github.com/kubernetes-sigs/" .. name .. "/releases/download/" .. name .. "%2Fv" .. version .. "/" .. name .. "_v" .. version .. "_darwin_amd64.tar.gz",
             -- shasum of the release archive
-            sha256 = "f0e55366239464546f9870489cee50764d87ebdd07f7402cf2622e5e8dc77ac1",
+            sha256 = "1b0eba143cd684f98341d58100c17a2dfb9658375302fe38d725752ea92012ac",
             resources = {
                 {
                     path = name,
@@ -26,7 +26,7 @@ food = {
             arch = "amd64",
             url = "https://github.com/kubernetes-sigs/" .. name .. "/releases/download/" .. name .. "%2Fv" .. version .. "/" .. name .. "_v" .. version .. "_linux_amd64.tar.gz",
             -- shasum of the release archive
-            sha256 = "bf3a0d7409d9ce6a4a393ba61289047b4cb875a36ece1ec94b36924a9ccbaa0f",
+            sha256 = "2d5927efec40ba32a121c49f6df9955b8b8a296ef1dec4515a46fc84df158798",
             resources = {
                 {
                     path = name,
