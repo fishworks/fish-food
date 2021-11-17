@@ -1,5 +1,5 @@
 local name = "octant"
-local version = "0.24.0"
+local version = "0.25.0"
 
 food = {
     name = name,
@@ -13,7 +13,7 @@ food = {
             arch = "amd64",
             url = "https://github.com/vmware-tanzu/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_macOS-64bit.tar.gz",
             -- shasum of the release archive
-            sha256 = "3864b341509b35d12e6a04ba3e85872989d460cc9d7edf465e0f7f23622cab53",
+            sha256 = "d110b8d2200e3d23ed9ccd550f18089674340d2569316cdf615f576ec403525f",
             resources = {
                 {
                     path = "octant_" .. version .. "_macOS-64bit/" .. name,
@@ -27,7 +27,7 @@ food = {
             arch = "amd64",
             url = "https://github.com/vmware-tanzu/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_Linux-64bit.tar.gz", 
             -- shasum of the release archive
-            sha256 = "3a1c0b3b96becbd42c7a653c4331a638c290aa650cfa0dfdb4b149a0d0ee594e",
+            sha256 = "a90e489858133ffdb88c64b2ed68a1013720eb966e36958e8008ba8d6dce2e76",
             resources = {
                 {
                     path = "octant_" .. version .. "_Linux-64bit/" .. name,
@@ -41,7 +41,7 @@ food = {
             arch = "amd64",
             url = "https://github.com/vmware-tanzu/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_Windows-64bit.zip",
             -- shasum of the release archive
-            sha256 = "671b7878de8d23bff03a1693a347facdc020e4c30e66657ab132dbfc5f37c50f",
+            sha256 = "8b2197c0235be927747c5446377dd5a637e8af2bbca87ce667d866d097d2c29f",
             resources = {
                 {
                     path = "octant_" .. version .. "_Windows-64bit/" .. name .. ".exe",
