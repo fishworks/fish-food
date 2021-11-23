@@ -1,5 +1,5 @@
 local name = "berglas"
-local version = "0.6.1"
+local version = "0.6.2"
 
 food = {
     name = name,
@@ -12,7 +12,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://storage.googleapis.com/" .. name .. "/" .. version .. "/darwin_amd64/" .. name,
-            sha256 = "1107d944ab0780943df0db514e5ba4ebfa6b8c10aa8d82893949eb8ab3e32b7e",
+            sha256 = "f69fd6b64030734b310001789ed8408970b0f1a54926082acf5f66f1edba844b",
             resources = {
                 {
                     path = name,
@@ -25,7 +25,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://storage.googleapis.com/" .. name .. "/" .. version .. "/linux_amd64/" .. name,
-            sha256 = "19d2fee12383286bd35a0b2da1a999442b6a27f0e38ec4aa5c0614cfd55d57ac",
+            sha256 = "b6d59b8607bcf4eb5c9053a96202ae2e7cc7e6a09c2335c6854a4bc9fb18a7bb",
             resources = {
                 {
                     path = name,
@@ -38,7 +38,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://storage.googleapis.com/" .. name .. "/" .. version .. "/windows_amd64/" .. name,
-            sha256 = "4fe09ed02999d94f38ec747d1b0218fb446ab3da6fc60e25ea040184e5af29b5",
+            sha256 = "92b24ecc4c720c04eeb2ad9591e050df1322f3fcf0537ee4cbb806729fd86443",
             resources = {
                 {
                     path = name,
