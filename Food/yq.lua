@@ -1,5 +1,5 @@
 local name = "yq"
-local version = "4.15.1"
+local version = "4.16.1"
 
 food = {
     name = name,
@@ -12,7 +12,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/mikefarah/yq/releases/download/v" .. version .. "/" .. name .. "_darwin_amd64.tar.gz",
-            sha256 = "02dcfa29a185b44267b35c7d2b6c0bcd8e2ac93aded5b30cd8a6d129ccddd6e2",
+            sha256 = "fa345e43e7fb2e448079a758f91664c0a52869e387ce970029069a381cc41acb",
             resources = {
                 {
                     path = name .. "_darwin_amd64",
@@ -25,7 +25,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/mikefarah/yq/releases/download/v" .. version .. "/" .. name .. "_linux_amd64.tar.gz",
-            sha256 = "595b8d1eb9df3f24b77815e8253c0ba8163c89cf3ee7982217bd16196ede17ae",
+            sha256 = "acebc9d07aa2d0e482969b2c080ee306e8f58efbd6f2d857eefbce6469da1473",
             resources = {
                 {
                     path = name .. "_linux_amd64",
@@ -38,7 +38,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/mikefarah/yq/releases/download/v" .. version .. "/" .. name .. "_windows_amd64.zip",
-            sha256 = "1f902b5423f7ffdafac83f33f202b049c765b94273c146e5394d319fcc74193c",
+            sha256 = "bad193311e315b033342ca388cff0dff70fb2891664a410f3364e59546800163",
             resources = {
                 {
                     path = name .. "_windows_amd64.exe",
