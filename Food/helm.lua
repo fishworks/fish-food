@@ -48,6 +48,19 @@ food = {
             }
         },
         {
+            os = "linux",
+            arch = "arm64",
+            url = "https://get.helm.sh/helm-v" .. version .. "-linux-arm64.tar.gz",
+            sha256 = "57875be56f981d11957205986a57c07432e54d0b282624d68b1aeac16be70704",
+            resources = {
+                {
+                    path = "linux-arm64/" .. name,
+                    installpath = "bin/" .. name,
+                    executable = true
+                }
+            }
+        },
+        {
             os = "windows",
             arch = "amd64",
             url = "https://get.helm.sh/helm-v" .. version .. "-windows-amd64.tar.gz",
