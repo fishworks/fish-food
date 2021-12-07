@@ -22,6 +22,19 @@ food = {
             }
         },
         {
+            os = "darwin",
+            arch = "arm64",
+            url = "https://get.helm.sh/helm-v" .. version .. "-darwin-arm64.tar.gz",
+            sha256 = "733fa6731b396514071b4dbc66614bd3be8e1f079f86594ab449649441bf18f1",
+            resources = {
+                {
+                    path = "darwin-arm64/" .. name,
+                    installpath = "bin/" .. name,
+                    executable = true
+                }
+            }
+        },
+        {
             os = "linux",
             arch = "amd64",
             url = "https://get.helm.sh/helm-v" .. version .. "-linux-amd64.tar.gz",
