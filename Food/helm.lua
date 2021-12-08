@@ -1,5 +1,5 @@
 local name = "helm"
-local version = "3.7.1"
+local version = "3.7.2"
 
 food = {
     name = name,
@@ -12,7 +12,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://get.helm.sh/helm-v" .. version .. "-darwin-amd64.tar.gz",
-            sha256 = "3a9efe337c61a61b3e160da919ac7af8cded8945b75706e401f3655a89d53ef5",
+            sha256 = "5a0738afb1e194853aab00258453be8624e0a1d34fcc3c779989ac8dbcd59436",
             resources = {
                 {
                     path = "darwin-amd64/" .. name,
@@ -25,7 +25,7 @@ food = {
             os = "darwin",
             arch = "arm64",
             url = "https://get.helm.sh/helm-v" .. version .. "-darwin-arm64.tar.gz",
-            sha256 = "733fa6731b396514071b4dbc66614bd3be8e1f079f86594ab449649441bf18f1",
+            sha256 = "260d4b8bffcebc6562ea344dfe88efe252cf9511dd6da3cccebf783773d42aec",
             resources = {
                 {
                     path = "darwin-arm64/" .. name,
@@ -38,7 +38,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://get.helm.sh/helm-v" .. version .. "-linux-amd64.tar.gz",
-            sha256 = "6cd6cad4b97e10c33c978ff3ac97bb42b68f79766f1d2284cfd62ec04cd177f4",
+            sha256 = "4ae30e48966aba5f807a4e140dad6736ee1a392940101e4d79ffb4ee86200a9e",
             resources = {
                 {
                     path = "linux-amd64/" .. name,
@@ -51,7 +51,7 @@ food = {
             os = "linux",
             arch = "arm64",
             url = "https://get.helm.sh/helm-v" .. version .. "-linux-arm64.tar.gz",
-            sha256 = "57875be56f981d11957205986a57c07432e54d0b282624d68b1aeac16be70704",
+            sha256 = "b0214eabbb64791f563bd222d17150ce39bf4e2f5de49f49fdb456ce9ae8162f",
             resources = {
                 {
                     path = "linux-arm64/" .. name,
@@ -64,7 +64,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://get.helm.sh/helm-v" .. version .. "-windows-amd64.tar.gz",
-            sha256 = "f50194256e756e63e59923900e6cb753d36e5381defd5765540e7afcf527c4f0",
+            sha256 = "de2257577c657f8e3cdc78fefcfec63e73010e1f618157379923ea9cbb2599c4",
             resources = {
                 {
                     path = "windows-amd64\\" .. name .. ".exe",
