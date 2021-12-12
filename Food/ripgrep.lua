@@ -1,6 +1,6 @@
 local name = "ripgrep"
 local bin = "rg"
-local version = "12.1.1"
+local version = "13.0.0"
 
 food = {
     name = name,
@@ -13,7 +13,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/BurntSushi/" .. name .. "/releases/download/" .. version .. "/" .. name .. "-" .. version .. "-x86_64-apple-darwin.tar.gz",
-            sha256 = "7ff2fd5dd3a438d62fae5866ddae78cf542b733116f58cf21ab691a58c385703",
+            sha256 = "585c18350cb8d4392461edd6c921e6edd5a97cbfc03b567d7bd440423e118082",
             resources = {
                 {
                     path = name .. "-" .. version .. "-x86_64-apple-darwin/" .. bin,
@@ -26,7 +26,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/BurntSushi/" .. name .. "/releases/download/" .. version .. "/" .. name .. "-" .. version .. "-x86_64-unknown-linux-musl.tar.gz",
-            sha256 = "88d3b735e43f6f16a0181a8fec48847693fae80168d5f889fdbdeb962f1fc804",
+            sha256 = "ee4e0751ab108b6da4f47c52da187d5177dc371f0f512a7caaec5434e711c091",
             resources = {
                 {
                     path = name .. "-" .. version .. "-x86_64-unknown-linux-musl/" .. bin,
@@ -39,7 +39,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/BurntSushi/" .. name .. "/releases/download/" .. version .. "/" .. name .. "-" .. version .. "-x86_64-pc-windows-msvc.zip",
-            sha256 = "a74d23c8c52a7cfddab029e3217cd7aad49e970ab3ee45fa72fa5f5536230088",
+            sha256 = "a47ace6f654c5ffa236792fc3ee3fefd9c7e88e026928b44da801acb72124aa8",
             resources = {
                 {
                     path = name .. "-" .. version .. "-x86_64-pc-windows-msvc/" .. bin .. ".exe",
