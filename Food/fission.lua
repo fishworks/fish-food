@@ -1,5 +1,5 @@
 local name = "fission"
-local version = "1.14.1"
+local version = "1.15.0"
 local githubReleaseDownloadURL = "https://github.com/fission/fission/releases/download"
 
 food = {
@@ -12,11 +12,11 @@ food = {
         {
             os = "darwin",
             arch = "amd64",
-            url = githubReleaseDownloadURL .. "/" .. version .. "/fission-" .. version .. "-darwin-amd64",
-            sha256 = "2f3bde7e4851593cd85789cdbec6641a1f15901726ed563e213171b0596e118f",
+            url = githubReleaseDownloadURL .. "/v" .. version .. "/fission-v" .. version .. "-darwin-amd64",
+            sha256 = "376a16e5d174a290ac5d58653cc2ce8e68b112372783834f9c6eff438c58c6fa",
             resources = {
                 {
-                    path = name .. "-" .. version .. "-darwin-amd64",
+                    path = name .. "-v" .. version .. "-darwin-amd64",
                     installpath = "bin/" .. name,
                     executable = true
                 }
@@ -25,11 +25,11 @@ food = {
         {
             os = "linux",
             arch = "amd64",
-            url = githubReleaseDownloadURL .. "/" .. version .. "/fission-" .. version .. "-linux-amd64",
-            sha256 = "2b738091d25d64bbcab1fa2d08253a25587f8480296bec751646cea4d7099f71",
+            url = githubReleaseDownloadURL .. "/v" .. version .. "/fission-v" .. version .. "-linux-amd64",
+            sha256 = "7ba13bfd687bde9847079b7b49972dce536c97ee4c0f964b1a3e0864771d57a4",
             resources = {
                 {
-                    path = name .. "-" .. version .. "-linux-amd64",
+                    path = name .. "-v" .. version .. "-linux-amd64",
                     installpath = "bin/" .. name,
                     executable = true
                 }
@@ -38,11 +38,11 @@ food = {
         {
             os = "windows",
             arch = "amd64",
-            url = githubReleaseDownloadURL .. "/" .. version .. "/fission-" .. version .. "-windows-amd64.exe",
-            sha256 = "e94003253fb5f46b1941afc1d2d5bcff1d27d2efe01be289e918a9e179f5fa03",
+            url = githubReleaseDownloadURL .. "/v" .. version .. "/fission-v" .. version .. "-windows-amd64.exe",
+            sha256 = "ed577c5ed4c30d99ae5d4786b413d33d1b0bfa60dc85ab37a9eec9551d3581ab",
             resources = {
                 {
-                    path = name .. "-" .. version .. "-windows-amd64.exe",
+                    path = name .. "-v" .. version .. "-windows-amd64.exe",
                     installpath = "bin\\" .. name .. ".exe",
                     executable = true
                 }
