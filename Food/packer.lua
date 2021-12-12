@@ -5,7 +5,7 @@ food = {
     name = name,
     description = "Packer is a tool for creating identical machine images for multiple platforms from a single source configuration.",
     license = "MPL-2.0",
-    homepage = "http://www.packer.io",
+    homepage = "https://www.packer.io",
     version = version,
     packages = {
         {

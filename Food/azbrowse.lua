@@ -4,7 +4,7 @@ local repo = "lawrencegripper"
 
 food = {
     name = name,
-    description = "An interactive CLI for browsing Azure, inspired by http://resources.azure.com/",
+    description = "An interactive CLI for browsing Azure, inspired by https://resources.azure.com/",
     homepage = "https://github.com/lawrencegripper/azbrowse",
     version = version,
     packages = {

@@ -6,7 +6,7 @@ food = {
     name = name,
     description = "Rapid Web Development w/ Go",
     license = "MIT",
-    homepage = "http://gobuffalo.io",
+    homepage = "https://gobuffalo.io",
     version = version,
     packages = {
         {
