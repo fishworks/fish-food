@@ -6,7 +6,7 @@ food = {
     name = name,
     description = "Kubebuilder - SDK for building Kubernetes APIs using CRDs",
     license = "Apache-2.0",
-    homepage = "http://book.kubebuilder.io",
+    homepage = "https://book.kubebuilder.io",
     version = version,
     packages = {
         {

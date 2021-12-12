@@ -5,7 +5,7 @@ food = {
     name = name,
     description = "Terraform provider to handle raw kubernetes manifest yaml files",
     license = "MPL-2.0",
-    homepage = "http://gavinbunney.github.io/terraform-provider-kubectl",
+    homepage = "https://registry.terraform.io/providers/gavinbunney/kubectl",
     version = version,
     packages = {
         {

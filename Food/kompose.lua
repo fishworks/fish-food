@@ -4,7 +4,7 @@ local version = "1.26.0"
 food = {
     name = name,
     description = "Go from Docker Compose to Kubernetes.",
-    homepage = "http://kompose.io/",
+    homepage = "https://kompose.io/",
     version = version,
     packages = {
         {
