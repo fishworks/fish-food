@@ -7,7 +7,7 @@ food = {
     name = name,
     description = "A Kubernetes Kubelet for WebAssembly",
     license = "Apache-2.0",
-    homepage = "https://github.com/deislabs/krustlet",
+    homepage = "https://github.com/krustlet/krustlet",
     version = version,
     packages = {
         {
