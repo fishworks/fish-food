@@ -5,7 +5,7 @@ food = {
     name = name,
     description = "Cloud SQL proxy client and Go library",
     license = "Apache-2.0",
-    homepage = "https://cloud.google.com/sql/docs/mysql/sql-proxy",
+    homepage = "https://github.com/GoogleCloudPlatform/cloudsql-proxy",
     version = version,
     packages = {
         {
