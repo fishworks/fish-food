@@ -1,5 +1,5 @@
 local name = "azbrowse"
-local version = "2.0.885432590"
+local version = "2.1.540"
 local repo = "lawrencegripper"
 
 food = {
@@ -13,21 +13,7 @@ food = {
             arch = "amd64",
             url = "https://github.com/" .. repo .. "/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "_linux_amd64.tar.gz",
             -- shasum of the release archive
-            sha256 = "acf84a9c8852014953758abba9d80b3db51118619051a84c739b099aeeb2df9e",
-            resources = {
-                {
-                    path = name,
-                    installpath = "bin/" .. name,
-                    executable = true
-                }
-            }
-        },
-        {
-            os = "linux",
-            arch = "386",
-            url = "https://github.com/" .. repo .. "/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "_linux_386.tar.gz",
-            -- shasum of the release archive
-            sha256 = "240fb96807f9a58bd9f1556ecc3a5995238eeabb8595bd08199edd0787ab0c67",
+            sha256 = "27372d20f5c247cfc477095f6cbb6bfa56ab7aa012ba1d5cce790903e6aedcef",
             resources = {
                 {
                     path = name,
@@ -41,7 +27,7 @@ food = {
             arch = "amd64",
             url = "https://github.com/" .. repo .. "/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "_darwin_amd64.tar.gz",
             -- shasum of the release archive
-            sha256 = "98e6f2cfcabb784781ad1e7f5250a6fc1d67057e96aace68037a55a4b77ab6bc",
+            sha256 = "ada2aa4956331a784b43d393efa792a78e2b1d4b51cb039fbbaf96d6cc571b8f",
             resources = {
                 {
                     path = name,
@@ -55,7 +41,7 @@ food = {
             arch = "amd64",
             url = "https://github.com/" .. repo .. "/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "_windows_amd64.zip",
             -- shasum of the release archive
-            sha256 = "a2569e6859b7c38da73b1512828e3e0f21defa097768b4248016312407a393de",
+            sha256 = "fcc20d57a07276902454fb711e86a4f5e588b6fa854cc59011b709ebbddb5160",
             resources = {
                 {
                     path = name .. ".exe",
@@ -63,18 +49,5 @@ food = {
                 }
             }
         },
-        {
-            os = "windows",
-            arch = "386",
-            url = "https://github.com/" .. repo .. "/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "_windows_386.zip",
-            -- shasum of the release archive
-            sha256 = "be1f5b5e45b84ca885bc43f6d03eb50ddd935c03e1acc2254e065c0aef760495",
-            resources = {
-                {
-                    path = name .. ".exe",
-                    installpath = "bin\\" .. name .. ".exe"
-                }
-            }
-        }
     }
 }
