@@ -22,6 +22,19 @@ food = {
             }
         },
         {
+            os = "darwin",
+            arch = "arm64",
+            url = "https://storage.googleapis.com/cloudsql-proxy/v" .. version .. "/" .. name .. ".darwin.arm64",
+            sha256 = "9c8a701a8a25391181802237af36d129b08d3003b0848721b0e2178e8e3e7419",
+            resources = {
+                {
+                    path = name .. ".darwin.arm64",
+                    installpath = "bin/" .. name,
+                    executable = true
+                }
+            }
+        },
+        {
             os = "linux",
             arch = "amd64",
             url = "https://storage.googleapis.com/cloudsql-proxy/v" .. version .. "/" .. name .. ".linux.amd64",
@@ -29,6 +42,19 @@ food = {
             resources = {
                 {
                     path = name .. ".linux.amd64",
+                    installpath = "bin/" .. name,
+                    executable = true
+                }
+            }
+        },
+        {
+            os = "linux",
+            arch = "arm64",
+            url = "https://storage.googleapis.com/cloudsql-proxy/v" .. version .. "/" .. name .. ".linux.arm64",
+            sha256 = "bffd60642668ba0df0543b290e5417dcd1655c0371819b2273990435ace01965",
+            resources = {
+                {
+                    path = name .. ".linux.arm64",
                     installpath = "bin/" .. name,
                     executable = true
                 }
