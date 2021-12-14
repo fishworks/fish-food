@@ -1,5 +1,5 @@
 local name = "wasmtime"
-local version = "0.31.0"
+local version = "0.32.0"
 
 food = {
     name = name,
@@ -11,7 +11,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/bytecodealliance/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. "-x86_64-macos.tar.xz",
-            sha256 = "d1e207ae1c6010ebdd0e127863ae1819d21b0bcda7c27fc460e66bfe5f24b89f",
+            sha256 = "67a1023da19d78a7c8ba9c9b1ead7b7c119013658f90d13d0f8fafe95d281ac7",
             resources = {
                 {
                     path = name .. "-v" .. version .. "-x86_64-macos/" .. name,
@@ -24,7 +24,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/bytecodealliance/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. "-x86_64-linux.tar.xz",
-            sha256 = "8d6f3f3b9691a6a36cec3c18227cb7bf1f62e95390083577a3f207f60afb39ea",
+            sha256 = "24d7bf11bccc21e71b724c90cf35ca232a8a9dba62ab766bd30e0ccc928fc83b",
             resources = {
                 {
                     path = name .. "-v" .. version .. "-x86_64-linux/" .. name,
@@ -37,7 +37,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/bytecodealliance/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. "-x86_64-windows.zip",
-            sha256 = "48b410f6db9548f0c89ae370cd31a02e9a0119edc9d39af5f9798ab192bab566",
+            sha256 = "223506e4e82c167f711fc102b1bd4e562841d764bce180f6a8d6d93c10bfd1db",
             resources = {
                 {
                     path = name .. "-v" .. version .. "-x86_64-windows/" .. name .. ".exe",
