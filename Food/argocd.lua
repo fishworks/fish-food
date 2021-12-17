@@ -1,5 +1,5 @@
 local name = "argocd"
-local version = "2.2.0"
+local version = "2.2.1"
 
 food = {
     name = name,
@@ -12,7 +12,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/argoproj/argo-cd/releases/download/v" .. version .. "/" .. name .. "-darwin-amd64",
-            sha256 = "333e6fd2a74c9f7a1e549ecd42ae832547f6b53a5f75d19cfd32e0ea97170594",
+            sha256 = "bdcbe69ab3779ddabea255f2a03132b65f4dbd2f7e88fe0ff6a64596eb90693e",
             resources = {
                 {
                     path = name .. "-darwin-amd64",
@@ -25,7 +25,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/argoproj/argo-cd/releases/download/v" .. version .. "/" .. name .. "-linux-amd64",
-            sha256 = "12f51bd1a5d2cc6d80ff542f2eae044bba783f3517b63f1c245a19fd60b710a9",
+            sha256 = "08a899143120724be4694e1760c984b281448125debf7f7725ce021772f84cdf",
             resources = {
                 {
                     path = name .. "-linux-amd64",
@@ -38,7 +38,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/argoproj/argo-cd/releases/download/v" .. version .. "/" .. name .. "-windows-amd64.exe",
-            sha256 = "3bf24c4ae4afc1bea4652b2869e2ef296747bff919a0eeda48ebc28127b9b201",
+            sha256 = "344fd18b58690a4a885391caf09997f5838c437c0706c853e4636a3099628bd0",
             resources = {
                 {
                     path = name .. "-windows-amd64.exe",
