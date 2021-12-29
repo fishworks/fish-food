@@ -4,7 +4,7 @@ local version = "0.9.0"
 food = {
     name = name,
     description = "Zig is a general-purpose programming language and toolchain for maintaining robust, optimal, and reusable software.",
-    license = "MIT",
+    license = "MIT (Expat)",
     homepage = "https://ziglang.org",
     version = version,
     packages = {
@@ -37,11 +37,11 @@ food = {
         {
             os = "windows",
             arch = "amd64",
-            url = "https://ziglang.org/download/" .. version .. "/" .. name.. "-windows-x86_64-" .. version ..".zip",
+            url = "https://ziglang.org/download/" .. version .. "/" .. name.. "-windows-x86_64-" .. version .. ".zip",
             sha256 = "084ea2646850aaf068234b0f1a92b914ed629be47075e835f8a67d55c21d880e",
             resources = {
                 {
-                    path = name .. "-windows-x86_64-" .. version .. "/" .. name, .. ".exe"
+                    path = name .. "-windows-x86_64-" .. version .. "/" .. name .. ".exe",
                     installpath = "bin\\" .. name .. ".exe"
                 }
             }
