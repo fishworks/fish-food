@@ -1,6 +1,6 @@
 local name = "gitleaks"
-local release = "v8.2.4"
-local version = "8.2.4"
+local release = "v8.2.5"
+local version = "8.2.5"
 food = {
     name = name,
     description = "Scan git repos (or files) for secrets using regex and entropy 🔑",
@@ -12,7 +12,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/zricethezav/" .. name .. "/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_darwin_x64.tar.gz",
-            sha256 = "e8410cad143c561f05b94cdcb59d05d80115b482cee3b0a0b05df0f493d62cd7",
+            sha256 = "c180d2a4a217bc468fe9369b99089fca6b9f23ff08fd58d39d4ec9e5c9bb15dd",
             resources = {
                 {
                     path = name,
@@ -25,7 +25,7 @@ food = {
             os = "darwin",
             arch = "arm64",
             url = "https://github.com/zricethezav/" .. name .. "/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_darwin_arm64.tar.gz",
-            sha256 = "64f697c8fb032bfeeb39e17d879f7d1e7cd8d627ae61dd553749d8ac5c967800",
+            sha256 = "c2b82013e53039f8c942e2b52befe2e2704b24a92001fbc37bb7d90d7d3ba80d",
             resources = {
                 {
                     path = name,
@@ -38,7 +38,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/zricethezav/" .. name .. "/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_linux_x64.tar.gz",
-            sha256 = "f1ee26e27d040cee1f66f1e2d259c7afaf53566ae62bec514f8c2fb885fe6bac",
+            sha256 = "3510ce01026090c8008881781459dde68fd31ed93d3912ba1419923ca213b7be",
             resources = {
                 {
                     path = name,
@@ -51,7 +51,7 @@ food = {
             os = "linux",
             arch = "arm64",
             url = "https://github.com/zricethezav/" .. name .. "/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_linux_arm64.tar.gz",
-            sha256 = "837bc835f7100eda5d049f2bff0161518ee24116db4d3fb0e9f46382451e1bd6",
+            sha256 = "e8b906668954d8a8211e1c85bab73dcb165dbbcb3e8c86d8aae824bd5c50a45b",
             resources = {
                 {
                     path = name,
@@ -64,7 +64,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/zricethezav/" .. name .. "/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_windows_x64.zip",
-            sha256 = "61cc1ff7c250dceae84fb9456eefba73c92e5017a9df6cfafba8a8dfba0742b8",
+            sha256 = "3210d77bd74fee1bbceedb15d10858686cb1bfd6afe31cfc37502ee98cda5a92",
             resources = {
                 {
                     path = name .. ".exe",
