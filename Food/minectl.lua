@@ -1,5 +1,5 @@
 local name = "minectl"
-local version = "0.13.0"
+local version = "0.14.0"
 
 food = {
     name = name,
@@ -12,7 +12,7 @@ food = {
             os = "darwin",
             arch = "arm64",
             url = "https://github.com/dirien/".. name .."/releases/download/v".. version .."/".. name .."_".. version .."_darwin_arm64.tar.gz",
-            sha256 = "d049459c07e55af75590edd683c405799230cc827893aaa6ba4deb0987de352c",
+            sha256 = "bb75a94c5f360a63bdb684b18740ae992262215c361554d7754171009d9046b8",
             resources = {
                 {
                     path = name,
@@ -25,7 +25,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/dirien/".. name .."/releases/download/v".. version .."/".. name .."_".. version .."_darwin_amd64.tar.gz",
-            sha256 = "8c61f348093bb7ce46384eabfda97e3721f6cd448abca612e46ce319276c21de",
+            sha256 = "f60d6750af0fe017ca3e20dc0c4a158e3e6301b7230777d49d01f1408e65ce6c",
             resources = {
                 {
                     path = name,
@@ -38,7 +38,7 @@ food = {
             os = "linux",
             arch = "arm64",
             url = "https://github.com/dirien/".. name .."/releases/download/v".. version .."/".. name .."_".. version .."_linux_arm64.tar.gz",
-            sha256 = "d76a0d3b8de9b278cba4a808e7e4849523f395fe4b1081d99b08329d3ac718f3",
+            sha256 = "c053bd54bdbe7fa7f57a4024374a7bbe30c7e1976445712ed71ca21c2a9ae5b4",
             resources = {
                 {
                     path = name,
@@ -51,7 +51,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/dirien/".. name .."/releases/download/v".. version .."/".. name .."_".. version .."_linux_amd64.tar.gz",
-            sha256 = "bf14e7ba621b00f13caba80f2ea363bfcd31c537e04fb22b571daea76d61e8b1",
+            sha256 = "4e864568654f7f276606f5839a4eb6ab1f0438cd487d8cf96ac35b394ff65fcc",
             resources = {
                 {
                     path = name,
@@ -64,7 +64,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/dirien/".. name .."/releases/download/v".. version .."/".. name .."_".. version .."_windows_amd64.zip",
-            sha256 = "952a1a2da59b8502a2463dc6341ef147e52fde375fdb3b93f319ed7110129986",
+            sha256 = "2cc72f62e17b72317ea9a43eee18c26b9dfddfa2c6a96977b51639c0bfe919d6",
             resources = {
                 {
                     path = name .. ".exe",
