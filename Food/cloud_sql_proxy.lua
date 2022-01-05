@@ -1,5 +1,5 @@
 local name = "cloud_sql_proxy"
-local version = "1.27.1"
+local version = "1.28.0"
 
 food = {
     name = name,
@@ -12,7 +12,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://storage.googleapis.com/cloudsql-proxy/v" .. version .. "/" .. name .. ".darwin.amd64",
-            sha256 = "fb40a8ce9cfbd814ba130ceeec0e03679d3b1f12764a09d64787f061089771fe",
+            sha256 = "b147a642ef9564469e395f1da3eb913f5e49c00c7e32bb929be8eebe102977ff",
             resources = {
                 {
                     path = name .. ".darwin.amd64",
@@ -25,7 +25,7 @@ food = {
             os = "darwin",
             arch = "arm64",
             url = "https://storage.googleapis.com/cloudsql-proxy/v" .. version .. "/" .. name .. ".darwin.arm64",
-            sha256 = "9c8a701a8a25391181802237af36d129b08d3003b0848721b0e2178e8e3e7419",
+            sha256 = "886c61652be63ece410cf38b449a5b3cf6c6208c215b56fde143eeaf60a30909",
             resources = {
                 {
                     path = name .. ".darwin.arm64",
@@ -38,7 +38,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://storage.googleapis.com/cloudsql-proxy/v" .. version .. "/" .. name .. ".linux.amd64",
-            sha256 = "111f0a6ff68e3856e59cf7700d190273862a64d71a07b84510a0b4fd75b91d8e",
+            sha256 = "f86d58ddab285238c84d1d0463a9ea5dc6047af9f439c0852ef9d31ac31514d0",
             resources = {
                 {
                     path = name .. ".linux.amd64",
@@ -51,7 +51,7 @@ food = {
             os = "linux",
             arch = "arm64",
             url = "https://storage.googleapis.com/cloudsql-proxy/v" .. version .. "/" .. name .. ".linux.arm64",
-            sha256 = "bffd60642668ba0df0543b290e5417dcd1655c0371819b2273990435ace01965",
+            sha256 = "a58a8dfeebdbb4bc068af0f3ddd26acc2827e89a4ab20644178a2ad34d2c5a1e",
             resources = {
                 {
                     path = name .. ".linux.arm64",
@@ -64,7 +64,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://storage.googleapis.com/cloudsql-proxy/v" .. version .. "/" .. name .. "_x86.exe",
-            sha256 = "0a8dd85a4ef128768f6fff42bb7b86d6a59376830f3a8b3d436bf3f28b707f54",
+            sha256 = "3520b4825ddd60822d31658bdda632f862a6d12e86dc00c51d4870c434904f4f",
             resources = {
                 {
                     path = name .. "_x86.exe",
