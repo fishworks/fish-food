@@ -1,5 +1,5 @@
 local name = "k0sctl"
-local version = "0.12.0"
+local version = "0.12.1"
 
 food = {
     name = name,
@@ -12,7 +12,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/k0sproject/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-win-x64.exe",
-            sha256 = "657bb93ebfef4341bd01ffd9e9835a18121b24afdcd80d4c2c4fdfd85909b8e5",
+            sha256 = "f363228b3ea33510d7c0d1e22b2f1af54de338d73224e298d121ddf1d9496d32",
             resources = {
                 {
                     path = name .. "-win-x64.exe",
@@ -24,7 +24,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/k0sproject/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-linux-x64",
-            sha256 = "ba285bed8a5e385768ed50629e12583a45a6a93fdf4f81bf1c7f71ae6fefcf0d",
+            sha256 = "2194313ad3358767f8b8eb94f45febcd7500926ce10d1bae7acdef7f5684047e",
             resources = {
                 {
                     path = name .. "-linux-x64",
@@ -37,7 +37,7 @@ food = {
             os = "linux",
             arch = "arm64",
             url = "https://github.com/k0sproject/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-linux-arm64",
-            sha256 = "7b4da65a08a1eb66db0549143074cea65044402e6277a17294df8f817bb1caa7",
+            sha256 = "21e2a54726a68e6b31c207293e72152c74c7c214ee29d213bd03f91ee8ee2ba0",
             resources = {
                 {
                     path = name .. "-linux-arm64",
@@ -50,7 +50,7 @@ food = {
             os = "linux",
             arch = "arm",
             url = "https://github.com/k0sproject/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-linux-arm",
-            sha256 = "18bd6e81a991cb281272994b59d83bd0218c28371e509ae43ababcfdc9578c15",
+            sha256 = "7f6dc801f02624ca0bc7e93fdbcfde0671d4dde2500e990184fd8b196c9395ef",
             resources = {
                 {
                     path = name .. "-linux-arm",
@@ -63,7 +63,7 @@ food = {
             os = "darwin",
             arch = "arm64",
             url = "https://github.com/k0sproject/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-darwin-arm64",
-            sha256 = "5fe21e544260f5d5cfc0d17c023bf845f8f230b52826aee1d91ae961183f711c",
+            sha256 = "48a57528ebcf6c06169b8ff2c3203f9bde46641cab84bd592a66045a14b6d766",
             resources = {
                 {
                     path = name .. "-darwin-arm64",
@@ -76,7 +76,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/k0sproject/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-darwin-x64",
-            sha256 = "ee663870de29bac2aa613175b22b2b1533a83746e117b8246b9d61ff6440252f",
+            sha256 = "940b05657e54a102ace1380395ead431258e285ad96842aa0310624b6aac952a",
             resources = {
                 {
                     path = name .. "-darwin-x64",
