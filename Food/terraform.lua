@@ -1,5 +1,5 @@
 local name = "terraform"
-local version = "1.1.2"
+local version = "1.1.3"
 
 food = {
     name = name,
@@ -12,7 +12,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://releases.hashicorp.com/" .. name .. "/" .. version .. "/" .. name .. "_" .. version .. "_darwin_amd64.zip",
-            sha256 = "214da2e97f95389ba7557b8fcb11fe05a23d877e0fd67cd97fcbc160560078f1",
+            sha256 = "c54022e514a97e9b96dae24a3308227d034989ecbafb65e3293eea91f2d5edfb",
             resources = {
                 {
                     path = name,
@@ -25,7 +25,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://releases.hashicorp.com/" .. name .. "/" .. version .. "/" .. name .. "_" .. version .. "_linux_amd64.zip",
-            sha256 = "734efa82e2d0d3df8f239ce17f7370dabd38e535d21e64d35c73e45f35dfa95c",
+            sha256 = "b215de2a18947fff41803716b1829a3c462c4f009b687c2cbdb52ceb51157c2f",
             resources = {
                 {
                     path = name,
@@ -38,7 +38,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://releases.hashicorp.com/" .. name .. "/" .. version .. "/" .. name .. "_" .. version .. "_windows_amd64.zip",
-            sha256 = "4c40b48b78e1c7b049fcff2f0cbf287b3df1c6d602fd6635189c45414ed16f94",
+            sha256 = "b2890c05c04cfa3cad3c3d5316e6670b963a347ad42ba02fede55268148bce5a",
             resources = {
                 {
                     path = name .. ".exe",
