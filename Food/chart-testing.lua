@@ -1,6 +1,6 @@
 local name = "chart-testing"
 local bin = "ct"
-local version = "3.4.0"
+local version = "3.5.0"
 
 food = {
     name = name,
@@ -13,7 +13,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/helm/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_darwin_amd64.tar.gz",
-            sha256 = "e1b8b4ef1e4977075416f3c9d9d5f66f28bb54ff18068956e832ffd0375ac94b",
+            sha256 = "568a73220113a9adfaa0b4669be99b2f873dcd0eabd9d4c68899525cb8ae01d8",
             resources = {
                 {
                     path = bin,
@@ -26,7 +26,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/helm/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_linux_amd64.tar.gz",
-            sha256 = "7a8275b001e41901a2b4d24463e951981082d3496447f59ff1d53e837ae31cb7",
+            sha256 = "fdfe8bdf21b336ba99984520baa7e432e9c7b0769729d1da581959a5ecdc72e1",
             resources = {
                 {
                     path = bin,
@@ -39,7 +39,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/helm/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_windows_amd64.zip",
-            sha256 = "cb9b1959b94b073aaa7c5113cd5028aa003e9ac44638509f708bbcb28c2b3aa3",
+            sha256 = "42978ea8df853ebc072000ab428505e77efd704849d016becabd1b86790ea9dc",
             resources = {
                 {
                     path = bin .. ".exe",
