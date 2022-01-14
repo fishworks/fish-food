@@ -22,6 +22,19 @@ food = {
             }
         },
         {
+            os = "darwin",
+            arch = "arm64",
+            url = "https://github.com/mikefarah/yq/releases/download/v" .. version .. "/" .. name .. "_darwin_arm64.tar.gz",
+            sha256 = "2fc0f228b6573b536026846002b3bdcdf4110048fde317d123770e8ef5214084",
+            resources = {
+                {
+                    path = name .. "_darwin_arm64",
+                    installpath = "bin/" .. name,
+                    executable = true
+                }
+            }
+        },
+        {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/mikefarah/yq/releases/download/v" .. version .. "/" .. name .. "_linux_amd64.tar.gz",
