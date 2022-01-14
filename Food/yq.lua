@@ -25,7 +25,7 @@ food = {
             os = "darwin",
             arch = "arm64",
             url = "https://github.com/mikefarah/yq/releases/download/v" .. version .. "/" .. name .. "_darwin_arm64.tar.gz",
-            sha256 = "18cf1bb7c0afd8d4d2d2de277b0f71fc6234f481b147f5ce06464e2ab863a7c5",
+            sha256 = "2fc0f228b6573b536026846002b3bdcdf4110048fde317d123770e8ef5214084",
             resources = {
                 {
                     path = name .. "_darwin_arm64",
