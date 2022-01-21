@@ -1,7 +1,7 @@
 local name = "minikube"
 local org = "kubernetes"
-local release = "v1.25.0"
-local version = "1.25.0"
+local release = "v1.25.1"
+local version = "1.25.1"
 food = {
     name = name,
     description = "Run Kubernetes locally",
@@ -13,7 +13,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/kubernetes/" .. name .. "/releases/download/" .. release .. "/" .. name .. "-darwin-amd64.tar.gz",
-            sha256 = "ffa68862c74b6417a8e14439b909145973e4d8e0c723c8099e855dc9db40a2a9",
+            sha256 = "173ea233f5f3ee7a619a3c3e1a54ce4e79a26e4cdb2b61f407d91abea991ffaf",
             resources = {
                 {
                     path = "out/" .. name .. "-darwin-amd64",
@@ -26,7 +26,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/kubernetes/" .. name .. "/releases/download/" .. release .. "/" .. name .. "-linux-amd64.tar.gz",
-            sha256 = "2e00357d3db979d52c5ea29292ac29333a5bab17355f26dfd69c30317a6f9f04",
+            sha256 = "e3c95166782cc8c09a8fcda2aaae418f2056b0f9dee9316b9c115c1f19d067f0",
             resources = {
                 {
                     path = "out/" .. name .. "-linux-amd64",
@@ -39,7 +39,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/kubernetes/" .. name .. "/releases/download/" .. release .. "/" .. name .. "-windows-amd64.tar.gz",
-            sha256 = "e9cc88cba7e627f85e6dabbacf0efbba77f26a007ae77a5cd6339abc36ecc350",
+            sha256 = "958e32471bf2455de2e26b346bc231626cc2f1c5719549fa5340495c4665d2f9",
             resources = {
                 {
                     path = "out\\" .. name .. "-windows-amd64.exe",
