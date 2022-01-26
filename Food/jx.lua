@@ -1,5 +1,5 @@
 local name = "jx"
-local version = "3.2.246"
+local version = "3.2.248"
 
 food = {
     name = name,
@@ -12,7 +12,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/jenkins-x/jx/releases/download/v" .. version .. "/" .. name .. "-darwin-amd64.tar.gz",
-            sha256 = "ba7ba51a3bda35fd63a09fc933bf5790e0a6ae286a648b63d2882347dcd5b257",
+            sha256 = "a7468a45ffdbfd56c7d153dfe1b1586ef9dcc4486c58919f02df6dd01f7988f9",
             resources = {
                 {
                     path = name,
@@ -25,7 +25,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/jenkins-x/jx/releases/download/v" .. version .. "/" .. name .. "-linux-amd64.tar.gz",
-            sha256 = "b00d01d042c448f11a37caf73b02388736ec427e674c548b25f83a5936f753e0",
+            sha256 = "8624517de3d74a044f1607b1983611bbef8f219e38e44221ae1e428eeed04caf",
             resources = {
                 {
                     path = name,
@@ -38,7 +38,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/jenkins-x/jx/releases/download/v" .. version .. "/" .. name .. "-windows-amd64.zip",
-            sha256 = "619f115b47120f7401be9c2b91678d52db4c1ebf236dee41d4b1ad1750dc36d1",
+            sha256 = "c1ed03c5dcef9d0824c26b4099f0ecc99567b1f3ffd281b2786fe9e8df98f409",
             resources = {
                 {
                     path = name .. ".exe",
