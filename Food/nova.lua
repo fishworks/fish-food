@@ -1,6 +1,6 @@
 local name = "nova"
-local release = "2.3.4"
-local version = "2.3.4"
+local release = "2.4.0"
+local version = "2.4.0"
 food = {
     name = name,
     description = "Find outdated or deprecated Helm charts running in your cluster.",
@@ -12,7 +12,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/FairwindsOps/" .. name .. "/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_darwin_amd64.tar.gz",
-            sha256 = "4d10c1b736a6feb93c9d9a0378489e6cf2f963df1e8ab07b0c038ddcbe05ccd5",
+            sha256 = "2d17616b91331afd34bef0bd51eb1046819fbfe6dc364dc44fb0081250426596",
             resources = {
                 {
                     path = name,
@@ -25,7 +25,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/FairwindsOps/" .. name .. "/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_linux_amd64.tar.gz",
-            sha256 = "c005076bc30481797920678c9a3dcdac134772b4bc9c36a366ade52577c1d72d",
+            sha256 = "29ee2aa9f10f0b50f1035b31b499d93714d98fa60856ed946cbcd241d129857d",
             resources = {
                 {
                     path = name,
