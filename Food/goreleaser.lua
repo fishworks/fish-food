@@ -1,5 +1,5 @@
 local name = "goreleaser"
-local version = "1.3.1"
+local version = "1.4.1"
 
 food = {
     name = name,
@@ -12,7 +12,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/" .. name .. "/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "_Darwin_all.tar.gz",
-            sha256 = "c0e1fa5c432022793005114cac52626029197da352fc19a13ed3d96f9bb1160f",
+            sha256 = "0a159254168207dbb3ceace877c03e75c01eadb0aaf34265f7d61bea2cd7a645",
             resources = {
                 {
                     path = name,
@@ -25,7 +25,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/" .. name .. "/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "_Linux_x86_64.tar.gz",
-            sha256 = "845ac8e7ede20c508c4e42acbda38df094ff2b744cd17201ac65a0316daa8cfb",
+            sha256 = "bb3457df09ababddd0cfaf636178791dda80f6bbe2535605568321a0978325ca",
             resources = {
                 {
                     path = name,
@@ -38,7 +38,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/" .. name .. "/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "_Windows_x86_64.zip",
-            sha256 = "58f45fb1091fe82f5c4e2bbf38b5435a4d95cb58c46fc1be2171cca1aaa625e1",
+            sha256 = "ebf1aca634cb2a2050bc37b498d1384e75d5bd58cda1bebe246a0f3b9f59680f",
             resources = {
                 {
                     path = name .. ".exe",
