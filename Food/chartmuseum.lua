@@ -1,5 +1,5 @@
 local name = "chartmuseum"
-local version = "0.13.1"
+local version = "0.14.0"
 
 food = {
     name = name,
@@ -12,7 +12,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://get.helm.sh/chartmuseum-v" .. version .. "-darwin-amd64.tar.gz",
-            sha256 = "25179e0e9456919b3792b628fa715fe2fe0d821ff12f9f0ae1e5cf52e631ae8d",
+            sha256 = "5036e2095e2c50ebc74161974cce638d5e481d7eb9d335ad5325c37e7eea5f9c",
             resources = {
                 {
                     path = "darwin-amd64/" .. name,
@@ -22,10 +22,23 @@ food = {
             }
         },
         {
+            os = "darwin",
+            arch = "arm64",
+            url = "https://get.helm.sh/chartmuseum-v" .. version .. "-darwin-arm64.tar.gz",
+            sha256 = "4daeb6ba37e41a445ffd0f51c80b9ced453c64789ade219c1832ff3d77e87492",
+            resources = {
+                {
+                    path = "darwin-arm64/" .. name,
+                    installpath = "bin/" .. name,
+                    executable = true
+                }
+            }
+        },
+        {
             os = "linux",
             arch = "amd64",
             url = "https://get.helm.sh/chartmuseum-v" .. version .. "-linux-amd64.tar.gz",
-            sha256 = "a1f912c03351aca8cbac8588220d9b0e208e65fb9955cbfacff18676a48728ef",
+            sha256 = "382d28c017e70fe4d331c9fe192459a6732cbdc48f1928047ee0ff282f924c3d",
             resources = {
                 {
                     path = "linux-amd64/" .. name,
@@ -38,7 +51,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://get.helm.sh/chartmuseum-v" .. version .. "-windows-amd64.zip",
-            sha256 = "a7b403f967e92c9b4f3f2f5074bc799f2d18f20f6da463bb8c7b920e594f7e39",
+            sha256 = "dcb39c17d58c2c57722853f3cf6d86febe8304adf2aa8391413e213b841fcc5c",
             resources = {
                 {
                     path = "windows-amd64\\" .. name .. ".exe",
