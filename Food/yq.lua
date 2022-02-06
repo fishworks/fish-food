@@ -1,5 +1,5 @@
 local name = "yq"
-local version = "4.18.1"
+local version = "4.19.1"
 
 food = {
     name = name,
@@ -12,7 +12,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/mikefarah/yq/releases/download/v" .. version .. "/" .. name .. "_darwin_amd64.tar.gz",
-            sha256 = "2ed02d12f2c0d2fafbdc109cda958a615c5b5e324a2fbc2cba4569f80d2e1a92",
+            sha256 = "3d395c4846ce9706b401ffd78d9a8569d5ba88080e362e0dbbf72335d8748516",
             resources = {
                 {
                     path = name .. "_darwin_amd64",
@@ -25,7 +25,7 @@ food = {
             os = "darwin",
             arch = "arm64",
             url = "https://github.com/mikefarah/yq/releases/download/v" .. version .. "/" .. name .. "_darwin_arm64.tar.gz",
-            sha256 = "c006c17612e495dc10e2d1f8b4944826e1e1e8c469e5601737ddbf0448a43822",
+            sha256 = "47cf2390ccdd116729a11a4bbdfd53d7ce6ba5a5e77b29c02dac56569710a33e",
             resources = {
                 {
                     path = name .. "_darwin_arm64",
@@ -38,7 +38,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/mikefarah/yq/releases/download/v" .. version .. "/" .. name .. "_linux_amd64.tar.gz",
-            sha256 = "7f2d7912cc7598b6c03723d9367c4f11aad4526feccfdd55f8a54d3da2c10624",
+            sha256 = "ce22df03f367dbc86af2f368bab403cf5df182caf8e249ff2ae1653a72bde70e",
             resources = {
                 {
                     path = name .. "_linux_amd64",
@@ -51,7 +51,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/mikefarah/yq/releases/download/v" .. version .. "/" .. name .. "_windows_amd64.zip",
-            sha256 = "29497d122102234d82f8d277613cdf9d5c4e5f0bfe59c16f6582d396bffcb54e",
+            sha256 = "3b8734d68853e4ae46c677329274a5f674bde15595fdee0d22b0257e298005f7",
             resources = {
                 {
                     path = name .. "_windows_amd64.exe",
