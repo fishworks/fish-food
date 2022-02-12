@@ -1,5 +1,5 @@
 local name = "tilt"
-local version = "0.24.1"
+local version = "0.25.0"
 local release = "v" .. version
 
 food = {
@@ -13,7 +13,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/tilt-dev/" .. name .. "/releases/download/" .. release .. "/" .. name .. "." .. version .. ".mac.x86_64.tar.gz",
-            sha256 = "576c956fcbc0d8078d2783b0e5404faaf07bfe9ba2c2e9eb0ec0058728d301d2",
+            sha256 = "9f6fb023ecf7d8635b481b0e6889666d465d254bdbd6df87ec96bcf584c809f9",
             resources = {
                 {
                     path = name,
@@ -26,7 +26,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/tilt-dev/" .. name .. "/releases/download/" .. release .. "/" .. name .. "." .. version .. ".linux.x86_64.tar.gz",
-            sha256 = "729f5079e599f0610f9b369fafa47a153af6d7fb6cbb031eece45bbed72f02ca",
+            sha256 = "06459ecc3c158e692538305caf2a56fe155c415b1d6fd27f9ea37f51bbc9de18",
             resources = {
                 {
                     path = name,
@@ -39,7 +39,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/tilt-dev/" .. name .. "/releases/download/" .. release .. "/" .. name .. "." .. version .. ".windows.x86_64.zip",
-            sha256 = "3da8dcc936a44fa232a3b75ca78cbd3df981a4f7fd6f48c6f3949e8476378046",
+            sha256 = "f0ed2285bfbb7a899fc0b7b7a2ffb413bb741cc2922cab5db6c9a32ef3fd4e2d",
             resources = {
                 {
                     path = name .. ".exe",
