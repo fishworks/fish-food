@@ -1,5 +1,5 @@
 local name = "arkade"
-local version = "0.8.13"
+local version = "0.8.14"
 
 food = {
     name = name,
@@ -12,7 +12,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/alexellis/" .. name .. "/releases/download/" .. version .. "/" .. name .. "-darwin",
-            sha256 = "32045faaaf6edd25ce2d0d9d803a43b702f33a1ac05c7dc4f99e018914c81796",
+            sha256 = "e71bdd3cdc961d04245c41e2fb9dfb09826b1a1e4132198c2f18e715108c906c",
             resources = {
                 {
                     path = name .. "-darwin",
@@ -25,7 +25,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/alexellis/" .. name .. "/releases/download/" .. version .. "/" .. name,
-            sha256 = "8e578e17b8bcd9c9c5e429fb463a1fd9ec8d0dd4391d50e60bf8cae31a3cb4b3",
+            sha256 = "706d3374d657059d44226a8099924c74e5c3ac6810561ddb025e83e5aee12a95",
             resources = {
                 {
                     path = name,
@@ -38,7 +38,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/alexellis/" .. name .. "/releases/download/" .. version .. "/" .. name .. ".exe",
-            sha256 = "00b4ed1ca1c6f4ccdb0fb0c67ba08a674d5a41d7ba182bcee00aac5d0b375750",
+            sha256 = "adbe1e57d55abfae6f3b4d40cf9aafb63da72efe8517be90753e3b862c203138",
             resources = {
                 {
                     path = name .. ".exe",
