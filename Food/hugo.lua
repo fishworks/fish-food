@@ -1,5 +1,5 @@
 local name = "hugo"
-local version = "0.90.1"
+local version = "0.92.2"
 
 food = {
     name = name,
@@ -12,7 +12,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/gohugoio/" .. name .. "/releases/download/v" .. version .. "/" .. "hugo_" .. version .. "_macOS-64bit.tar.gz",
-            sha256 = "91296631c62e8ff1e9e4465a5d287135a848fd55d1bb4994d7d3f3d80ae3fd1a",
+            sha256 = "a2edfacfea4f8d353c0378c1e91634006663db849e2a2bcf99cb3f8fa55e0d1c",
             resources = {
                 {
                     path = name,
@@ -25,7 +25,7 @@ food = {
             os = "darwin",
             arch = "arm64",
             url = "https://github.com/gohugoio/" .. name .. "/releases/download/v" .. version .. "/" .. "hugo_" .. version .. "_macOS-ARM64.tar.gz",
-            sha256 = "a8fec43807dce19ef57d74121e4c6b29d49f098669a802b2ef5592b84f5c0191",
+            sha256 = "128e757b29b9db3ed4f6b97b888770d2070f1b5f9a1e600f3db0b537dae74a68",
             resources = {
                 {
                     path = name,
@@ -38,7 +38,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/gohugoio/" .. name .. "/releases/download/v" .. version .. "/" .. "hugo_" .. version .. "_Linux-64bit.tar.gz",
-            sha256 = "f6820af8a9a39d06df81292c689871b0ef61c3f5a98474732a351aae4f25e745",
+            sha256 = "eda04c0497f7d2dae55da51a3fb5bbfc7d0a0dd8032cdee9093252aa6d566527",
             resources = {
                 {
                     path = name,
@@ -51,7 +51,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/gohugoio/" .. name .. "/releases/download/v" .. version .. "/" .. "hugo_" .. version .. "_Windows-64bit.zip",
-            sha256 = "bf0e8d89bb0011db1588823a713166129841a9a3498236e6cc1dc7f1c25b6176",
+            sha256 = "50f49041508eaf20fe7b2240131d42fd77f81c46553c12ab16cc0cf017c13e28",
             resources = {
                 {
                     path = name .. ".exe",

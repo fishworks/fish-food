@@ -1,5 +1,5 @@
 local name = "crictl"
-local version = "1.22.0"
+local version = "1.23.0"
 local repo = "cri-tools"
 
 food = {
@@ -13,7 +13,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/kubernetes-sigs/" .. repo .. "/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. "-darwin-amd64.tar.gz",
-            sha256 = "7483af5456ea6b35fdd425ea9c7f06d940b0299754eb5fc5ab32e7b2e9b69720",
+            sha256 = "02e61a62a391e0cb5a76a762500af64405dfebef4f48779ab435d1c15cf22d8b",
             resources = {
                 {
                     path = name,
@@ -26,7 +26,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/kubernetes-sigs/" .. repo .. "/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. "-linux-amd64.tar.gz",
-            sha256 = "45e0556c42616af60ebe93bf4691056338b3ea0001c0201a6a8ff8b1dbc0652a",
+            sha256 = "b754f83c80acdc75f93aba191ff269da6be45d0fc2d3f4079704e7d1424f1ca8",
             resources = {
                 {
                     path = name,
@@ -39,7 +39,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/kubernetes-sigs/" .. repo .. "/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. "-windows-amd64.tar.gz",
-            sha256 = "8f32d09d56716ab47ede3410c0aa91921668510a457b878f4442edcd2ef7bc10",
+            sha256 = "9c5a270f1c23878f247fb9846b8046cb3fd3cd55066ea767d68dfc9c30a7871c",
             resources = {
                 {
                     path = name .. ".exe",

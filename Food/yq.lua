@@ -1,5 +1,5 @@
 local name = "yq"
-local version = "4.16.1"
+local version = "4.20.1"
 
 food = {
     name = name,
@@ -12,7 +12,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/mikefarah/yq/releases/download/v" .. version .. "/" .. name .. "_darwin_amd64.tar.gz",
-            sha256 = "fa345e43e7fb2e448079a758f91664c0a52869e387ce970029069a381cc41acb",
+            sha256 = "e2cff965a284af04cd34df6a14730143aacc4b0e81c50fd39221e38b429dcf6a",
             resources = {
                 {
                     path = name .. "_darwin_amd64",
@@ -22,10 +22,23 @@ food = {
             }
         },
         {
+            os = "darwin",
+            arch = "arm64",
+            url = "https://github.com/mikefarah/yq/releases/download/v" .. version .. "/" .. name .. "_darwin_arm64.tar.gz",
+            sha256 = "f3f4f88fd2eed92e6018c2c857b281e2820cb4c9b850f73cf04d3cd3fdb579b3",
+            resources = {
+                {
+                    path = name .. "_darwin_arm64",
+                    installpath = "bin/" .. name,
+                    executable = true
+                }
+            }
+        },
+        {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/mikefarah/yq/releases/download/v" .. version .. "/" .. name .. "_linux_amd64.tar.gz",
-            sha256 = "acebc9d07aa2d0e482969b2c080ee306e8f58efbd6f2d857eefbce6469da1473",
+            sha256 = "21e1476b95281f8734e307b8b9cc09fa19edfc3c6235cc23ac6b47f5445561f4",
             resources = {
                 {
                     path = name .. "_linux_amd64",
@@ -38,7 +51,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/mikefarah/yq/releases/download/v" .. version .. "/" .. name .. "_windows_amd64.zip",
-            sha256 = "bad193311e315b033342ca388cff0dff70fb2891664a410f3364e59546800163",
+            sha256 = "d9eae9a447d7b963be83e904a024c041a58eadb19591c29bc10f641f5843f23d",
             resources = {
                 {
                     path = name .. "_windows_amd64.exe",
