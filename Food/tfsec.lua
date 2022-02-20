@@ -1,6 +1,6 @@
 local name = "tfsec"
-local release = "v1.4.0"
-local version = "1.4.0"
+local release = "v1.4.1"
+local version = "1.4.1"
 
 food = {
     name = name,
@@ -13,7 +13,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/tfsec/" .. name .. "/releases/download/" .. release .. "/" .. name .. "-darwin-amd64",
-            sha256 = "940b05492c14769bfc8cbc20f7d729724abcef6433b5a67d5c61da303f4da8e4",
+            sha256 = "9934be93fc906fabdad36fd6c5d9ae0067bbc427119302f0fd457dd948ff6918",
             resources = {
                 {
                     path = name .. "-darwin-amd64",
@@ -26,7 +26,7 @@ food = {
             os = "darwin",
             arch = "arm64",
             url = "https://github.com/tfsec/" .. name .. "/releases/download/" .. release .. "/" .. name .. "-darwin-arm64",
-            sha256 = "aa3884c76333ce6a8b7cd91446904c20a743b2b0cb7adf01281cefa96214f230",
+            sha256 = "ad98c732d789b96017562fb9f393b800e0c37fb869e5cbe5c28b0c40c0f39420",
             resources = {
                 {
                     path = name .. "-darwin-arm64",
@@ -39,7 +39,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/tfsec/" .. name .. "/releases/download/" .. release .. "/" .. name .. "-linux-amd64",
-            sha256 = "db2aee83bb325af519955d0ac640866c9dfcc3918717aed958c0de65161e8f0e",
+            sha256 = "1ae412dab2ae996170d359eed43f80821495139f26977ed69aeba5160fe7f95f",
             resources = {
                 {
                     path = name .. "-linux-amd64",
@@ -52,7 +52,7 @@ food = {
             os = "linux",
             arch = "arm64",
             url = "https://github.com/tfsec/" .. name .. "/releases/download/" .. release .. "/" .. name .. "-linux-arm64",
-            sha256 = "823fdfe57fe68f5f5c27aa706384236a1fc25e6b14245108f8c0cc15728d92dc",
+            sha256 = "3c29a9bf8e20cf07234617dca0700d4672c4c6378853d8a75af3890d24c6c209",
             resources = {
                 {
                     path = name .. "-linux-arm64",
@@ -65,7 +65,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/tfsec/" .. name .. "/releases/download/" .. release .. "/" .. name .. "-windows-amd64.exe",
-            sha256 = "d4f8bddf73317cc048b84b37cd3e908c7fb1fd1d9f2823ddae8ee35d930c3587",
+            sha256 = "a0a33285afcac0113a9c644d4535ac3b868db6722ead4d0a2934781cfa9c318b",
             resources = {
                 {
                     path = name .. "-windows-amd64.exe",
