@@ -11,8 +11,21 @@ food = {
         {
             os = "darwin",
             arch = "amd64",
-            url = "https://github.com/" .. name .. "/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "_Darwin_all.tar.gz",
-            sha256 = "d8a9eb26e977602dd565ce19aa1676583068da654b108dc52875e297f237638a",
+            url = "https://github.com/" .. name .. "/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "_Darwin_x86_64.tar.gz",
+            sha256 = "241cd55c66193dd674da273dc96bc143ab7cd6cf7a21a5e567ef1fce3cae927d",
+            resources = {
+                {
+                    path = name,
+                    installpath = "bin/" .. name,
+                    executable = true
+                }
+            }
+        },
+        {
+            os = "darwin",
+            arch = "arm64",
+            url = "https://github.com/" .. name .. "/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "_Darwin_arm64.tar.gz",
+            sha256 = "b69ed690e249e1668b033493d16670e5a6bbb7163186307ce04b21bec5ec3643",
             resources = {
                 {
                     path = name,
