@@ -22,6 +22,19 @@ food = {
             }
         },
         {
+            os = "darwin",
+            arch = "arm64",
+            url = "https://github.com/ahmetb/kubectx/releases/download/v" .. version .. "/" .. name .. "_v" .. version .. "_darwin_arm64.tar.gz",
+            sha256 = "7adeaf057809ef756b6f290c2e0557e86c1d04718239166a9ef0298db6fe5b27",
+            resources = {
+                {
+                    path = name,
+                    installpath = "bin/" .. name,
+                    executable = true
+                }
+            }
+        },
+        {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/ahmetb/kubectx/releases/download/v" .. version .. "/" .. name .. "_v" .. version .. "_linux_x86_64.tar.gz",
