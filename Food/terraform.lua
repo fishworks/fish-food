@@ -22,6 +22,19 @@ food = {
             }
         },
         {
+            os = "darwin",
+            arch = "amd64",
+            url = "https://releases.hashicorp.com/" .. name .. "/" .. version .. "/" .. name .. "_" .. version .. "_darwin_arm64.zip",
+            sha256 = "dddb11195fc413653b98e7a830ec7314f297e6c22575fc878f4ee2287a25b4f5",
+            resources = {
+                {
+                    path = name,
+                    installpath = "bin/" .. name,
+                    executable = true
+                }
+            }
+        },
+        {
             os = "linux",
             arch = "amd64",
             url = "https://releases.hashicorp.com/" .. name .. "/" .. version .. "/" .. name .. "_" .. version .. "_linux_amd64.zip",
