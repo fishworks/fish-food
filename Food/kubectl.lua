@@ -22,6 +22,19 @@ food = {
             }
         },
         {
+            os = "darwin",
+            arch = "arm64",
+            url = "https://dl.k8s.io/v" .. version .. "/kubernetes-client-darwin-arm64.tar.gz",
+            sha256 = "192bc95cece2698fb011d55e834b1c1299f5c1ca15c8d1ba9285121a679b19d6",
+            resources = {
+                {
+                    path = "kubernetes/client/bin/" .. name,
+                    installpath = "bin/" .. name,
+                    executable = true
+                }
+            }
+        },
+        {
             os = "linux",
             arch = "amd64",
             url = "https://dl.k8s.io/v" .. version .. "/kubernetes-client-linux-amd64.tar.gz",
