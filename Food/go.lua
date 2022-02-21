@@ -28,6 +28,24 @@ food = {
             }
         },
         {
+            os = "darwin",
+            arch = "arm64",
+            url = "https://dl.google.com/go/go" .. release .. ".darwin-arm64.tar.gz",
+            sha256 = "e141bd85577b875cc771cfcc18604989c861e93bbef377ba6c80d29e18f9a338",
+            resources = {
+                {
+                    path = "go/bin/go",
+                    installpath = "bin/go",
+                    executable = true
+                },
+                {
+                    path = "go/bin/gofmt",
+                    installpath = "bin/gofmt",
+                    executable = true
+                }
+            }
+        },
+        {
             os = "linux",
             arch = "amd64",
             url = "https://dl.google.com/go/go" .. release .. ".linux-amd64.tar.gz",
