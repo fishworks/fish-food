@@ -22,6 +22,19 @@ food = {
             }
         },
         {
+            os = "darwin",
+            arch = "arm64",
+            url = "https://gofi.sh/releases/" .. name .. "-v" .. version .. "-darwin-arm64.tar.gz",
+            sha256 = "968025c9c49859a8d14e9b57913c3290f35256a190968e87d79b5f5c5fb93cdd",
+            resources = {
+                {
+                    path = "darwin-arm64/" .. name,
+                    installpath = "bin/" .. name,
+                    executable = true
+                }
+            }
+        },
+        {
             os = "linux",
             arch = "amd64",
             url = "https://gofi.sh/releases/" .. name .. "-v" .. version .. "-linux-amd64.tar.gz",
