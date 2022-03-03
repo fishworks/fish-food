@@ -1,5 +1,5 @@
 local name = "terraform"
-local version = "1.1.6"
+local version = "1.1.7"
 
 food = {
     name = name,
@@ -12,7 +12,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://releases.hashicorp.com/" .. name .. "/" .. version .. "/" .. name .. "_" .. version .. "_darwin_amd64.zip",
-            sha256 = "bbfc916117e45788661c066ec39a0727f64c7557bf6ce9f486bbd97c16841975",
+            sha256 = "5e7e939e084ae29af7fd86b00a618433d905477c52add2d4ea8770692acbceac",
             resources = {
                 {
                     path = name,
@@ -25,7 +25,7 @@ food = {
             os = "darwin",
             arch = "arm64",
             url = "https://releases.hashicorp.com/" .. name .. "/" .. version .. "/" .. name .. "_" .. version .. "_darwin_arm64.zip",
-            sha256 = "dddb11195fc413653b98e7a830ec7314f297e6c22575fc878f4ee2287a25b4f5",
+            sha256 = "a36b6e2810f81a404c11005942b69c3d1d9baa8dd07de6b1f84e87a67eedb58f",
             resources = {
                 {
                     path = name,
@@ -38,7 +38,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://releases.hashicorp.com/" .. name .. "/" .. version .. "/" .. name .. "_" .. version .. "_linux_amd64.zip",
-            sha256 = "3e330ce4c8c0434cdd79fe04ed6f6e28e72db44c47ae50d01c342c8a2b05d331",
+            sha256 = "e4add092a54ff6febd3325d1e0c109c9e590dc6c38f8bb7f9632e4e6bcca99d4",
             resources = {
                 {
                     path = name,
@@ -51,7 +51,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://releases.hashicorp.com/" .. name .. "/" .. version .. "/" .. name .. "_" .. version .. "_windows_amd64.zip",
-            sha256 = "9ff13cab10ba1441e3e587758f01ca6054ddcee6920770f16790e261a1d6aa16",
+            sha256 = "6d971320bec87372f4416263217ba80869e50d423c8094084462122629aa4c4c",
             resources = {
                 {
                     path = name .. ".exe",
