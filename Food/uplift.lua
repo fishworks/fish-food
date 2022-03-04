@@ -1,5 +1,5 @@
 local name = "uplift"
-local version = "1.15.0"
+local version = "2.0.0"
 
 food = {
     name = name,
@@ -12,7 +12,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/gembaadvantage/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_darwin-x86_64.tar.gz",
-            sha256 = "f5ab244216553effd4a2a521e00d2f860c030cdc3d5b032491ed6ad51e78a721",
+            sha256 = "8773282c27f369a2c2c31eefe6967cd39f111149ca0c0792f83957168ba6a476",
             resources = {
                 {
                     path = name,
@@ -25,7 +25,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/gembaadvantage/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_linux-x86_64.tar.gz",
-            sha256 = "a1b09013f862c9a695e740a8d78b44a5a8a75c16c7a75479e2407b74e3743e5f",
+            sha256 = "2dfce0b60d2acf52adc4a355d52f324542c927661b02f9073849de8f5799bfdc",
             resources = {
                 {
                     path = name,
@@ -38,7 +38,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/gembaadvantage/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_windows-x86_64.zip",
-            sha256 = "9de2320773e20908f01ef42224cda8d9a4a5a823cfcb34f11a070d79589d2393",
+            sha256 = "d3cca73a96f713f4fba8c20fd59dccdad177fadf839be7026cef3cd1d02b4c62",
             resources = {
                 {
                     path = name .. ".exe",
