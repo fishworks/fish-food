@@ -22,10 +22,36 @@ food = {
             }
         },
         {
+            os = "darwin",
+            arch = "arm64",
+            url = "https://releases.hashicorp.com/" .. name .. "/" .. version .. "/" .. name .. "_" .. version .. "_darwin_arm64.zip",
+            sha256 = "4374e8f1990adf926da3ee573fd2d13a721563080b040f7bbf31de8a3fadc503",
+            resources = {
+                {
+                    path = name,
+                    installpath = "bin/" .. name,
+                    executable = true
+                }
+            }
+        },
+        {
             os = "linux",
             arch = "amd64",
             url = "https://releases.hashicorp.com/" .. name .. "/" .. version .. "/" .. name .. "_" .. version .. "_linux_amd64.zip",
             sha256 = "94c5d65386fa8f17e36d3496fbbdf18d3bfab01306aa8000c14656b63070b7c2",
+            resources = {
+                {
+                    path = name,
+                    installpath = "bin/" .. name,
+                    executable = true
+                }
+            }
+        },
+        {
+            os = "linux",
+            arch = "arm64",
+            url = "https://releases.hashicorp.com/" .. name .. "/" .. version .. "/" .. name .. "_" .. version .. "_linux_arm64.zip",
+            sha256 = "8b3a8768021b148ada2cbdf1c39f55d92e4280147ceb5f76f840a7adf50edce2",
             resources = {
                 {
                     path = name,
