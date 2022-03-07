@@ -25,7 +25,7 @@ food = {
             os = "darwin",
             arch = "arm64",
             url = "https://gofi.sh/releases/" .. name .. "-v" .. version .. "-darwin-arm64.tar.gz",
-            sha256 = "968025c9c49859a8d14e9b57913c3290f35256a190968e87d79b5f5c5fb93cdd",
+            sha256 = "aaced63eae334266706976910d1eba9cb3d6ad92f952215cfdb082d6392ba1c5",
             resources = {
                 {
                     path = "darwin-arm64/" .. name,
